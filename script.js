@@ -159,3 +159,57 @@ searchInput && searchInput.addEventListener('keydown', (e) => {
 // Initial render
 renderTOC(DATA);
 showFeatured();
+
+(function() {
+  // Delegate clicks on TOC items to set persistent active state
+  document.addEventListener('click', function(e) {
+    const item = e.target.closest('.toc-item');
+    if (!item) return;
+    const container = document.getElementById('toc') || document;
+    const prev = container.querySelector('.toc-item.active, .toc-item[aria-current="true"]');
+    if (prev && prev !== item) {
+      prev.classList.remove('active');
+      prev.removeAttribute('aria-current');
+    }
+    item.classList.add('active');
+    item.setAttribute('aria-current', 'true');
+  });
+
+  // Keyboard activation (Enter / Space) triggers click
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' || e.key === ' ') {
+      const focused = document.activeElement;
+      if (focused && focused.classList && focused.classList.contains('toc-item')) {
+        focused.click();
+        // prevent page scroll on Space
+        if (e.key === ' ') e.preventDefault();
+      }
+    }
+  });
+
+  // On load, if a hash is present, try to mark corresponding TOC item active
+  window.addEventListener('load', function() {
+    const hash = location.hash;
+    if (!hash) return;
+    // Match by href, data-target, or data-id attributes commonly used
+    const selectorCandidates = [
+      `.toc-item[href="${hash}"]`,
+      `.toc-item[data-target="${hash}"]`,
+      `.toc-item[data-id="${hash.slice(1)}"]`,
+      `a.toc-item[href="${hash}"]`,
+      `a.toc-item[data-target="${hash}"]`
+    ];
+    const selector = selectorCandidates.join(',');
+    const item = document.querySelector(selector);
+    if (item) {
+      const container = document.getElementById('toc') || document;
+      const prev = container.querySelector('.toc-item.active, .toc-item[aria-current="true"]');
+      if (prev && prev !== item) {
+        prev.classList.remove('active');
+        prev.removeAttribute('aria-current');
+      }
+      item.classList.add('active');
+      item.setAttribute('aria-current', 'true');
+    }
+  });
+})();
