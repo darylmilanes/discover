@@ -143,10 +143,32 @@ body {
   padding: 6px 8px;
   border-radius: 6px;
   cursor: pointer;
+  transition: background 180ms ease, color 180ms ease, transform 120ms ease;
 }
 
 .toc-item:hover {
-  background: var(--soft);
+  background: rgba(255,209,102,0.5); /* accent (var(--accent)) at low opacity */
+  color: var(--brand);
+  transform: translateX(2px);
+}
+
+/* Highlight the active/selected TOC item */
+.toc-item.active,
+.toc-item[aria-current="true"] {
+  background: rgba(255,209,102,0.18); /* soft accent background */
+  color: var(--brand);
+  font-weight: 700;
+  transform: none; /* keep active item stable */
+  border-left: 4px solid var(--accent);
+  padding-left: 6px; /* make room for the left accent */
+  box-shadow: 0 2px 10px rgba(6,22,38,0.04);
+}
+
+/* Improve keyboard focus visibility */
+.toc-item:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(0,64,128,0.08);
+  border-radius: 6px;
 }
 
 /* --- Cards --- */
