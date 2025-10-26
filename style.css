@@ -1,3 +1,7 @@
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
 :root {
   --bg: #fafeff;
   --brand: #004080;
@@ -212,7 +216,7 @@ body {
   cursor: pointer;
 }
 
-/* --- Sticky search footer --- */
+/* --- Sticky search footer */
 .sticky-search {
   position: fixed;
   left: 0;
@@ -220,14 +224,17 @@ body {
   bottom: 12px;
   display: flex;
   justify-content: center;
-  z-index: 95;
+  z-index: 96; /* above bottom-fade */
 }
 
 .search-panel {
   width: min(calc(100% - 32px), 960px);
-  background: transparent; /* fully transparent footer background */
-  border-radius: 25px; /* increased rounding */
-  box-shadow: none; /* remove shadow for no background */
+  background: rgba(255,255,255,0.12); /* translucent glass */
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+  backdrop-filter: blur(10px) saturate(140%);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 18px; /* slightly less than 25px for a softer glass look */
+  box-shadow: 0 8px 30px rgba(6,22,38,0.12);
   padding: 8px 10px;
   display: flex;
   gap: 8px;
@@ -236,20 +243,27 @@ body {
 
 .search-input {
   flex: 1;
-  border: 1px solid rgba(6,22,38,0.06);
+  border: none;
+  background: rgba(255,255,255,0.06);
   padding: 10px 12px;
   border-radius: 999px; /* pill */
-  font-size: 0.95rem;
+  font-size: 1rem;
+  color: var(--ink);
+}
+
+.search-input::placeholder {
+  color: rgba(6,22,38,0.35);
 }
 
 .search-btn {
-  background: var(--brand);
+  background: linear-gradient(180deg, rgba(0,64,128,0.95), var(--brand));
   color: white;
   border: none;
   padding: 8px 12px;
   border-radius: 999px; /* pill */
   cursor: pointer;
   font-weight: 600;
+  box-shadow: 0 6px 18px rgba(0,64,128,0.15);
 }
 
 @media (max-width: 480px) {
@@ -263,11 +277,13 @@ body {
   position: fixed;
   left: 0;
   right: 0;
-  bottom: 0;
-  height: 150px; /* height of the fade area */
+  bottom: -80px;
+  height: 170px; /* height of the fade area */
   pointer-events: none;
-  z-index: 90; /* below the sticky-search (95) so footer sits above */
-  background: linear-gradient(to top, var(--bg), rgba(250,254,255,1), rgba(250,254,255,0));
+  z-index: 50; /* sits under sticky-search */
+  background: linear-gradient(to top, rgba(250,254,255,0.9), rgba(255,255,255,0.55), rgba(250,254,255,0));
+  -webkit-backdrop-filter: blur(8px) saturate(120%);
+  backdrop-filter: blur(8px) saturate(120%);
 }
 
 @media (max-width: 480px) {
@@ -376,5 +392,19 @@ body {
   /* Reduce top spacing so header and hero content sit closer together */
   .page {
     padding: 20px;
+  }
+}
+
+:root {
+  --footer-safe-space: 140px; /* adjust based on sticky-search height */
+}
+
+.page {
+  padding-bottom: var(--footer-safe-space);
+}
+
+@media (max-width: 480px) {
+  :root {
+    --footer-safe-space: 100px; /* slightly larger on smaller screens */
   }
 }
