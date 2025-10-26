@@ -3,47 +3,88 @@ const DATA = [
      CATEGORY: Biblical History
      =========================== */
   {
-    id: "bible-written",
-    title: "How was the Bible written?",
-    category: "Biblical History",
-    tags: ["Bible", "authors", "canon", "scripture"],
-    featured: true,
-    content: `
-      <p>The Bible was written over roughly 1,500 years by many different authors in Hebrew, Aramaic, and Greek. It was not created as a single, planned book but as a collection of writings formed in different eras and cultures. Some writers described what they witnessed; others recorded traditions, teachings, or prophecies passed down through generations.</p>
-      <p>Over time, religious communities preserved, copied, and recognized certain texts as sacred—a process known as <strong>canonization</strong>. The Bible we know today is the result of centuries of careful transmission and reflection.</p>
-    `,
-    refs: [
-      { term: "Canonization", desc: "The process of recognizing particular writings as sacred or authoritative." },
-      { term: "Languages", desc: "Old Testament: Hebrew and Aramaic; New Testament: Greek." }
-    ]
-  },
+  id: "bible-written",
+  title: "How was the Bible written?",
+  category: "Biblical History",
+  tags: ["Bible", "authors", "canon", "scripture"],
+  featured: true,
+  content: `
+    <p>The Bible was written over a period of about 1,500 years by more than forty different authors who lived in various regions and cultures. These writers included shepherds, kings, prophets, poets, doctors, and fishermen. Though they wrote in different times and places, the Bible presents a unified message about God's relationship with humanity and His plan of redemption through Jesus Christ.</p>
+
+    <p>The Bible is a collection of sixty-six books, not a single work written all at once. The Old Testament was written mainly in <strong>Hebrew</strong>, with some sections in <strong>Aramaic</strong>, a related Semitic language used in the ancient Near East. The New Testament was written in <strong>Koine Greek</strong>, the common language of the Roman world. These languages reflect the diverse settings in which the biblical writers lived and worked.</p>
+
+    <p><strong>How the writings began:</strong> Many parts of Scripture began as oral traditions—stories, songs, and laws that were memorized and passed down through generations. In ancient cultures, oral transmission was highly reliable and respected. Over time, these traditions were written on clay tablets, papyrus, and parchment. The earliest writings likely came from the time of Moses, who is traditionally considered the author of the first five books of the Bible, known as the <em>Torah</em> or <em>Pentateuch</em>.</p>
+
+    <p><strong>The process of composition:</strong> The biblical writers recorded historical events, divine laws, prayers, prophecies, and letters of instruction. The Old Testament prophets wrote to preserve God's covenant and remind Israel of His faithfulness. The New Testament writers recorded the life and teachings of Jesus Christ and the growth of the early Church. Apostles and eyewitnesses wrote letters to guide and encourage believers, ensuring that the gospel message was preserved for future generations.</p>
+
+    <p><strong>Inspiration, not dictation:</strong> A common misconception is that the Bible was dictated word-for-word from heaven. Scripture itself shows that God used the personalities, styles, and experiences of human writers to communicate His truth. As 2 Peter 1:21 states, “Men spoke from God as they were carried along by the Holy Spirit.” The writers were not passive instruments but active participants guided by divine inspiration.</p>
+
+    <p><strong>The formation of the canon:</strong> Another misunderstanding is that church leaders or councils simply decided which books would be included in the Bible. In reality, the process was gradual and rooted in community recognition rather than human decree. The <strong>Old Testament</strong> books were acknowledged as sacred by the Jewish people long before the time of Christ. By the first century, the Law, the Prophets, and the Writings were already viewed as Scripture (Luke 24:44). The <strong>New Testament</strong> writings were received by early Christians as authoritative because they came from apostles or their close associates and were consistent with the message of Jesus. Over time, widespread agreement confirmed which writings were inspired, and this recognition was affirmed at councils such as Hippo (393 AD) and Carthage (397 AD).</p>
+
+    <p><strong>Preservation and transmission:</strong> For centuries, scribes copied biblical manuscripts by hand with exceptional care. Jewish scribes counted letters and words to ensure accuracy, and early Christian copyists produced thousands of New Testament manuscripts. Although there are minor variations between copies, none change the central doctrines or overall message of the Bible. The vast number of surviving manuscripts allows modern scholars to reconstruct the original text with great confidence.</p>
+
+    <p><strong>The unity of Scripture:</strong> Despite its diversity, the Bible reveals a single, coherent story: creation, fall, redemption, and restoration. The Old Testament anticipates the coming of the Messiah, and the New Testament fulfills that hope in Jesus Christ. From Genesis to Revelation, the Bible reveals God's faithfulness, justice, and mercy. As 2 Timothy 3:16–17 declares, “All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness, so that the servant of God may be thoroughly equipped for every good work.”</p>
+  `,
+  refs: [
+    { term: "Canonization", desc: "The historical and spiritual process by which certain writings were recognized as divinely inspired and included in the biblical canon." },
+    { term: "Languages", desc: "Old Testament: primarily Hebrew with some Aramaic; New Testament: written in Koine Greek." },
+    { term: "Inspiration", desc: "The divine influence by which God guided human authors to write His truth faithfully." },
+    { term: "Transmission", desc: "The careful copying and preservation of biblical manuscripts through generations of scribes and faith communities." },
+    { term: "2 Timothy 3:16–17", desc: "Affirms the divine inspiration and practical purpose of all Scripture." },
+    { term: "2 Peter 1:21", desc: "Explains that prophecy came not by human will but through men moved by the Holy Spirit." }
+  ]
+},
   {
-    id: "bible-authors",
-    title: "Did the writers of the Bible collaborate or plan it together?",
-    category: "Biblical History",
-    tags: ["Bible", "history", "writing"],
-    featured: false,
-    content: `
-      <p>No. The Bible grew gradually, not through coordination but through the continuity of faith. The Old Testament began with ancient Hebrew writings, while the New Testament emerged a millennium later. Each writer worked within their time and culture. Only later did believers recognize the collection as unified by divine inspiration and moral purpose.</p>
-    `,
-    refs: [
-      { term: "Council of Carthage (397 CE)", desc: "An early council that helped confirm the Christian biblical canon." }
-    ]
-  },
+  id: "bible-authors",
+  title: "Did the writers of the Bible collaborate or plan it together?",
+  category: "Biblical History",
+  tags: ["Bible", "history", "writing"],
+  featured: false,
+  content: `
+    <p>The writers of the Bible did not collaborate or plan it as a single, coordinated project. The Bible developed gradually across many centuries as individuals, guided by the Holy Spirit, wrote within their own historical and cultural contexts. These authors often lived in different regions, spoke different languages, and wrote for different audiences. Yet their writings together form a unified story of God's work in history, His covenant with His people, and His ultimate plan of redemption through Jesus Christ.</p>
+
+    <p><strong>The Old Testament</strong> began with early Hebrew writings that preserved laws, poetry, prophecies, and history. Figures such as Moses, David, Isaiah, and Jeremiah wrote in distinct times and places, addressing the spiritual and moral life of Israel. These writings were not designed to fit into a larger book, but each was recognized by the community of faith as divinely inspired and trustworthy.</p>
+
+    <p><strong>The New Testament</strong> emerged more than a thousand years later. Its authors, including the apostles and their close companions, wrote letters, Gospels, and other works that testified to the life, death, and resurrection of Jesus Christ. These writings were circulated among early Christian communities and used in worship long before the canon was formally recognized. Though the writers knew of one another’s ministries, their works were composed independently, responding to the needs of specific churches and believers rather than to a collective literary plan.</p>
+
+    <p>It is remarkable that, despite being written by over forty authors over fifteen centuries, the Bible maintains internal harmony in its major themes: the holiness of God, the problem of sin, the promise of salvation, and the hope of eternal life. This unity is not the result of human design but of divine inspiration. As 2 Peter 1:21 declares, “Men spoke from God as they were carried along by the Holy Spirit.”</p>
+
+    <p>When believers later gathered and read these writings together, they recognized a consistent voice of divine truth running through them. The process of <strong>canonization</strong> confirmed this recognition, not by inventing authority but by acknowledging what was already accepted as the inspired Word of God. The Council of Carthage in 397 AD affirmed the list of New Testament books that had long been used across Christian communities.</p>
+
+    <p>The Bible’s unity, emerging without deliberate human coordination, is one of its most extraordinary qualities. It reflects not merely the work of many human hands, but the guidance of one divine Author overseeing history and revealing His purpose through the ages.</p>
+  `,
+  refs: [
+    { term: "Canonization", desc: "The process by which the biblical books were recognized as divinely inspired and authoritative for faith and practice." },
+    { term: "2 Peter 1:21", desc: "Describes how Scripture was written as men were moved by the Holy Spirit." },
+    { term: "Council of Carthage (397 AD)", desc: "An early church council that confirmed the New Testament canon already accepted by Christian communities." }
+  ]
+},
   {
-    id: "authors-age",
-    title: "Did those who knew Jesus live long before writing about Him?",
-    category: "Biblical History",
-    tags: ["Jesus", "Gospels", "witness"],
-    featured: false,
-    content: `
-      <p>Not at all. Most New Testament writings appeared between AD 50 and 100—within a generation of Jesus' lifetime. His followers first shared His teachings orally, but as the movement grew and eyewitnesses aged, these teachings were written down. This ensured the message endured beyond the first Christian generation.</p>
-    `,
-    refs: [
-      { term: "Paul’s Letters", desc: "The earliest Christian writings, composed around AD 48–65." },
-      { term: "Gospel of Mark", desc: "Likely the earliest Gospel, written around AD 65–70." }
-    ]
-  },
+  id: "authors-age",
+  title: "Did those who knew Jesus live long before writing about Him?",
+  category: "Biblical History",
+  tags: ["Jesus", "Gospels", "witness"],
+  featured: false,
+  content: `
+    <p>No. The writings of the New Testament were composed within the lifetime of those who personally knew Jesus or were direct witnesses of His ministry. Most scholars date these writings between AD 50 and AD 100, which places them within one generation of the events they describe. This time frame means that eyewitnesses were still alive to confirm, correct, or challenge accounts being shared, ensuring the message remained authentic and accurate.</p>
+
+    <p><strong>Oral tradition first:</strong> Before the New Testament was written, Jesus’ teachings and deeds were passed on orally. In the ancient world, oral transmission was a trusted means of preserving information, supported by communal memory and repetition. Jesus’ followers, many of whom were Jewish, belonged to a culture skilled at memorizing sacred texts and teachings. His words and parables were repeated in worship, teaching, and discussion until they were written down for preservation and wider distribution.</p>
+
+    <p><strong>The earliest writings:</strong> The letters of the Apostle Paul are generally the earliest New Testament documents, written between AD 48 and 65. Paul’s letters address real churches and issues in the first decades after Jesus’ death and resurrection. These letters confirm that belief in Jesus’ divinity, crucifixion, and resurrection was already well established within a short time after the events occurred. For example, in 1 Corinthians 15:3–8, Paul recites an early creed about the resurrection that scholars believe originated within a few years of the crucifixion.</p>
+
+    <p><strong>The Gospels:</strong> The Gospel of Mark, likely written around AD 65–70, is considered the earliest of the four Gospels. Matthew and Luke followed between AD 70 and 90, and John likely around AD 90–100. Each Gospel presents the life and teachings of Jesus from a different perspective but draws from eyewitness testimony and shared oral sources. Luke, for instance, opens his Gospel by explaining that he carefully investigated “everything from the beginning” and relied on those “who from the first were eyewitnesses and servants of the word” (Luke 1:1–2).</p>
+
+    <p><strong>Why writing became necessary:</strong> As the Christian movement expanded across the Roman Empire and the original apostles grew older or were martyred, the need arose to record Jesus’ words and works for future generations. The written Gospels ensured the preservation of His message and allowed the same truth to reach believers far beyond the regions where Jesus had lived. The New Testament letters, meanwhile, offered guidance, correction, and encouragement to growing communities of faith.</p>
+
+    <p>Therefore, the New Testament was not the result of distant legend or centuries of embellishment. It emerged while the memory of Jesus’ ministry was still vivid in the minds of those who had walked with Him. The speed and consistency with which these writings appeared is one reason historians regard the New Testament as one of the most well-documented collections from the ancient world.</p>
+  `,
+  refs: [
+    { term: "Paul’s Letters", desc: "The earliest Christian writings, composed between AD 48 and 65, addressing early churches and beliefs." },
+    { term: "Gospel of Mark", desc: "Generally considered the first written Gospel, composed around AD 65–70, possibly based on Peter’s testimony." },
+    { term: "1 Corinthians 15:3–8", desc: "An early creed summarizing the death, burial, and resurrection of Jesus, circulated within years of the crucifixion." },
+    { term: "Luke 1:1–2", desc: "Luke’s statement that his Gospel is based on the accounts of eyewitnesses and careful investigation." }
+  ]
+},
 
   /* ===========================
      CATEGORY: Time and Calendars
