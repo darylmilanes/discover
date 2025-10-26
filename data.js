@@ -1,0 +1,271 @@
+const DATA = [
+  /* ===========================
+     CATEGORY: Biblical History
+     =========================== */
+  {
+    id: "bible-written",
+    title: "How was the Bible written?",
+    category: "Biblical History",
+    tags: ["Bible", "authors", "canon", "scripture"],
+    featured: true,
+    content: `
+      <p>The Bible was written over roughly 1,500 years by many different authors in Hebrew, Aramaic, and Greek. It was not created as a single, planned book but as a collection of writings formed in different eras and cultures. Some writers described what they witnessed; others recorded traditions, teachings, or prophecies passed down through generations.</p>
+      <p>Over time, religious communities preserved, copied, and recognized certain texts as sacred—a process known as <strong>canonization</strong>. The Bible we know today is the result of centuries of careful transmission and reflection.</p>
+    `,
+    refs: [
+      { term: "Canonization", desc: "The process of recognizing particular writings as sacred or authoritative." },
+      { term: "Languages", desc: "Old Testament: Hebrew and Aramaic; New Testament: Greek." }
+    ]
+  },
+  {
+    id: "bible-authors",
+    title: "Did the writers of the Bible collaborate or plan it together?",
+    category: "Biblical History",
+    tags: ["Bible", "history", "writing"],
+    featured: false,
+    content: `
+      <p>No. The Bible grew gradually, not through coordination but through the continuity of faith. The Old Testament began with ancient Hebrew writings, while the New Testament emerged a millennium later. Each writer worked within their time and culture. Only later did believers recognize the collection as unified by divine inspiration and moral purpose.</p>
+    `,
+    refs: [
+      { term: "Council of Carthage (397 CE)", desc: "An early council that helped confirm the Christian biblical canon." }
+    ]
+  },
+  {
+    id: "authors-age",
+    title: "Did those who knew Jesus live long before writing about Him?",
+    category: "Biblical History",
+    tags: ["Jesus", "Gospels", "witness"],
+    featured: false,
+    content: `
+      <p>Not at all. Most New Testament writings appeared between AD 50 and 100—within a generation of Jesus' lifetime. His followers first shared His teachings orally, but as the movement grew and eyewitnesses aged, these teachings were written down. This ensured the message endured beyond the first Christian generation.</p>
+    `,
+    refs: [
+      { term: "Paul’s Letters", desc: "The earliest Christian writings, composed around AD 48–65." },
+      { term: "Gospel of Mark", desc: "Likely the earliest Gospel, written around AD 65–70." }
+    ]
+  },
+
+  /* ===========================
+     CATEGORY: Time and Calendars
+     =========================== */
+  {
+    id: "bc-ad",
+    title: "What do BC and AD mean?",
+    category: "Time and Calendars",
+    tags: ["calendar", "dating", "history"],
+    featured: true,
+    content: `
+      <p><strong>BC</strong> means “Before Christ,” while <strong>AD</strong> stands for the Latin phrase <em>Anno Domini</em>, meaning “in the year of our Lord.” This system measures years based on the estimated birth of Jesus. Modern scholars also use <strong>BCE</strong> (“Before Common Era”) and <strong>CE</strong> (“Common Era”), which use the same numbering but without religious language.</p>
+    `,
+    refs: [
+      { term: "Dionysius Exiguus", desc: "The monk who created the AD system around 525 CE." },
+      { term: "No year zero", desc: "The calendar moves directly from 1 BC to AD 1." }
+    ]
+  },
+  {
+    id: "jesus-crucifixion-year",
+    title: "In what AD year was Jesus crucified?",
+    category: "Time and Calendars",
+    tags: ["Jesus", "crucifixion", "timeline"],
+    featured: false,
+    content: `
+      <p>Historians estimate that Jesus was crucified between AD 30 and AD 33, during the rule of Pontius Pilate. Ironically, Jesus was probably born a few years before AD 1, since early historians miscalculated the reign of King Herod. The AD system was applied centuries later, retroactively counting years from His birth.</p>
+    `,
+    refs: [
+      { term: "Pontius Pilate", desc: "Roman governor of Judea from AD 26–36." },
+      { term: "Chronological gap", desc: "Jesus’ birth likely occurred around 4–6 BC." }
+    ]
+  },
+  {
+    id: "bible-chapters",
+    title: "Why does the Bible have chapters and verses?",
+    category: "Time and Calendars",
+    tags: ["Bible", "structure", "chapters"],
+    featured: false,
+    content: `
+      <p>The earliest biblical manuscripts contained no punctuation, paragraphs, or numbering—often not even spaces between words. These divisions were added much later for readability and study. Chapters appeared in the 1200s under Stephen Langton, and verse numbers were added in the 1500s by Robert Estienne.</p>
+    `,
+    refs: [
+      { term: "Stephen Langton", desc: "Introduced chapter divisions in the 13th century." },
+      { term: "Robert Estienne", desc: "Added verse numbering in the 16th century." }
+    ]
+  },
+  {
+    id: "year-2025",
+    title: "Is it correct to call this year AD 2025?",
+    category: "Time and Calendars",
+    tags: ["calendar", "modern usage", "year"],
+    featured: false,
+    content: `
+      <p>Yes. The Gregorian calendar used globally still follows the <em>Anno Domini</em> count. Writing “2025 CE” means the same thing—it simply replaces the Latin phrase with a neutral modern equivalent. Both are historically and technically correct.</p>
+    `,
+    refs: [
+      { term: "Gregorian Calendar", desc: "Introduced in 1582 and still the civil standard worldwide." }
+    ]
+  },
+  {
+    id: "ad-removed",
+    title: "Why did people replace AD with CE?",
+    category: "Time and Calendars",
+    tags: ["calendar", "language", "modernity"],
+    featured: false,
+    content: `
+      <p>AD (“in the year of our Lord”) was never officially abolished; it was simply replaced in many academic and interfaith contexts by CE (“Common Era”) for inclusivity. The CE/BCE system uses the same numbering but avoids explicitly Christian terms.</p>
+    `,
+    refs: [
+      { term: "BCE/CE", desc: "Neutral time designations used in scholarship and interfaith writing." }
+    ]
+  },
+  {
+    id: "numbers-only",
+    title: "Why do modern calendars often show only the year number?",
+    category: "Time and Calendars",
+    tags: ["calendar", "modern usage"],
+    featured: false,
+    content: `
+      <p>Because the Gregorian calendar is now the global standard, adding “AD” or “CE” is usually unnecessary. The year number alone—such as 2025—is universally understood to belong to the Common Era system.</p>
+    `,
+    refs: [
+      { term: "ISO 8601", desc: "The international standard for date notation that omits AD/CE labels." }
+    ]
+  },
+
+  /* ===========================
+     CATEGORY: Ancient Calendars
+     =========================== */
+  {
+    id: "roman-calendar",
+    title: "When did the calendar expand from ten months to twelve?",
+    category: "Ancient Calendars",
+    tags: ["Roman calendar", "months", "history"],
+    featured: true,
+    content: `
+      <p>The early Roman calendar had only ten months, beginning with March and ending with December. Around 713 BCE, King Numa Pompilius added January and February to synchronize with lunar cycles. Later, Julius Caesar reformed the system in 46 BCE, establishing the Julian calendar with twelve months of more consistent length.</p>
+    `,
+    refs: [
+      { term: "Numa Pompilius", desc: "Second king of Rome who added January and February." },
+      { term: "Julian Calendar", desc: "Reform by Julius Caesar aligning the year with the solar cycle." }
+    ]
+  },
+  {
+    id: "month-lengths",
+    title: "Why do some months have 31 days while others have 30?",
+    category: "Ancient Calendars",
+    tags: ["months", "calendar", "politics"],
+    featured: false,
+    content: `
+      <p>The uneven pattern comes from both astronomy and Roman politics. A solar year lasts about 365.25 days—impossible to divide evenly into twelve. Julius Caesar’s reform alternated 30- and 31-day months, but Emperor Augustus later lengthened August to 31 days to match July, named after Julius Caesar.</p>
+    `,
+    refs: [
+      { term: "Solar year", desc: "Earth’s orbit around the sun takes roughly 365.25 days." },
+      { term: "Augustus", desc: "Adjusted month lengths for political and symbolic reasons." }
+    ]
+  },
+  {
+    id: "january-position",
+    title: "Why were January and February placed before March?",
+    category: "Ancient Calendars",
+    tags: ["months", "Roman", "history"],
+    featured: false,
+    content: `
+      <p>In early Rome, the year began in March—the start of spring and the military season. When January and February were added, they were placed before March to keep festivals and harvest seasons in the right order. The civil year later shifted to begin on January 1, though the month order remained.</p>
+    `,
+    refs: [
+      { term: "Janus", desc: "Roman god of beginnings; January is named after him." },
+      { term: "Civil New Year", desc: "The Julian reform in 46 BCE made January 1 the start of the year." }
+    ]
+  },
+  {
+    id: "new-year",
+    title: "Why does the year begin on January 1 instead of the spring equinox?",
+    category: "Ancient Calendars",
+    tags: ["calendar", "new year", "Roman history"],
+    featured: false,
+    content: `
+      <p>When Julius Caesar reformed the calendar, January 1 became the official start of the year because Roman consuls—the city’s highest officials—took office that day. The date served civil and administrative needs, not astronomical ones. Earlier cultures had tied the new year to spring or harvest, but Rome fixed it for governance and uniformity.</p>
+    `,
+    refs: [
+      { term: "Julian Reform", desc: "A 46 BCE calendar adjustment aligning with civil practice." },
+      { term: "Consuls", desc: "Elected Roman leaders whose terms began on January 1." }
+    ]
+  },
+
+  /* ===========================
+     CATEGORY: Creation and Humanity
+     =========================== */
+  {
+    id: "god-created-man-first",
+    title: "Why did God create man before woman?",
+    category: "Creation and Humanity",
+    tags: ["Genesis", "creation", "Adam", "Eve"],
+    featured: true,
+    content: `
+      <p>In Genesis, God creates Adam first, tasking him with naming the creatures and caring for creation before introducing Eve as a partner. The sequence emphasizes purpose, not rank: humanity was designed for relationship and cooperation. Eve’s creation completes that vision of shared image-bearing, not a hierarchy of worth.</p>
+    `,
+    refs: [
+      { term: "Genesis 1:27", desc: "Both male and female are created in God’s image." },
+      { term: "Genesis 2:18", desc: "It is not good for man to be alone." }
+    ]
+  },
+  {
+    id: "adam-patriarchy",
+    title: "Did Adam cause patriarchy—the idea of male dominance in society?",
+    category: "Creation and Humanity",
+    tags: ["Adam", "gender roles", "patriarchy"],
+    featured: false,
+    content: `
+      <p>No. The Bible does not portray Adam as the cause of patriarchy. The concept developed in later human societies, influenced by culture, economy, and power structures. Genesis describes men and women as partners, both charged with caring for creation. Patriarchal interpretations arose later, often misreading the original story of equality and cooperation.</p>
+    `,
+    refs: [
+      { term: "Patriarchy", desc: "A social system privileging men; not prescribed by Genesis." },
+      { term: "Genesis 1:28", desc: "Both were blessed and given dominion together." }
+    ]
+  },
+  {
+    id: "god-expected-loneliness",
+    title: "If God is all-knowing, did He expect Adam to feel lonely?",
+    category: "Creation and Humanity",
+    tags: ["Adam", "God", "omniscience", "Eve"],
+    featured: false,
+    content: `
+      <p>Yes. In the Genesis story, God’s awareness of Adam’s loneliness is not ignorance but demonstration. God allows Adam to recognize his need for relationship so that Eve’s creation becomes meaningful. It’s a teaching moment: humanity is designed for companionship, not isolation. The narrative reveals divine empathy rather than surprise.</p>
+    `,
+    refs: [
+      { term: "Omniscience", desc: "God’s complete knowledge of all things." },
+      { term: "Genesis 2:18–20", desc: "Adam names the animals but finds no suitable companion." }
+    ]
+  },
+  {
+    id: "why-not-created-together",
+    title: "If God knew Adam would be lonely, why not create Eve at the same time?",
+    category: "Creation and Humanity",
+    tags: ["creation", "Eve", "Adam", "companionship"],
+    featured: false,
+    content: `
+      <p>The timing in Genesis serves a symbolic purpose. Adam’s solitude highlights the value of relationship. By introducing Eve after Adam’s realization, the story shows that companionship is intentional and mutual—not accidental. This order illustrates need, gratitude, and the complementary nature of humanity.</p>
+    `,
+    refs: [
+      { term: "Narrative sequence", desc: "The order of creation reveals meaning rather than chronology." },
+      { term: "Eve", desc: "Created as a partner suitable for Adam, not as a lesser being." }
+    ]
+  },
+
+  /* ===========================
+     CATEGORY: Biblical Ethics
+     =========================== */
+  {
+    id: "self-protection",
+    title: "What does the Bible say about using protection or contraception in marriage?",
+    category: "Biblical Ethics",
+    tags: ["ethics", "marriage", "health", "sexuality"],
+    featured: true,
+    content: `
+      <p>The Bible does not mention modern medical tools such as condoms. However, it teaches principles of love, wisdom, and stewardship. Within marriage, using protection to prevent disease or responsibly plan family size can reflect care and respect for one another. What matters is intention—health, responsibility, and mutual agreement—rather than the specific method.</p>
+      <p>Biblical ethics focus on motives and relationships, not technology. Using wisdom to preserve life and honor one’s partner aligns with the broader spirit of Scripture.</p>
+    `,
+    refs: [
+      { term: "1 Corinthians 6:19–20", desc: "Your body is a temple of the Holy Spirit—use it responsibly." },
+      { term: "Stewardship", desc: "Acting wisely with what God entrusts, including health and relationships." }
+    ]
+  }
+];

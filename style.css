@@ -1,0 +1,380 @@
+:root {
+  --bg: #fafeff;
+  --brand: #004080;
+  --ink: #474747;
+  --accent: #ffd166;
+  --soft: #e6f0fa;
+  --shadow: 0 8px 30px rgba(6,22,38,0.08);
+  --radius: 14px;
+  --header-height: 84px; /* default header height */
+  --header-vertical: 12px; /* new: vertical padding for header */
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+/* --- Base Layout --- */
+.page {
+  min-height: 100vh;
+  padding: 32px 20px 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.site {
+  width: 100%;
+  max-width: 1100px;
+}
+
+.intro {
+  margin: 0; /* header touches top and spans full width */
+  padding: var(--header-vertical) 20px; /* use unified vertical padding */
+  border-radius: 0;
+  background: var(--brand); /* use brand color for header background */
+  box-shadow: var(--shadow);
+  position: sticky; /* keep header in flow to avoid overlapping */
+  left: 0;
+  right: 0;
+  top: 0;
+  min-height: auto; /* avoid forcing extra vertical space */
+  display: flex;
+  flex-direction: column; /* stack title and subtitle */
+  align-items: center;
+  justify-content: center;
+  gap: 4px; /* reduced gap between title and tagline */
+  z-index: 90;
+}
+
+/* constrain direct children so header content lines up with .site */
+.intro > * {
+  width: 100%;
+  max-width: 1100px;
+  text-align: center; /* center both title and tagline */
+}
+
+/* make heading and paragraph align and space properly */
+.intro h1 {
+  margin: 0 0 2px 0; /* small gap below title for tighter spacing */
+  font-size: clamp(1.6rem, 6vw, 3rem);
+  line-height: 1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.6px;
+  color: var(--bg); /* white text on brand background */
+  background: none; /* remove previous gradient */
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+  text-shadow: 0 4px 18px rgba(0,0,0,0.25); /* subtle dark shadow for contrast */
+}
+
+.intro p {
+  margin: 0;
+  color: var(--bg); /* white text for tagline */
+  opacity: 0.95;
+  font-size: 0.85rem; /* compact */
+  line-height: 1.25;
+  font-family: 'Poppins', sans-serif; /* tagline tone */
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* stack heading and description and keep compact on small screens */
+.intro h1, .intro p {
+  display: block;
+}
+
+/* --- Desktop Layout --- */
+.layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 20px;
+}
+
+/* --- TOC --- */
+.toc {
+  background: rgba(255,255,255,0.8);
+  border-radius: var(--radius);
+  padding: 14px;
+  box-shadow: var(--shadow);
+  position: sticky;
+  top: 100px;
+  z-index: 70;
+}
+
+.toc h3 {
+  color: var(--brand);
+  margin-top: 0;
+}
+
+.toc-category {
+  margin-bottom: 8px;
+}
+
+.toc-category h4 {
+  cursor: pointer;
+  margin: 0;
+  background: var(--soft);
+  padding: 8px;
+  border-radius: 8px;
+  color: var(--brand);
+  font-size: 14px;
+}
+
+.toc-items {
+  display: none;
+  margin-left: 12px;
+}
+
+.toc-items.open {
+  display: block;
+}
+
+.toc-item {
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.toc-item:hover {
+  background: var(--soft);
+}
+
+/* --- Cards --- */
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 16px;
+}
+
+.q {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.q h2 {
+  color: var(--brand);
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.a {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.refs {
+  margin-top: 10px;
+  padding: 6px;
+  background: var(--soft);
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+.ref-item {
+  font-size: 0.7rem;
+  margin-bottom: 4px;
+}
+
+.term {
+  font-weight: 600;
+  color: var(--brand);
+  font-size: 0.75rem;
+  line-height: 2;
+}
+
+.tags {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  background: var(--soft);
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* --- Sticky search footer --- */
+.sticky-search {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 12px;
+  display: flex;
+  justify-content: center;
+  z-index: 95;
+}
+
+.search-panel {
+  width: min(calc(100% - 32px), 960px);
+  background: transparent; /* fully transparent footer background */
+  border-radius: 25px; /* increased rounding */
+  box-shadow: none; /* remove shadow for no background */
+  padding: 8px 10px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  border: 1px solid rgba(6,22,38,0.06);
+  padding: 10px 12px;
+  border-radius: 999px; /* pill */
+  font-size: 0.95rem;
+}
+
+.search-btn {
+  background: var(--brand);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 999px; /* pill */
+  cursor: pointer;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .search-panel { padding: 6px 8px; gap: 6px; border-radius: 16px; }
+  .search-input { padding: 8px 10px; }
+  .search-btn { padding: 7px 10px; }
+}
+
+/* --- bottom fade behind footer */
+.bottom-fade {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 150px; /* height of the fade area */
+  pointer-events: none;
+  z-index: 90; /* below the sticky-search (95) so footer sits above */
+  background: linear-gradient(to top, var(--bg), rgba(250,254,255,1), rgba(250,254,255,0));
+}
+
+@media (max-width: 480px) {
+  .bottom-fade { height: 160px; }
+}
+
+/* --- Responsive Styles --- */
+@media (max-width: 820px) {
+  :root { --header-height: 72px; --header-vertical: 10px; }
+
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  aside {
+    order: -1;
+    position: relative;
+  }
+
+  .toc {
+    position: relative;
+    top: unset;
+    margin-bottom: 20px;
+  }
+
+  .intro {
+    padding: var(--header-vertical) 16px;
+    gap: 0px; /* remove gap for tighter stacking on tablet/iPad */
+  }
+
+  .intro > * {
+    padding: 6px 0;
+  }
+
+  /* ensure no extra margins between title and tagline */
+  .intro h1 {
+    margin-bottom: 0;
+    line-height: 1.02;
+  }
+
+  .intro p {
+    margin-top: 0;
+  }
+
+  .card {
+    padding: 14px;
+  }
+
+  .q h2 {
+    font-size: 1.1rem;
+  }
+
+  .site {
+    padding: 0 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root { --header-height: 64px; --header-vertical: 10px; }
+
+  .intro {
+    padding: var(--header-vertical) 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; /* keep content near the top */
+    gap: 0px; /* remove gap on small mobile */
+  }
+
+  .intro h1 {
+    font-size: clamp(2rem, 9.5vw, 3rem);
+    letter-spacing: -0.4px;
+    line-height: 1.02;
+    text-shadow: 0 10px 30px rgba(0,64,128,0.12);
+    margin: 0 0 0 0; /* remove bottom margin */
+  }
+
+  .intro p {
+    display: block;
+    font-size: 0.82rem; /* slightly smaller on very small screens */
+    opacity: 0.95;
+    margin-top: 0; /* remove top margin */
+    line-height: 1.25; /* slightly tighter line-height */
+    text-align: center;
+  }
+
+  body {
+    font-size: 15px;
+  }
+
+  .card {
+    padding: 12px;
+  }
+
+  .q h2 {
+    font-size: 1rem;
+  }
+
+  .toc h3 {
+    font-size: 16px;
+  }
+
+  .site {
+    padding: 0 10px;
+  }
+
+  /* Reduce top spacing so header and hero content sit closer together */
+  .page {
+    padding: 20px;
+  }
+}
