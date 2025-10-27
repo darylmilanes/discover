@@ -13,7 +13,7 @@ const DATA = [
 
     <p>Discover is built on the conviction that the Bible is not an ordinary book but the living Word of God, “useful for teaching, rebuking, correcting and training in righteousness” (2 Timothy 3:16). Through accessible explanations, historical context, and scriptural references, Discover aims to help every reader move beyond curiosity toward conviction, and beyond information toward transformation.</p>
 
-    <p>Ultimately, the purpose of Discover is to glorify God by helping people encounter truth. Every page is an invitation to go deeper—to explore how divine revelation was recorded, preserved, and continues to speak powerfully to the world today.</p>
+    <p>Ultimately, the purpose of Discover is to glorify God by helping people encounter truth. Every page is an invitation to go deeper and to explore how divine revelation was recorded, preserved, and continues to speak powerfully to the world today.</p>
   `,
   refs: [
     { term: "2 Timothy 3:16", desc: "All Scripture is God-breathed and useful for teaching and spiritual growth." },
