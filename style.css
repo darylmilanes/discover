@@ -7,6 +7,7 @@ html {
   --brand: #004080;
   --ink: #474747;
   --accent: #ffd166;
+  --accent-tertiary: #ffc640; /* new tertiary accent for small decorative highlights */
   --soft: #e6f0fa;
   --shadow: 0 8px 30px rgba(6,22,38,0.08);
   --radius: 14px;
@@ -73,6 +74,14 @@ body {
   -webkit-background-clip: unset;
   -webkit-text-fill-color: unset;
   text-shadow: 0 4px 18px rgba(0,0,0,0.25); /* subtle dark shadow for contrast */
+}
+
+/* Color only the 'o' in Discover */
+.intro h1 .accent-o {
+  color: var(--accent-tertiary);
+  display: inline-block;
+  transform: translateY(-1px);
+  text-shadow: 0 2px 8px rgba(255,122,107,0.12);
 }
 
 .intro p {
