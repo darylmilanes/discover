@@ -3,11 +3,30 @@ const DATA = [
      CATEGORY: Biblical History
      =========================== */
   {
+  title: "About Discover",
+  category: "Introduction",
+  featured: true,
+  content: `
+    <p><strong>Discover</strong> is a digital library designed to explore the history, message, and meaning of the Bible with clarity and depth. It presents reliable, well-researched explanations of Scripture, rooted in both faith and scholarship. Each topic unpacks key biblical themes, historical background, and theological insights to help readers grow in understanding and confidence in God’s Word.</p>
+
+    <p>Rather than offering quick summaries or surface-level answers, Discover invites thoughtful engagement with Scripture. Every article draws from biblical texts, historical evidence, and established Christian teaching, while addressing common questions and misconceptions with care. Whether a reader is new to the Bible or already familiar with it, the platform provides an opportunity to see how all of Scripture fits together as one coherent story of redemption.</p>
+
+    <p>Discover is built on the conviction that the Bible is not an ordinary book but the living Word of God, “useful for teaching, rebuking, correcting and training in righteousness” (2 Timothy 3:16). Through accessible explanations, historical context, and scriptural references, Discover aims to help every reader move beyond curiosity toward conviction, and beyond information toward transformation.</p>
+
+    <p>Ultimately, the purpose of Discover is to glorify God by helping people encounter truth. Every page is an invitation to go deeper—to explore how divine revelation was recorded, preserved, and continues to speak powerfully to the world today.</p>
+  `,
+  refs: [
+    { term: "2 Timothy 3:16", desc: "All Scripture is God-breathed and useful for teaching and spiritual growth." },
+    { term: "Biblical Context", desc: "Understanding the historical and cultural background of Scripture for accurate interpretation." },
+    { term: "Theology", desc: "The study of God and His relationship with creation, revealed through Scripture." }
+  ]
+},
+     {
   id: "bible-written",
   title: "How was the Bible written?",
   category: "Biblical History",
   tags: ["Bible", "authors", "canon", "scripture"],
-  featured: true,
+  featured: false,
   content: `
     <p>The Bible was written over a period of about 1,500 years by more than forty different authors who lived in various regions and cultures. These writers included shepherds, kings, prophets, poets, doctors, and fishermen. Though they wrote in different times and places, the Bible presents a unified message about God's relationship with humanity and His plan of redemption through Jesus Christ.</p>
 
@@ -94,7 +113,7 @@ const DATA = [
     title: "What do BC and AD mean?",
     category: "Time and Calendars",
     tags: ["calendar", "dating", "history"],
-    featured: true,
+    featured: false,
     content: `
       <p><strong>BC</strong> means “Before Christ,” while <strong>AD</strong> stands for the Latin phrase <em>Anno Domini</em>, meaning “in the year of our Lord.” This system measures years based on the estimated birth of Jesus. Modern scholars also use <strong>BCE</strong> (“Before Common Era”) and <strong>CE</strong> (“Common Era”), which use the same numbering but without religious language.</p>
     `,
@@ -179,7 +198,7 @@ const DATA = [
     title: "When did the calendar expand from ten months to twelve?",
     category: "Ancient Calendars",
     tags: ["Roman calendar", "months", "history"],
-    featured: true,
+    featured: false,
     content: `
       <p>The early Roman calendar had only ten months, beginning with March and ending with December. Around 713 BCE, King Numa Pompilius added January and February to synchronize with lunar cycles. Later, Julius Caesar reformed the system in 46 BCE, establishing the Julian calendar with twelve months of more consistent length.</p>
     `,
@@ -239,7 +258,7 @@ const DATA = [
     title: "Why did God create man before woman?",
     category: "Creation and Humanity",
     tags: ["Genesis", "creation", "Adam", "Eve"],
-    featured: true,
+    featured: false,
     content: `
       <p>In Genesis, God creates Adam first, tasking him with naming the creatures and caring for creation before introducing Eve as a partner. The sequence emphasizes purpose, not rank: humanity was designed for relationship and cooperation. Eve’s creation completes that vision of shared image-bearing, not a hierarchy of worth.</p>
     `,
@@ -299,7 +318,7 @@ const DATA = [
     title: "What does the Bible say about using protection or contraception in marriage?",
     category: "Biblical Ethics",
     tags: ["ethics", "marriage", "health", "sexuality"],
-    featured: true,
+    featured: false,
     content: `
       <p>The Bible does not mention modern medical tools such as condoms. However, it teaches principles of love, wisdom, and stewardship. Within marriage, using protection to prevent disease or responsibly plan family size can reflect care and respect for one another. What matters is intention—health, responsibility, and mutual agreement—rather than the specific method.</p>
       <p>Biblical ethics focus on motives and relationships, not technology. Using wisdom to preserve life and honor one’s partner aligns with the broader spirit of Scripture.</p>
