@@ -160,6 +160,38 @@ searchInput && searchInput.addEventListener('keydown', (e) => {
 renderTOC(DATA);
 showFeatured();
 
+// Hide 'Introduction' category/items when TOC is inside an <aside>
+document.addEventListener('DOMContentLoaded', function () {
+  const toc = document.querySelector('aside .toc');
+  if (!toc) return;
+
+  function hideIntroduction() {
+    // hide any .toc-item that carries a data-category or text content indicating Introduction
+    toc.querySelectorAll('.toc-item').forEach(el => {
+      const dataCat = el.dataset && el.dataset.category ? el.dataset.category : el.getAttribute('data-category');
+      const text = (el.textContent || '').trim();
+      if (dataCat === 'Introduction' || text === 'Introduction' || /\bIntroduction\b/i.test(text)) {
+        el.style.display = 'none';
+      }
+    });
+
+    // hide any category wrapper whose header text is 'Introduction'
+    toc.querySelectorAll('.toc-category').forEach(block => {
+      const h = block.querySelector('h4, h3');
+      if (h && h.textContent.trim() === 'Introduction') {
+        block.style.display = 'none';
+      }
+    });
+  }
+
+  // run once
+  hideIntroduction();
+
+  // observe for dynamic changes (in case TOC is built after load)
+  const observer = new MutationObserver(hideIntroduction);
+  observer.observe(toc, { childList: true, subtree: true });
+});
+
 (function() {
   // Delegate clicks on TOC items to set persistent active state
   document.addEventListener('click', function(e) {
