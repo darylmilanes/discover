@@ -13,7 +13,7 @@ const DATA = [
 
     <p>Discover is built on the conviction that the Bible is not an ordinary book but the living Word of God, “useful for teaching, rebuking, correcting and training in righteousness” (2 Timothy 3:16). Through accessible explanations, historical context, and scriptural references, Discover aims to help every reader move beyond curiosity toward conviction, and beyond information toward transformation.</p>
 
-    <p>Ultimately, the purpose of Discover is to glorify God by helping people encounter truth. Every page is an invitation to go deeper—to explore how divine revelation was recorded, preserved, and continues to speak powerfully to the world today.</p>
+    <p>Ultimately, the purpose of Discover is to glorify God by helping people encounter truth. Every page is an invitation to go deeper and to explore how divine revelation was recorded, preserved, and continues to speak powerfully to the world today.</p>
   `,
   refs: [
     { term: "2 Timothy 3:16", desc: "All Scripture is God-breathed and useful for teaching and spiritual growth." },
@@ -333,7 +333,7 @@ const DATA = [
   title: "How should Christians engage with non-believers?",
   category: "Biblical Ethics",
   tags: ["evangelism", "faith", "witness", "love", "apologetics"],
-  featured: true,
+  featured: false,
   content: `
     <p>Engaging with non-believers is not about winning arguments but about demonstrating the love, truth, and character of Christ. The Bible calls Christians to share their faith with gentleness, humility, and respect, always remembering that it is God who changes hearts, not human persuasion. As 1 Peter 3:15 says, believers should “always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have,” but to do so “with gentleness and respect.”</p>
 
@@ -370,7 +370,7 @@ const DATA = [
   title: "What is lust and how should we deal with it?",
   category: "Sin and Moral Struggles",
   tags: ["lust", "temptation", "purity", "self-control", "heart"],
-  featured: true,
+  featured: false,
   content: `
     <p>Lust is a powerful desire that distorts how we see others and ourselves. In Scripture, lust refers not just to sexual craving but to any uncontrolled longing that seeks satisfaction outside of God's design. Jesus taught that sin begins in the heart long before it turns into action. In Matthew 5:28, He said, “Anyone who looks at a woman lustfully has already committed adultery with her in his heart.” Lust is not love; it is selfishness disguised as desire.</p>
 
@@ -399,7 +399,7 @@ const DATA = [
   title: "What is pride and how does it affect us in daily life?",
   category: "Sin and Moral Struggles",
   tags: ["pride", "humility", "sin", "self-awareness", "character"],
-  featured: true,
+  featured: false,
   content: `
     <p>Pride is one of the most subtle and dangerous sins because it hides beneath the surface of our thoughts and actions. In Scripture, pride is not simply confidence or self-respect—it is the elevation of self above God and others. It is the inward attitude that says, “I know better,” or “I deserve more.” Pride places the self at the center of life, seeking glory, control, or recognition that belongs to God alone.</p>
 
@@ -432,7 +432,7 @@ const DATA = [
   title: "Do we need to be perfect to be saved?",
   category: "Theology and Doctrine",
   tags: ["salvation", "grace", "faith", "righteousness", "Jesus"],
-  featured: true,
+  featured: false,
   content: `
     <p>No one needs to be perfect to be saved—because no one can be. The message of the gospel is not that we earn salvation through flawless behavior, but that God offers salvation through His perfect Son, Jesus Christ. Human perfection has never been the requirement; <strong>faith in Christ</strong> is. As Romans 3:23 declares, “All have sinned and fall short of the glory of God,” and the very next verse adds, “and all are justified freely by his grace through the redemption that came by Christ Jesus.”</p>
 
@@ -465,7 +465,7 @@ const DATA = [
   title: "Is Jesus Christ truly God?",
   category: "Theology and Doctrine",
   tags: ["Jesus", "divinity", "Trinity", "incarnation", "faith"],
-  featured: true,
+  featured: false,
   content: `
     <p>Yes, Jesus Christ is God. This truth lies at the very heart of Christianity. From the earliest centuries of the Church, believers have confessed that Jesus is not merely a prophet, teacher, or moral example, but the eternal Son of God—fully divine and fully human. The New Testament consistently presents Jesus as possessing the attributes, authority, and worship due only to God. To understand who Jesus is, we must see Him as both Savior and Lord, sharing the same divine nature as the Father and the Holy Spirit.</p>
 
@@ -499,7 +499,7 @@ const DATA = [
   title: "How can we understand the Holy Trinity?",
   category: "Theology and Doctrine",
   tags: ["Trinity", "God", "Jesus", "Holy Spirit", "theology"],
-  featured: true,
+  featured: false,
   content: `
     <p>The Holy Trinity is one of the most profound mysteries of the Christian faith. It teaches that there is only one God who exists eternally in three distinct Persons: the Father, the Son (Jesus Christ), and the Holy Spirit. These three are not separate gods but one divine Being, perfectly united in nature, essence, and purpose. The Father is God, the Son is God, and the Spirit is God—yet there are not three Gods, but one.</p>
 
@@ -535,7 +535,7 @@ const DATA = [
   title: "How does the Bible define morality?",
   category: "Biblical Ethics",
   tags: ["morality", "ethics", "good and evil", "law", "righteousness"],
-  featured: true,
+  featured: false,
   content: `
     <p>In the Bible, morality is not a set of arbitrary rules but the reflection of God’s own character. What is good is good because it aligns with who God is—holy, just, loving, and faithful. Morality in Scripture is therefore rooted not in cultural opinion or human reasoning but in divine revelation. It expresses what it means to live in harmony with God’s design for creation and for human relationships.</p>
 
@@ -569,7 +569,7 @@ const DATA = [
   title: "Did God know that Lucifer would become Satan, and why did He allow it?",
   category: "Theology and Doctrine",
   tags: ["Lucifer", "Satan", "evil", "free will", "omniscience", "God's sovereignty"],
-  featured: true,
+  featured: false,
   content: `
     <p>Yes, God knew that Lucifer would rebel and become Satan. The Bible teaches that God is <strong>omniscient</strong>, meaning He knows all things—past, present, and future. Nothing surprises Him or happens outside His knowledge. Yet knowing something will happen does not mean God causes it to happen. Lucifer’s fall was not the result of God’s plan for evil but the consequence of Lucifer’s own pride and misuse of free will.</p>
 
@@ -603,7 +603,7 @@ const DATA = [
   title: "Should Christians still speak with people who do not believe in Jesus Christ?",
   category: "Faith and Christian Living",
   tags: ["nonbelievers", "evangelism", "love", "witness", "relationships"],
-  featured: true,
+  featured: false,
   content: `
     <p>Yes, Christians are called to continue speaking with and loving those who do not believe in Jesus Christ. The gospel of Christ is not meant to isolate believers from the world but to equip them to engage it with truth and compassion. Jesus Himself spent time with tax collectors, sinners, and skeptics—not to compromise His holiness, but to extend grace and invite them into the truth. As followers of Christ, we are called to reflect His character in how we speak, listen, and live among those who have not yet come to faith.</p>
 
@@ -640,7 +640,7 @@ const DATA = [
   title: "Why does life still feel unfair?",
   category: "Sin and Moral Struggles",
   tags: ["suffering", "fairness", "faith", "justice", "hope"],
-  featured: true,
+  featured: false,
   content: `
     <p>Many people look at the world and ask, “If God is good and powerful, why is life so unfair?” This question arises from a deep sense of longing for justice and equality—a longing placed in us by God Himself. Yet the reality of suffering, inequality, and tragedy often makes it difficult to see how a just God could allow such things. The Bible does not ignore this struggle. Instead, it speaks honestly about the brokenness of the world, the purpose of pain, and the hope of ultimate justice.</p>
 
@@ -675,7 +675,7 @@ const DATA = [
   title: "If God loves the world, why are some babies born with disabilities?",
   category: "Sin and Moral Struggles",
   tags: ["suffering", "disability", "creation", "love", "God's sovereignty"],
-  featured: true,
+  featured: false,
   content: `
     <p>This question touches the deepest tension between faith and suffering. How can a loving, powerful God allow children to be born with disabilities, illnesses, or conditions that cause pain and hardship? The Bible does not treat this question lightly, and neither should we. The answer lies not in blaming God for imperfection, but in understanding the brokenness of the world and the redemptive love that works even through that brokenness.</p>
 
@@ -710,7 +710,7 @@ const DATA = [
   title: "Why should I believe in God if I’m already doing fine without Him?",
   category: "Faith and Christian Living",
   tags: ["faith", "belief", "purpose", "meaning", "relationship with God"],
-  featured: true,
+  featured: false,
   content: `
     <p>Many people feel that life works well enough without faith. They may have a job, relationships, comfort, and purpose defined by their own values. The question, “Why believe in God if I’m already fine?” is an honest one—and one that Scripture addresses with both reason and compassion. Believing in God is not merely about filling an emotional or moral gap; it’s about discovering the very source of life, meaning, and truth itself. Life without God may seem complete for a time, but it lacks the foundation that gives existence lasting purpose and eternal hope.</p>
 
@@ -747,7 +747,7 @@ const DATA = [
   title: "How do I know if I am doing the right thing?",
   category: "Faith and Christian Living",
   tags: ["discernment", "wisdom", "decision-making", "faith", "righteousness"],
-  featured: true,
+  featured: false,
   content: `
     <p>Knowing whether you are doing the right thing is one of the most important—and sometimes most difficult—questions in life. Every day brings choices that test our integrity, motives, and understanding. The Bible teaches that discerning right from wrong is not about following a formula, but about walking closely with God, allowing His Spirit, His Word, and His wisdom to guide your decisions. The right thing is not merely what feels right or what seems practical, but what aligns with God’s truth and reflects His love.</p>
 
@@ -786,7 +786,7 @@ const DATA = [
   title: "Who were the apostles, and why were they the ones chosen?",
   category: "Biblical History",
   tags: ["apostles", "disciples", "Jesus", "ministry", "calling"],
-  featured: true,
+  featured: false,
   content: `
     <p>The apostles were the twelve men personally chosen by Jesus Christ to follow Him, learn from Him, and become the foundation of His Church. The word <em>apostle</em> comes from the Greek <em>apostolos</em>, meaning “one who is sent.” These men were not chosen for their status, education, or perfection, but for their willingness to follow and be transformed. Jesus selected ordinary people—fishermen, a tax collector, and even a political zealot—to show that God’s power works through availability, not ability.</p>
 
@@ -820,7 +820,7 @@ const DATA = [
   title: "Who were the apostles, and why did Jesus choose them?",
   category: "Biblical History",
   tags: ["apostles", "disciples", "Jesus", "calling", "mission"],
-  featured: true,
+  featured: false,
   content: `
     <p>The apostles were the twelve men personally chosen by Jesus Christ to follow Him closely, learn from His teachings, and carry His message to the world. The word <em>apostle</em> comes from the Greek <em>apostolos</em>, meaning “one who is sent.” They were not chosen for wealth, education, or influence, but for their willingness to believe, follow, and be transformed. Jesus chose ordinary people so that the power and glory of God—not human ability—would be clearly seen through them.</p>
 
@@ -853,7 +853,7 @@ const DATA = [
   title: "If God loves us, will He still accept us into Heaven even if we keep repeating the same sins?",
   category: "Faith and Christian Living",
   tags: ["sin", "forgiveness", "repentance", "grace", "salvation"],
-  featured: true,
+  featured: false,
   content: `
     <p>This question reaches to the heart of Christian faith: How far does God’s love and forgiveness extend, especially when we keep failing in the same ways? The Bible teaches that God’s love is unconditional and His grace abundant, but His forgiveness is not permission to remain in sin. God’s mercy is meant to transform us, not to excuse repeated rebellion. His goal is not just to forgive us, but to free us from the grip of sin itself.</p>
 
@@ -891,7 +891,7 @@ const DATA = [
   title: "Does forgiveness mean becoming emotionally close again?",
   category: "Faith and Christian Living",
   tags: ["forgiveness", "boundaries", "healing", "relationships", "wisdom"],
-  featured: true,
+  featured: false,
   content: `
     <p>Forgiveness and emotional attachment are not the same thing. Forgiving someone is an act of the will—a choice to release resentment and surrender the right to seek revenge. Emotional closeness, however, involves trust, safety, and mutual respect. The Bible commands us to forgive everyone (Ephesians 4:32), but it does not command us to immediately or automatically restore the same level of intimacy with those who have hurt us. Forgiveness is unconditional; reconciliation is conditional. One heals your heart before God, the other rebuilds relationship with another person—and that takes time, honesty, and change.</p>
 
@@ -918,6 +918,883 @@ const DATA = [
     { term: "Proverbs 4:23", desc: "Guard your heart, for it is the source of your life and decisions." },
     { term: "John 2:24–25", desc: "Jesus did not entrust Himself to people who were untrustworthy." },
     { term: "Matthew 5:44", desc: "Love your enemies and pray for those who persecute you, without condoning their harm." }
+  ]
+},
+{
+  id: "satan-limitations-vs-humans",
+  title: "What can human beings do that Satan cannot?",
+  category: "Theology and Doctrine",
+  tags: ["Satan", "humanity", "free will", "salvation", "worship"],
+  featured: false,
+  content: `
+    <p>Satan is powerful and intelligent, but he is still a created being with clear limits. He is not equal to God, and unlike human beings, he cannot be redeemed or forgiven. The greatest difference between Satan and humanity is that people can repent, receive mercy, and be restored to God. No matter how dark a person’s past may be, grace is still available. Satan, on the other hand, permanently hardened his heart against God and is beyond redemption. Humans can change and return to God; Satan cannot.</p>
+
+    <p><strong>1. Humans can repent, but Satan cannot.</strong> Repentance means turning the heart back to God and seeking His forgiveness. People still live under the invitation of grace. According to 2 Peter 3:9, God does not want anyone to perish but desires everyone to come to repentance. Satan and the fallen angels made an irreversible choice. Their rebellion was final because they rejected God in full knowledge of His glory, not in ignorance or weakness.</p>
+
+    <p><strong>2. Humans can receive forgiveness through Jesus Christ.</strong> God’s plan of salvation through Jesus was made for humanity, not for angels. Hebrews 2:16 teaches that Christ came to help Abraham’s descendants, not angels. This means Jesus took on human form to redeem people, not the fallen spiritual beings. Forgiveness is the greatest gift humans can receive, something Satan will never experience. He can accuse and deceive, but he has no part in grace. Humanity can find complete restoration through faith in Christ.</p>
+
+    <p><strong>3. Humans can sincerely worship God.</strong> Worship is something Satan cannot truly offer. Though he once stood in the presence of God, his pride turned him inward. He desired worship for himself, as described in Isaiah 14:13–14. People, however, are created to reflect and magnify God’s glory. Each time a human being praises God despite pain or weakness, they do what Satan refuses to do: love and honor God selflessly.</p>
+
+    <p><strong>4. Humans can love and be loved by God.</strong> Satan’s nature is rooted in hatred, deceit, and pride. He cannot love or be loved by God. Human beings, however, are made in God’s image, as stated in Genesis 1:27, and are designed for relationship with Him. Even after humanity’s fall, God continued to pursue people with His love. Romans 8:38–39 affirms that nothing can separate believers from God’s love in Christ Jesus. That love is something Satan forfeited forever.</p>
+
+    <p><strong>5. Humans can grow, learn, and be transformed by the Holy Spirit.</strong> Satan’s heart is fixed in rebellion and cannot change. Humans, though imperfect, are redeemable. The Holy Spirit works in believers to renew their minds and shape them into Christ’s likeness, as described in 2 Corinthians 3:18. Each time a person chooses humility over pride or forgiveness over resentment, they display a capacity for growth that Satan no longer possesses.</p>
+
+    <p><strong>6. Humans can overcome Satan through faith.</strong> While Satan seeks to deceive and destroy, believers are not powerless. James 4:7 commands, “Resist the devil, and he will flee from you.” Through Christ’s victory on the cross, believers have authority over evil. Revelation 12:11 says that believers overcame Satan by the blood of the Lamb and by the word of their testimony. The very creatures Satan tries to tempt are the ones who will one day witness his final defeat.</p>
+
+    <p><strong>7. Humans can share eternity with God.</strong> The Bible is clear that Satan’s destiny is eternal separation and judgment, as stated in Revelation 20:10. Humanity, however, has been offered eternal life through Jesus Christ (John 3:16). The story of redemption shows that God’s love triumphs over rebellion and pride. Though humanity fell, people can still be restored. Satan, once exalted, cannot be redeemed.</p>
+
+    <p>In the end, what sets humans apart from Satan is the ability to turn back to God. People can repent, receive forgiveness, and live in love. Satan’s story is one of permanent rebellion, while humanity’s story is one of possible redemption. This is why Satan hates grace: it offers people what he will never have again, the chance to be restored to God’s presence forever.</p>
+  `,
+  refs: [
+    { term: "2 Peter 3:9", desc: "God desires all people to come to repentance, unlike the fallen angels." },
+    { term: "Hebrews 2:16", desc: "Christ came to redeem humanity, not angels." },
+    { term: "Isaiah 14:13–14", desc: "Describes Lucifer’s prideful desire to exalt himself above God." },
+    { term: "Genesis 1:27", desc: "Humans are created in God’s image and capable of relationship with Him." },
+    { term: "2 Corinthians 3:18", desc: "Believers are transformed into Christ’s likeness through the Spirit." },
+    { term: "James 4:7", desc: "Resist the devil, and he will flee from you." },
+    { term: "Revelation 12:11", desc: "Believers overcome Satan by the blood of the Lamb and their testimony." },
+    { term: "Revelation 20:10", desc: "Satan’s final defeat and eternal punishment." }
+  ]
+},
+{
+  id: "lucifer-pride-in-heaven",
+  title: "If Heaven is perfect, how did Lucifer become prideful?",
+  category: "Theology and Doctrine",
+  tags: ["Lucifer", "pride", "sin", "free will", "angels"],
+  featured: false,
+  content: `
+    <p>This question touches on one of the deepest mysteries in Christian theology: how could pride, the seed of all sin, arise in a perfect place like Heaven? The Bible reveals that Lucifer’s rebellion did not begin because of any imperfection in Heaven, but because of a choice made by a perfect being with free will. God created angels, like humans, with the freedom to love and serve Him willingly. Lucifer’s pride was not born from Heaven’s flaw, but from his own misuse of that freedom.</p>
+
+    <p><strong>1. Lucifer’s original position and nature.</strong> Before his fall, Lucifer was created as a glorious and wise angel. Ezekiel 28:12–15 describes him as “full of wisdom and perfect in beauty,” placed in the presence of God. He was called the “anointed guardian cherub,” a position of high honor. Nothing in him was evil at first; he was blameless until unrighteousness was found in him. His fall was not due to a defect in creation but to a personal decision of pride and rebellion.</p>
+
+    <p><strong>2. The gift of free will.</strong> God gave all moral beings—angels and humans alike—the ability to choose. Love that is forced is not love at all. Lucifer was not programmed to obey; he was invited to love and worship freely. This freedom included the possibility of rejecting God. In Lucifer’s heart, pride grew as he became enamored with his own splendor and abilities. Isaiah 14:13–14 records his thoughts: “I will ascend to heaven; I will raise my throne above the stars of God... I will make myself like the Most High.” Pride was born not from God’s creation but from Lucifer’s choice to turn admiration into self-exaltation.</p>
+
+    <p><strong>3. Pride can exist only where freedom exists.</strong> Pride is not a substance that exists on its own; it is a distortion of something good. Lucifer’s beauty and wisdom were gifts meant to glorify God, but he redirected that glory toward himself. Pride was the corruption of humility. Heaven was perfect because it reflected God’s holiness, but within that perfection, there was still the freedom to choose love or self-worship. The possibility of sin did not make Heaven imperfect; it simply made obedience meaningful.</p>
+
+    <p><strong>4. The origin of sin lies in the heart, not in the environment.</strong> Sin did not begin in the material world but in the will of a created being. 1 Timothy 3:6 warns that pride was the same downfall of the devil, calling it “the condemnation incurred by the devil.” Lucifer’s pride was self-generated, not caused by external temptation. This shows that sin begins when a creature turns inward, seeking independence from the Creator. Even in a perfect setting, a free heart can choose rebellion if it stops seeing God as the source of all goodness.</p>
+
+    <p><strong>5. Why God allowed the fall.</strong> Some ask why God allowed Lucifer to rebel if He knew what would happen. The answer lies in the nature of love and freedom. God did not create robots, but beings capable of genuine devotion. Love must be chosen to be real. If God had removed the possibility of rebellion, He would have removed the possibility of love as well. By allowing freedom, God allowed both the potential for evil and the greater potential for love, faith, and redemption.</p>
+
+    <p><strong>6. Heaven remains perfect despite rebellion.</strong> Heaven’s perfection is defined by God’s presence, not by the absence of free will. When Lucifer and the angels who followed him rebelled, they were cast out (Revelation 12:7–9). Heaven remained holy and uncorrupted because sin cannot coexist in God’s presence. The rebellion of Lucifer did not stain Heaven itself; it only revealed that even perfect beings depend entirely on God’s grace to remain pure.</p>
+
+    <p><strong>7. The lesson for humanity.</strong> Lucifer’s pride is a warning to all who live with gifts, talents, or influence. Pride begins when the created forgets the Creator. It whispers that we can define our own worth apart from God. The same temptation that caused Lucifer’s fall still reaches into human hearts today. Yet where he fell, we can rise, because God offers redemption through humility. James 4:6 declares, “God opposes the proud but gives grace to the humble.”</p>
+
+    <p>In summary, Lucifer’s pride began not because Heaven was flawed, but because he chose self-exaltation over worship. Pride was born in the heart of a being who loved God’s gifts more than God Himself. The fall of Lucifer shows that even in perfection, freedom carries responsibility. Heaven remains perfect because God remains sovereign, and every act of true love and humility keeps creation aligned with His holiness.</p>
+  `,
+  refs: [
+    { term: "Ezekiel 28:12–15", desc: "Describes Lucifer as a perfect and beautiful being until sin was found in him." },
+    { term: "Isaiah 14:13–14", desc: "Records Lucifer’s prideful desire to exalt himself above God." },
+    { term: "1 Timothy 3:6", desc: "Warns against pride, which led to the devil’s downfall." },
+    { term: "Revelation 12:7–9", desc: "Describes the expulsion of Lucifer and his angels from Heaven." },
+    { term: "James 4:6", desc: "God opposes the proud but gives grace to the humble." }
+  ]
+},
+{
+  id: "gluttony-and-buffets",
+  title: "Is eating at an all-you-can-eat buffet considered gluttony?",
+  category: "Biblical Ethics",
+  tags: ["gluttony", "self-control", "stewardship", "discipline", "food"],
+  featured: false,
+  content: `
+    <p>Eating at an all-you-can-eat buffet is not automatically gluttony. The Bible does not condemn enjoying food, but it warns against the lack of self-control and indulgence that turns food into an idol. Gluttony is not about how much food is available, but about how we treat food in our hearts. It becomes sin when eating is no longer an act of gratitude and stewardship, but one of excess, waste, or self-centered pleasure without restraint.</p>
+
+    <p><strong>1. Understanding gluttony.</strong> Gluttony is more than simply eating a large meal. It is the habitual overindulgence in food to the point of harm, selfishness, or spiritual dullness. Proverbs 23:20–21 warns, “Do not join those who drink too much wine or gorge themselves on meat, for drunkards and gluttons become poor.” The focus is not on food itself, but on the behavior and attitude toward it. Gluttony is about losing balance—allowing appetite to control the heart rather than the Spirit.</p>
+
+    <p><strong>2. God designed food for joy and nourishment.</strong> Scripture celebrates food as a good gift from God. Ecclesiastes 9:7 says, “Go, eat your food with gladness, and drink your wine with a joyful heart, for God has already approved what you do.” Enjoying a meal, even a feast, is not sinful when it is received with thanksgiving. Jesus Himself ate with others frequently, sharing meals as expressions of fellowship and grace. The problem arises not in eating well, but in eating without gratitude or moderation.</p>
+
+    <p><strong>3. The real issue is motive and self-control.</strong> When visiting an all-you-can-eat buffet, the question to ask is not “How much can I eat?” but “Why am I eating this way?” Are you eating to enjoy fellowship, or to satisfy greed and appetite? The Bible encourages self-control as a fruit of the Spirit (Galatians 5:22–23). Eating past the point of fullness simply to “get your money’s worth” or out of compulsion crosses into gluttony. The sin lies not in the plate, but in the attitude behind it.</p>
+
+    <p><strong>4. Stewardship of the body and resources.</strong> The body is a gift and temple of the Holy Spirit (1 Corinthians 6:19–20). Overeating that harms health or wastes food disrespects that gift. God calls His people to steward both their bodies and His provisions wisely. Eating responsibly, even in abundance, honors the Creator. Discipline at the table is an act of worship, acknowledging that appetite is good but must stay under control.</p>
+
+    <p><strong>5. Enjoyment with gratitude is not sin.</strong> God does not frown upon celebration or good meals. Feasting is a biblical tradition, seen in Passover and the wedding at Cana. What matters is the posture of the heart. If food leads you to thankfulness, generosity, and joy in God’s creation, it glorifies Him. But if it leads to selfishness, waste, or obsession, it replaces God with desire. True gratitude always keeps pleasure in its proper place.</p>
+
+    <p><strong>6. Moderation is an act of wisdom.</strong> The Apostle Paul wrote, “Whether you eat or drink or whatever you do, do it all for the glory of God” (1 Corinthians 10:31). This means that even something as simple as eating can honor God when done thoughtfully. Moderation allows enjoyment without guilt and health without excess. In a buffet, the wise approach is to eat what you need, enjoy it fully, and stop when satisfied. Self-control is not denial; it is freedom from being ruled by desire.</p>
+
+    <p>In summary, eating at an all-you-can-eat buffet is not inherently gluttonous. The sin of gluttony is not found in the setting or the plate, but in the heart that refuses moderation. Food is a gift meant to sustain, delight, and bring people together. When received with gratitude and restraint, even a buffet can become an opportunity to thank God. The key is not how much food is served, but whether the heart at the table is governed by gratitude or by greed.</p>
+  `,
+  refs: [
+    { term: "Proverbs 23:20–21", desc: "Warns against overindulgence in food and drink." },
+    { term: "Ecclesiastes 9:7", desc: "Encourages joyful and thankful enjoyment of food." },
+    { term: "Galatians 5:22–23", desc: "Lists self-control as a fruit of the Spirit." },
+    { term: "1 Corinthians 6:19–20", desc: "Our bodies are temples of the Holy Spirit and should be cared for wisely." },
+    { term: "1 Corinthians 10:31", desc: "Whatever we do, including eating and drinking, should glorify God." }
+  ]
+},
+{
+  id: "book-of-life-and-free-will",
+  title: "Are our names written in the Book of Life before we are born, and how does free will affect salvation?",
+  category: "Theology and Doctrine",
+  tags: ["Book of Life", "free will", "salvation", "predestination", "grace"],
+  featured: false,
+  content: `
+    <p>The Bible speaks of the “Book of Life,” a divine record of those who belong to God and will inherit eternal life. Revelation 13:8 calls it “the Book of Life of the Lamb who was slain.” The question of whether our names are written there before birth touches on the mystery of God’s sovereignty and human freedom. Scripture presents both truths side by side: God’s foreknowledge and humanity’s responsibility. God knows who will be saved, yet every person is still called to choose Him freely. Salvation is not forced or accidental; it is an invitation that must be personally accepted.</p>
+
+    <p><strong>1. God’s foreknowledge is not the same as predetermination.</strong> God exists beyond time and sees all of history—past, present, and future—at once. Knowing what we will choose does not mean He forces that choice. Just as a teacher might know how a student will perform without controlling the outcome, God’s knowledge includes all human decisions while still allowing freedom. Romans 8:29–30 says that God “foreknew” those who would love Him and “predestined” them to be conformed to Christ, but this foreknowledge reflects His awareness, not coercion. He knows, but we still decide.</p>
+
+    <p><strong>2. The Book of Life represents God’s eternal plan of salvation.</strong> The Book of Life symbolizes belonging to God’s redeemed family. Revelation 21:27 says only those “whose names are written in the Lamb’s Book of Life” will enter the new creation. From God’s eternal perspective, those who trust in Christ are already secure in His plan. Ephesians 1:4–5 teaches that God “chose us in Him before the foundation of the world,” meaning He prepared redemption before time began. This shows His initiative in salvation, not fatalism. God’s plan was set, but His invitation remains open to all.</p>
+
+    <p><strong>3. Free will is God’s gift that allows real love and responsibility.</strong> Love without choice is not love at all. God gave humanity free will so that our relationship with Him could be genuine. Deuteronomy 30:19 records God’s appeal: “I have set before you life and death, blessings and curses. Now choose life.” This shows that salvation involves human participation. God calls, but each person must respond. The choice to believe, obey, or reject Him carries real spiritual consequences. Free will does not compete with grace; it is the means by which we receive it.</p>
+
+    <p><strong>4. Salvation is offered to all but applied to those who accept it.</strong> God’s desire is that “everyone be saved and come to the knowledge of the truth” (1 Timothy 2:4). Christ’s sacrifice was sufficient for all humanity, but not all will choose to accept it. The Book of Life includes those who respond to grace by faith. In this way, both divine sovereignty and human freedom are true. God knows the end from the beginning, yet each decision matters. Free will makes salvation a relationship, not a program.</p>
+
+    <p><strong>5. The danger of rejecting God’s call.</strong> Revelation 3:5 speaks of those whose names will not be blotted out from the Book of Life. This image reminds us that while God’s promises are secure, unbelief and persistent rebellion have consequences. God’s grace is constant, but it must be received. Free will means we can accept or refuse the truth. Those who persistently reject Christ remove themselves from what God has prepared for them. God respects the freedom He gave, even when it leads to rejection.</p>
+
+    <p><strong>6. God’s sovereignty and human choice work together, not against each other.</strong> The Bible never portrays salvation as a conflict between God’s control and our will. Instead, it shows both working in harmony. Philippians 2:12–13 says, “Work out your salvation with fear and trembling, for it is God who works in you to will and to act in order to fulfill His good purpose.” God initiates, empowers, and completes the process, but we cooperate through faith and obedience. His grace enables our choice, and our choice responds to His grace.</p>
+
+    <p><strong>7. Assurance of salvation rests in Christ, not in mystery.</strong> Believers do not have to wonder whether their names are written in Heaven. Jesus told His disciples, “Rejoice that your names are written in heaven” (Luke 10:20). The assurance comes not from secret knowledge, but from faith in the Savior. Those who trust in Christ can be confident that their place in the Book of Life is secure. Free will brings responsibility, but God’s grace guarantees that no one who truly belongs to Him will ever be lost (John 10:28–29).</p>
+
+    <p>In summary, our names being written in the Book of Life reflects God’s eternal knowledge and purpose, not the removal of human choice. God’s sovereignty does not cancel freedom; it fulfills it. From His perspective, He knows those who are His. From ours, we are called to believe, repent, and follow Christ. Free will gives meaning to faith, while God’s grace ensures that salvation is possible for all who choose Him. The Book of Life, therefore, is not a list of destiny but a record of redemption—written by the hand of a God who knows, loves, and invites every soul to come home.</p>
+  `,
+  refs: [
+    { term: "Revelation 13:8", desc: "Mentions the Book of Life belonging to the Lamb who was slain." },
+    { term: "Romans 8:29–30", desc: "God foreknew and predestined believers to be conformed to Christ." },
+    { term: "Ephesians 1:4–5", desc: "God chose believers in Christ before the foundation of the world." },
+    { term: "Deuteronomy 30:19", desc: "God calls His people to choose life and obedience." },
+    { term: "1 Timothy 2:4", desc: "God desires all people to be saved and come to the knowledge of the truth." },
+    { term: "Revelation 3:5", desc: "Speaks of names not being blotted out from the Book of Life." },
+    { term: "Philippians 2:12–13", desc: "Salvation involves both human effort and divine empowerment." },
+    { term: "Luke 10:20", desc: "Jesus tells His followers to rejoice that their names are written in Heaven." },
+    { term: "John 10:28–29", desc: "Those who belong to Christ are secure in His hand and cannot be taken away." }
+  ]
+},
+{
+  id: "satan-deception-eden",
+  title: "If Satan told Eve that she could become like God by eating the fruit, why did he not do it himself?",
+  category: "Theology and Doctrine",
+  tags: ["Satan", "Eve", "temptation", "deception", "Genesis"],
+  featured: false,
+  content: `
+    <p>The serpent’s words to Eve in Genesis 3 were the first recorded deception in human history. When Satan said, “You will be like God, knowing good and evil,” he was not offering truth but twisting it. He did not eat the fruit himself because his goal was never to become like God in character or holiness, but to turn humanity away from God’s rule. He already desired God’s position but could never attain it. His temptation was built on a lie designed to reproduce in humans the same rebellion that had already consumed him.</p>
+
+    <p><strong>1. Satan’s nature was already corrupted by pride.</strong> Before tempting Eve, Satan had already fallen from his original position as a glorious angel. Isaiah 14:13–14 describes how he said in his heart, “I will ascend to heaven... I will make myself like the Most High.” His downfall came from wanting to be equal to God rather than serve Him. By the time he appeared in the Garden, his rebellion was complete. Eating the fruit would not make him more powerful or godlike. His pride had already separated him from the source of divine life.</p>
+
+    <p><strong>2. The temptation was aimed at humanity, not himself.</strong> Satan’s goal was not to elevate himself but to corrupt what God loved. Humanity was created in God’s image (Genesis 1:27), something Satan could never claim for himself. He could not bear that humans, made lower than angels, were given a relationship with God and authority over creation. His temptation was an attack against that relationship. By deceiving Eve, he sought to ruin humanity’s innocence and spoil the reflection of God’s goodness in the world.</p>
+
+    <p><strong>3. The promise “you will be like God” was a lie of distortion, not creation.</strong> The knowledge of good and evil promised by the serpent was not divine wisdom but moral independence. Satan suggested that by disobeying God, humans could define right and wrong for themselves. Yet true godliness is rooted in obedience and dependence, not rebellion. Satan knew this, but he twisted God’s truth into a counterfeit version of freedom. He offered humanity what he himself had sought: power apart from submission. He did not need to eat the fruit because he had already chosen rebellion as his path.</p>
+
+    <p><strong>4. Eating the fruit was never about gaining power but about rejecting trust.</strong> Satan’s temptation worked by planting doubt: “Did God really say...?” (Genesis 3:1). The fruit itself was not magical; it represented a test of trust and loyalty. The act of eating it symbolized humanity’s choice to place self above God. Satan’s rebellion in Heaven and Eve’s disobedience in Eden were expressions of the same sin—pride. Satan did not eat the fruit because he had already made that choice long before, turning away from truth and light toward deception and darkness.</p>
+
+    <p><strong>5. Satan cannot create or transform; he can only corrupt.</strong> God alone has the power to create life and grant divine nature. Satan does not possess creative power. His strength lies in manipulation, imitation, and distortion. 2 Corinthians 11:14 says that “Satan masquerades as an angel of light,” meaning he pretends to offer enlightenment while spreading darkness. He could not eat the fruit to become godlike because he has no access to divine essence. His nature is fixed in opposition to God. His deception of Eve was not about empowerment but enslavement.</p>
+
+    <p><strong>6. Satan’s desire was to make others fall as he had fallen.</strong> Having lost his place in Heaven, Satan’s goal became to drag others into rebellion. Revelation 12:9 describes him as “the deceiver of the whole world.” His power is rooted in lies, not in truth or creation. By convincing humanity to sin, he ensured that the image of God in people would be marred by guilt and separation. His temptation was a spiritual contagion—he could not become like God, so he wanted to ensure that no one else would remain close to Him either.</p>
+
+    <p><strong>7. The irony of the serpent’s lie.</strong> Adam and Eve were already made in God’s image and likeness. They did not need to eat anything to become more like Him. Satan’s lie worked because it preyed on human desire for autonomy—the wish to live without boundaries. Yet instead of becoming like God, they became aware of their own shame and mortality. The serpent’s promise led not to divinity but to separation. The great irony is that by trying to become like God without God, humanity became enslaved to sin instead.</p>
+
+    <p><strong>8. The difference between Satan’s rebellion and human redemption.</strong> Satan’s choice was final because it was made in full knowledge of God’s glory. Human sin, while severe, is redeemable because it arises from weakness and deception, not eternal hatred of God. Through Christ, what Satan destroyed can be restored. Jesus came to undo the serpent’s lie by showing that true godliness is found in humility, obedience, and love. Philippians 2:8–9 describes that Christ “humbled himself by becoming obedient to death,” and in that humility, He was exalted—exactly the opposite of Satan’s path.</p>
+
+    <p>In summary, Satan did not eat the fruit because he had no desire to obey or trust God. His temptation was never about truth but about spreading the same rebellion that destroyed him. He cannot create, redeem, or become divine. Only God can give life and likeness. The serpent’s lie in Eden was a repetition of his own pride, and its goal was to pull humanity away from God’s grace. What Satan cannot do—repent, love, and submit—is exactly what God still invites every person to do.</p>
+  `,
+  refs: [
+    { term: "Genesis 3:1–5", desc: "Records the serpent’s deception of Eve with the promise of being like God." },
+    { term: "Genesis 1:27", desc: "Humans are already created in God’s image and likeness." },
+    { term: "Isaiah 14:13–14", desc: "Describes Lucifer’s prideful desire to exalt himself above God." },
+    { term: "2 Corinthians 11:14", desc: "Satan disguises himself as an angel of light to deceive." },
+    { term: "Revelation 12:9", desc: "Describes Satan as the deceiver of the entire world." },
+    { term: "Philippians 2:8–9", desc: "Christ’s humility and obedience led to His exaltation, the opposite of Satan’s pride." }
+  ]
+},
+{
+  id: "men-women-roles-bible",
+  title: "Why do men seem to have more prominence in the Bible, and what is the role of women?",
+  category: "Creation and Humanity",
+  tags: ["men", "women", "gender roles", "Bible", "equality", "creation"],
+  featured: false,
+  content: `
+    <p>At first glance, the Bible appears to highlight men more often than women. Most kings, prophets, and apostles were male, and many stories are told through their experiences. However, this prominence reflects the culture in which the Scriptures were written, not the value God places on men over women. In the context of ancient societies, where public authority and recordkeeping were male-dominated, God’s message still consistently honors the equality, dignity, and divine purpose of women. The Bible reveals that both men and women bear God’s image and share His mission, though their roles often differ in expression, not in worth.</p>
+
+    <p><strong>1. Cultural setting and divine message.</strong> The Bible was written across centuries in patriarchal societies where men typically led in politics, religion, and public life. Yet within those limitations, God continuously affirmed the importance and value of women. Far from ignoring them, Scripture includes their stories in ways that were revolutionary for its time. When the surrounding cultures silenced women, the Bible gave them names, voices, and divine callings. What appears as male dominance reflects cultural context, not God’s preference for men.</p>
+
+    <p><strong>2. Both men and women are made in God's image.</strong> From the very beginning, God established equality in worth and dignity. Genesis 1:27 declares, “So God created mankind in His own image, in the image of God He created them; male and female He created them.” This means both sexes equally reflect God’s nature. The distinction in roles does not imply superiority or inferiority. The man was not given greater spiritual value, and the woman was not an afterthought. Both were entrusted with the same calling: to steward creation, multiply, and glorify God together.</p>
+
+    <p><strong>3. The fall distorted relationship, not design.</strong> In Genesis 3, sin disrupted harmony between man and woman. The result was inequality, mistrust, and competition. The man began to rule over the woman, not as God’s original design, but as a consequence of the fall. This imbalance is not the reflection of divine order but of human brokenness. God’s redemptive plan through Christ restores what was lost, renewing the partnership between men and women under His lordship (Galatians 3:28).</p>
+
+    <p><strong>4. Women played essential roles in God’s story.</strong> The Bible highlights many women who shaped the course of salvation history. Sarah, Rebekah, and Rachel were central to God’s covenant promises. Deborah was a prophet and judge who led Israel to victory (Judges 4–5). Ruth, a Moabite woman, became part of the lineage of Jesus. Esther risked her life to save her people. Mary, the mother of Jesus, embodied humble obedience that changed history. The first witnesses of Christ’s resurrection were women, chosen by God to proclaim the most important truth ever revealed. These examples show that spiritual authority and faithfulness transcend gender.</p>
+
+    <p><strong>5. Jesus elevated women beyond cultural norms.</strong> In a time when women were often disregarded, Jesus treated them with dignity, compassion, and equality. He taught women alongside men (Luke 10:39), defended them from judgment (John 8:11), and received their service and friendship (Luke 8:1–3). His first recorded revelation of His identity as the Messiah was to a Samaritan woman (John 4). In doing so, He restored the honor that human tradition had stolen. The ministry of Jesus revealed that women are not secondary participants in God’s work but vital partners in His kingdom.</p>
+
+    <p><strong>6. Different roles, equal value.</strong> The New Testament shows that men and women often had distinct functions in family and ministry, but those differences were complementary, not hierarchical in worth. Men were called to lead in ways that reflect Christ’s sacrificial love, not dominance. Women were called to serve, teach, and nurture in ways that reveal God’s compassion and strength. Both roles are reflections of divine character. In the early church, women like Priscilla, Phoebe, and Lydia were leaders, teachers, and patrons of ministry (Romans 16:1–3). Their inclusion reveals that spiritual gifting is not bound by gender.</p>
+
+    <p><strong>7. Redemption restores partnership, not rivalry.</strong> Through Christ, the walls of division caused by sin are broken. Galatians 3:28 declares, “There is neither Jew nor Gentile, slave nor free, male nor female, for you are all one in Christ Jesus.” This does not erase gender but redefines identity around Christ rather than social roles. In the kingdom of God, men and women are co-laborers, both called to reflect His glory in their unique ways. God’s plan is not for dominance but for unity under His grace.</p>
+
+    <p><strong>8. The biblical vision of womanhood.</strong> The role of women in Scripture is broad and dignified. Women are portrayed as prophets, leaders, warriors, mothers, business owners, and disciples. Proverbs 31 describes a woman of strength, wisdom, and resourcefulness. The biblical view of women is not limited or secondary; it is holistic and sacred. Their role is to image God’s nurture, strength, and faith just as men reflect His authority, courage, and stewardship. Together, they complete the picture of humanity God intended.</p>
+
+    <p>In summary, men appear more visible in the Bible because of historical and cultural settings, not because they are more valued by God. The story of Scripture consistently honors women as vital participants in His redemptive plan. God created both men and women as equals in His image, each carrying unique reflections of His character. Where human cultures have divided and diminished, God restores equality, partnership, and purpose through Christ. In His kingdom, both men and women stand side by side as heirs of grace and instruments of His glory.</p>
+  `,
+  refs: [
+    { term: "Genesis 1:27", desc: "God created both male and female in His image, equally reflecting His nature." },
+    { term: "Genesis 3", desc: "Describes how sin disrupted the harmony between man and woman." },
+    { term: "Judges 4–5", desc: "Deborah served as a prophet and judge, leading Israel to victory." },
+    { term: "Luke 8:1–3", desc: "Jesus included women among His followers and supporters in ministry." },
+    { term: "John 4", desc: "Jesus revealed His identity to the Samaritan woman at the well." },
+    { term: "Romans 16:1–3", desc: "Paul commends women such as Phoebe and Priscilla as co-workers in ministry." },
+    { term: "Galatians 3:28", desc: "In Christ, all believers are equal, regardless of gender or social status." },
+    { term: "Proverbs 31", desc: "Describes a wise, strong, and industrious woman who honors God in her work and life." }
+  ]
+},
+{
+  id: "old-and-new-testaments",
+  title: "What are the Old Testament and the New Testament?",
+  category: "Biblical History",
+  tags: ["Old Testament", "New Testament", "Bible", "covenant", "scripture"],
+  featured: false,
+  content: `
+    <p>The Bible is divided into two major sections: the Old Testament and the New Testament. Together, they form one continuous story of God’s relationship with humanity. The word “testament” means “covenant,” or sacred agreement, describing the relationship God established with His people. The Old Testament reveals God’s covenant with Israel and His promises of redemption, while the New Testament reveals how those promises are fulfilled in Jesus Christ. They are not two separate books with different gods or messages but two parts of the same divine plan—one laying the foundation, the other revealing the fulfillment.</p>
+
+    <p><strong>1. The Old Testament: God’s covenant and preparation for salvation.</strong> The Old Testament contains thirty-nine books written primarily in Hebrew (with some Aramaic) over roughly a thousand years. It begins with creation in Genesis and ends with the prophetic hope of redemption in Malachi. Its main focus is God’s covenant relationship with Israel, through whom He intended to bless all nations (Genesis 12:2–3). The Old Testament records the history, laws, poetry, prophecies, and wisdom that reveal God’s character, justice, and faithfulness. It shows humanity’s fall into sin, God’s ongoing mercy, and His plan to send a Savior.</p>
+
+    <p><strong>2. Major divisions of the Old Testament.</strong> The Old Testament can be grouped into four main sections: the Law (Genesis to Deuteronomy), which contains the creation story, the covenant, and God’s commandments; the Historical Books (Joshua to Esther), which recount Israel’s journey, kings, and exile; the Wisdom Books (Job to Song of Solomon), which explore faith, suffering, and moral reflection; and the Prophets (Isaiah to Malachi), where God speaks through chosen messengers about judgment, repentance, and the coming Messiah. Every book, in its own way, points toward God’s plan to restore creation through His chosen one.</p>
+
+    <p><strong>3. The New Testament: God’s covenant fulfilled through Christ.</strong> The New Testament contains twenty-seven books written in Greek between approximately AD 50 and 100. It begins with the Gospels—Matthew, Mark, Luke, and John—which tell the story of Jesus Christ, the Son of God, who fulfills the Old Testament prophecies of a coming Messiah. Through His life, death, and resurrection, God establishes a new covenant of grace and forgiveness available to all who believe. The New Testament then continues with the Acts of the Apostles, the Epistles (letters written by early church leaders like Paul, Peter, and John), and the Book of Revelation, which reveals the ultimate victory of God’s kingdom.</p>
+
+    <p><strong>4. The connection between the two testaments.</strong> The Old and New Testaments are deeply connected. The Old Testament lays the groundwork for the coming of Christ, and the New Testament fulfills it. Jesus Himself said in Matthew 5:17, “Do not think that I have come to abolish the Law or the Prophets; I have not come to abolish them but to fulfill them.” The sacrificial system, prophecies, and covenants in the Old Testament all find their meaning in Jesus. The New Testament cannot be understood without the Old, and the Old finds its completion in the New.</p>
+
+    <p><strong>5. The Old Covenant versus the New Covenant.</strong> The Old Covenant, given through Moses, was based on the Law, requiring obedience and animal sacrifices to maintain right standing with God. The New Covenant, given through Christ, is based on grace. Hebrews 8:6 explains that Jesus is the mediator of a “better covenant, established on better promises.” Under the New Covenant, forgiveness comes not from rituals but from faith in the sacrifice of Christ, who died once for all. What was temporary under the Law became eternal through the cross.</p>
+
+    <p><strong>6. The purpose and unity of both testaments.</strong> The Old Testament reveals humanity’s need for salvation; the New Testament reveals how God provides it. Though written by many authors across centuries, both sections are unified by one central message: God’s love and His plan to redeem humanity. The Old Testament anticipates the Messiah; the New Testament proclaims Him. Together they form a complete revelation of God’s will—from creation to redemption, from the beginning of time to the promise of eternal life.</p>
+
+    <p><strong>7. Why both testaments matter today.</strong> The Old Testament teaches the foundations of faith, God’s justice, and His covenant faithfulness. The New Testament reveals the fullness of God’s grace through Jesus Christ. Christians read both because they show the consistency of God’s character across time. The Old Testament teaches who God is and why we need Him; the New Testament shows how He meets that need through Christ. Both are inspired by God (2 Timothy 3:16) and essential for understanding the whole story of salvation.</p>
+
+    <p>In summary, the Old Testament is the story of God’s covenant promises and preparation for redemption, while the New Testament is the story of their fulfillment through Jesus Christ. The two testaments are not separate messages but one unified revelation. The Old Testament points forward to the cross, and the New Testament looks back to it. Together, they reveal a faithful God who writes one story of love, justice, and grace from beginning to end.</p>
+  `,
+  refs: [
+    { term: "Genesis 12:2–3", desc: "God promises to bless all nations through Abraham’s descendants." },
+    { term: "Matthew 5:17", desc: "Jesus states that He came to fulfill the Law and the Prophets." },
+    { term: "Hebrews 8:6", desc: "Christ is the mediator of a better covenant based on better promises." },
+    { term: "2 Timothy 3:16", desc: "All Scripture is inspired by God and useful for teaching and correction." },
+    { term: "Revelation 21:27", desc: "Only those written in the Lamb’s Book of Life will enter God’s eternal kingdom." }
+  ]
+},
+{
+  id: "how-to-study-the-bible",
+  title: "How should someone study the Bible, and where should beginners start?",
+  category: "Faith and Christian Living",
+  tags: ["Bible study", "faith", "spiritual growth", "Scripture", "guidance"],
+  featured: false,
+  content: `
+    <p>Studying the Bible is not simply about gaining information but about encountering God through His Word. The Bible is living and active (Hebrews 4:12), meaning it continues to speak to people in every generation. For beginners, the goal is not to read everything at once but to understand the message of God’s love, salvation, and purpose one step at a time. The best way to begin is with humility, prayer, and consistency. The Bible is a lifelong companion that shapes how believers see the world and live out their faith.</p>
+
+    <p><strong>1. Begin with prayer and the right attitude.</strong> Before opening the Bible, ask God to guide your understanding. Scripture is not meant to be read only with the mind but also with the heart. Psalm 119:18 says, “Open my eyes that I may see wonderful things in your law.” Approach reading with reverence, expecting God to reveal truth. The Holy Spirit helps believers understand and apply what they read. Without prayer, the Bible can become a textbook; with prayer, it becomes a conversation with God.</p>
+
+    <p><strong>2. Start with the Gospels to understand Jesus.</strong> The best place for beginners is the Gospels—Matthew, Mark, Luke, and John—because they tell the story of Jesus Christ. Everything in the Bible points to Him. The Old Testament prepares for His coming, and the New Testament explains His work and the Church that follows Him. Reading the Gospels first helps establish a foundation of who Jesus is, what He taught, and what He accomplished through His death and resurrection. Begin with the Gospel of John, which clearly presents Jesus as the Son of God and explains faith in simple yet profound ways.</p>
+
+    <p><strong>3. Continue with the Book of Acts and the Letters.</strong> After understanding Jesus’ life and mission, the Book of Acts shows how the early Church lived out His teachings through the power of the Holy Spirit. The letters of Paul, Peter, and John (such as Romans, Ephesians, and Philippians) help explain how believers can apply faith in everyday life. These books give practical wisdom for prayer, relationships, morality, and spiritual growth. Reading them slowly and reflectively builds maturity and confidence in understanding Scripture.</p>
+
+    <p><strong>4. Read the Old Testament to understand the bigger story.</strong> Once you have a basic understanding of Jesus and the gospel, go back to the Old Testament to see how God’s story began. Start with Genesis, which explains creation, human purpose, and the beginning of sin and salvation. Then explore Exodus for God’s faithfulness and deliverance. The Psalms teach prayer and worship; Proverbs offers wisdom for daily living; and the prophets reveal God’s justice and mercy. Reading the Old Testament in light of the New helps you see how all Scripture points to Jesus (Luke 24:27).</p>
+
+    <p><strong>5. Read slowly and consistently, not quickly.</strong> The goal of Bible study is transformation, not speed. It is better to read a few verses carefully than to rush through chapters without understanding. Take time to reflect, ask questions, and apply what you learn. Use a translation that is accurate yet easy to understand, such as the New International Version (NIV), English Standard Version (ESV), or New Living Translation (NLT). Remember that the Bible is best understood when read daily, even in small portions.</p>
+
+    <p><strong>6. Use tools that help understanding.</strong> Study Bibles, commentaries, and Bible dictionaries can provide context, background, and explanations of difficult passages. The Bible was written in different historical and cultural settings, so understanding those contexts brings depth to your reading. Joining a Bible study group or church fellowship can also help, since learning with others allows for discussion and shared insight. Proverbs 27:17 reminds us, “As iron sharpens iron, so one person sharpens another.”</p>
+
+    <p><strong>7. Meditate and apply what you learn.</strong> True Bible study leads to changed living. James 1:22 says, “Do not merely listen to the word, and so deceive yourselves. Do what it says.” Reflect on what each passage reveals about God, humanity, and your own heart. Ask: What is God teaching me here? How can I live this truth today? Scripture becomes powerful when it moves from the page to practice. Memorizing key verses also helps anchor God’s truth in your life.</p>
+
+    <p><strong>8. Be patient and persistent.</strong> Understanding the Bible takes time. Even lifelong believers continue to discover new truths each time they read. Some passages will be challenging or confusing, but do not be discouraged. The Holy Spirit will deepen your understanding as you stay faithful. Think of studying the Bible as a relationship: the more time you spend with God’s Word, the clearer His voice becomes.</p>
+
+    <p><strong>9. Focus on relationship, not ritual.</strong> Bible study is not about checking a box or earning approval; it is about knowing God personally. The Bible reveals His heart, His promises, and His will. When you read with love for the Author, every passage becomes a meeting place with Him. Psalm 1:2–3 describes the person who delights in God’s Word as “like a tree planted by streams of water, which yields its fruit in season.” The more deeply you study, the stronger your roots of faith grow.</p>
+
+    <p>In summary, studying the Bible begins with prayer, curiosity, and consistency. Start with the story of Jesus, then expand to the rest of Scripture to see how all of it connects. Use helpful tools, apply what you learn, and let the Holy Spirit guide you. The Bible is not just a book to master—it is a living message that shapes the heart and mind of every believer who listens. Every page leads to the same truth: God’s Word points us to the person of Jesus Christ, the center of all Scripture.</p>
+  `,
+  refs: [
+    { term: "Hebrews 4:12", desc: "The Word of God is living and active, sharper than any double-edged sword." },
+    { term: "Psalm 119:18", desc: "A prayer asking God to open our eyes to see His truth in Scripture." },
+    { term: "Luke 24:27", desc: "Jesus explained to His disciples how the Scriptures pointed to Him." },
+    { term: "Proverbs 27:17", desc: "As iron sharpens iron, so one person sharpens another." },
+    { term: "James 1:22", desc: "Do not just hear the Word, but do what it says." },
+    { term: "Psalm 1:2–3", desc: "Those who delight in God’s Word are like trees planted by water, bearing fruit in season." }
+  ]
+},
+{
+  id: "jesus-example-for-life",
+  title: "When Jesus Christ became human, was one of His purposes to show us how to live?",
+  category: "Theology and Doctrine",
+  tags: ["Jesus Christ", "incarnation", "example", "discipleship", "Christian living"],
+  featured: false,
+  content: `
+    <p>Yes. One of the purposes of Jesus Christ becoming human was to show what perfect obedience, love, and faithfulness to God look like in real life. The Bible teaches that Jesus came not only to save humanity through His death and resurrection but also to reveal how a life fully aligned with God’s will should be lived. His incarnation—God taking on human flesh—was both redemptive and instructive. Through His words, actions, and relationships, Jesus modeled holiness, humility, compassion, and obedience. He lived the life we were meant to live, providing an example for all who follow Him.</p>
+
+    <p><strong>1. Jesus revealed God’s character in human form.</strong> John 1:14 declares, “The Word became flesh and made His dwelling among us.” Through Jesus, the invisible God became visible. He showed that God’s nature is not distant or abstract but personal and relational. By living among people, Jesus demonstrated divine love in a way humanity could see and understand. Everything He did—how He prayed, forgave, served, and suffered—reflected the heart of the Father. In Him, we see both the perfection of God and the ideal of humanity united in one life.</p>
+
+    <p><strong>2. Jesus lived as the perfect example of obedience.</strong> Philippians 2:8 explains that Jesus “humbled Himself by becoming obedient to death—even death on a cross.” His life was defined by submission to the Father’s will, not by personal ambition or comfort. He taught by example that obedience is not weakness but strength grounded in trust. From resisting temptation in the wilderness (Matthew 4:1–11) to praying in Gethsemane, “Not my will, but Yours be done” (Luke 22:42), Jesus modeled surrender to God’s plan. He showed that true freedom is found in obedience to the Father.</p>
+
+    <p><strong>3. Jesus modeled love, humility, and service.</strong> In a world driven by status and power, Jesus redefined greatness through servanthood. He washed His disciples’ feet (John 13:12–15), taught them to love their enemies (Matthew 5:44), and laid down His life for others (John 15:13). Every action of His ministry—healing the sick, feeding the hungry, welcoming outcasts—demonstrated God’s love in action. He taught that leadership in God’s kingdom means serving others with humility and compassion. His life became the standard for all who wish to follow Him.</p>
+
+    <p><strong>4. Jesus showed how to depend on God.</strong> Although fully divine, Jesus lived in full dependence on the Father. He prayed constantly (Mark 1:35), sought solitude for communion with God, and drew strength through the Spirit. His dependence teaches believers that spiritual power does not come from self-reliance but from intimacy with God. He lived by the Word of God, quoting Scripture in times of trial and teaching that “man shall not live on bread alone, but on every word that comes from the mouth of God” (Matthew 4:4). Jesus’ example shows that daily reliance on God is essential to a faithful life.</p>
+
+    <p><strong>5. Jesus demonstrated how to resist sin and temptation.</strong> As the sinless Son of God, Jesus faced temptation but never yielded to it. Hebrews 4:15 states that He was “tempted in every way, just as we are—yet He did not sin.” This makes Him both our Savior and our example. His victory over temptation reveals that God provides strength to overcome evil. He relied not on His divine power but on God’s Word and prayer, showing believers how to fight temptation through faith and dependence rather than pride or willpower.</p>
+
+    <p><strong>6. Jesus modeled forgiveness and compassion.</strong> Jesus’ interactions with sinners, the sick, and the marginalized reveal the depth of divine mercy. He forgave those who crucified Him, saying, “Father, forgive them, for they do not know what they are doing” (Luke 23:34). His compassion was not selective or conditional. He reached out to those society ignored, offering grace where others offered judgment. In doing so, He showed that forgiveness is not a feeling but a decision grounded in love and obedience to God’s heart.</p>
+
+    <p><strong>7. Jesus’ example calls believers to follow in His steps.</strong> 1 Peter 2:21 summarizes this truth clearly: “Christ suffered for you, leaving you an example, that you should follow in His steps.” Following Jesus means more than believing His words; it means imitating His life. This includes practicing humility, pursuing righteousness, forgiving freely, and serving sacrificially. His way of living sets the pattern for all disciples. Christians are not only saved by His death but shaped by His example.</p>
+
+    <p><strong>8. Jesus’ life was both example and empowerment.</strong> Jesus did not come merely to show us how to live; He came to make it possible. Without His Spirit, we cannot live as He did. Through His death and resurrection, believers receive the Holy Spirit, who empowers them to follow His example. Romans 8:29 says that God’s goal is for believers to be “conformed to the image of His Son.” Jesus’ earthly life reveals what God desires in us, and His Spirit makes it achievable. His example becomes our direction; His Spirit becomes our strength.</p>
+
+    <p>In summary, one of the purposes of Jesus’ incarnation was indeed to model the life God intended for humanity. He demonstrated perfect love, obedience, humility, and dependence on the Father. His life was the pattern; His Spirit is the power to live it out. Following Jesus means learning from His words, imitating His actions, and reflecting His character in every part of life. The more we study His example, the more we become what God designed us to be—children who live in truth, freedom, and love.</p>
+  `,
+  refs: [
+    { term: "John 1:14", desc: "The Word became flesh and revealed God’s glory among us." },
+    { term: "Philippians 2:8", desc: "Jesus humbled Himself in obedience, even to death on the cross." },
+    { term: "Matthew 4:4", desc: "Jesus teaches dependence on God’s Word during temptation." },
+    { term: "Luke 22:42", desc: "Jesus submits to the Father’s will in Gethsemane." },
+    { term: "John 13:12–15", desc: "Jesus washes His disciples’ feet as a model of humility and service." },
+    { term: "Hebrews 4:15", desc: "Jesus was tempted in every way but did not sin." },
+    { term: "Luke 23:34", desc: "Jesus forgives those who crucified Him." },
+    { term: "1 Peter 2:21", desc: "Believers are called to follow in the example of Christ’s suffering and obedience." },
+    { term: "Romans 8:29", desc: "God’s purpose is to conform believers to the image of His Son." }
+  ]
+},
+{
+  id: "meaning-of-crucifixion",
+  title: "What does the Crucifixion teach us, and why did Jesus die on a cross?",
+  category: "Theology and Doctrine",
+  tags: ["Crucifixion", "Jesus Christ", "salvation", "atonement", "sacrifice"],
+  featured: false,
+  content: `
+    <p>The Crucifixion of Jesus Christ stands at the center of the Christian faith. It is more than a tragic event or a symbol of suffering—it is the heart of God’s plan to redeem the world. Through the cross, God revealed the depth of His love, the seriousness of sin, and the perfection of justice and mercy meeting in one moment. The form of death—crucifixion—was not random. It was chosen because it revealed both the extremity of human cruelty and the greatness of divine grace. Jesus’ death on the cross teaches us not only how salvation was accomplished, but also how God’s character is displayed through sacrifice, forgiveness, and love that conquers evil.</p>
+
+    <p><strong>1. The Crucifixion reveals the depth of human sin.</strong> Crucifixion was the most brutal and humiliating form of execution in the ancient world. It was designed to inflict maximum suffering and public shame. By enduring this form of death, Jesus exposed the full ugliness of sin—humanity’s rejection of God, cruelty, pride, and violence. The cross shows what happens when the Creator comes into His creation and is met with rebellion. It is a mirror of the human heart apart from God: willing to destroy innocence rather than surrender pride.</p>
+
+    <p><strong>2. The Crucifixion reveals the depth of God’s love.</strong> Romans 5:8 declares, “God demonstrates His own love for us in this: While we were still sinners, Christ died for us.” Jesus’ willingness to suffer the cross was not weakness but love in action. He took upon Himself the punishment that sin deserved, so that humanity could be reconciled to God. The cross is where divine love meets human failure. It tells us that no one is too far gone to be forgiven. The very instrument of death became the doorway to eternal life.</p>
+
+    <p><strong>3. The cross fulfills prophecy and divine purpose.</strong> Jesus’ death by crucifixion was not an accident of history but the fulfillment of God’s plan foretold in Scripture. Psalm 22 and Isaiah 53, written centuries earlier, describe the suffering of the Messiah in detail—His hands and feet pierced, His garments divided, His silence before accusers. Even the Roman method of execution served to fulfill these prophecies. God used what was meant for shame to accomplish salvation. In the very method of His death, Jesus confirmed that He was the promised Savior who would bear the sins of many.</p>
+
+    <p><strong>4. The crucifixion was chosen to show both justice and mercy.</strong> Sin cannot be ignored or simply excused. God’s justice demands that wrongdoing be addressed. Yet His mercy desires to forgive. On the cross, these two divine qualities meet perfectly. Jesus bore the judgment that justice required so that mercy could be freely offered. 2 Corinthians 5:21 explains it this way: “God made Him who had no sin to be sin for us, so that in Him we might become the righteousness of God.” The cross shows that forgiveness is not cheap—it cost God His Son.</p>
+
+    <p><strong>5. Crucifixion symbolizes complete surrender and humility.</strong> Jesus did not die quickly or privately. He endured public humiliation, physical agony, and isolation. Philippians 2:8 says that He “humbled Himself by becoming obedient to death—even death on a cross.” Of all possible ways to die, the cross was the lowest form of suffering. Yet Jesus accepted it willingly to show that divine strength is expressed through humility. His death was the ultimate act of obedience to the Father’s will and love for humanity.</p>
+
+    <p><strong>6. The cross demonstrates victory through weakness.</strong> The cross looked like defeat, but it became the greatest victory in history. Satan, sin, and death were all conquered through what seemed like failure. Colossians 2:15 says that Jesus “disarmed the powers and authorities” and “triumphed over them by the cross.” The very symbol of defeat became the instrument of triumph. God chose the cross to reverse human expectations—to show that real power is not domination but self-giving love. In the world’s eyes, crucifixion was shame; in God’s plan, it was glory.</p>
+
+    <p><strong>7. The cross transforms suffering into redemption.</strong> Jesus’ crucifixion teaches that suffering is not meaningless when it is joined to God’s purpose. Through His pain, healing came to others. Isaiah 53:5 declares, “By His wounds we are healed.” This does not mean all pain disappears, but that God can use even suffering to bring restoration and hope. The cross stands as proof that God can transform the darkest moment into the source of salvation.</p>
+
+    <p><strong>8. The Crucifixion calls believers to follow the way of the cross.</strong> Jesus said in Luke 9:23, “If anyone would come after Me, he must deny himself, take up his cross daily, and follow Me.” The cross is not only what saves us but also what shapes us. It teaches that the path of discipleship involves humility, forgiveness, and endurance. To follow Jesus is to walk the same road of love and self-sacrifice that He walked. The cross changes how we live—turning pride into service, resentment into forgiveness, and fear into courage.</p>
+
+    <p><strong>9. The crucifixion was necessary to reveal resurrection power.</strong> The cross and resurrection cannot be separated. Without the cross, there is no resurrection; without resurrection, the cross would be tragedy. Jesus’ choice to die by crucifixion set the stage for His triumph over death. The very nails that held Him to the cross could not hold Him in the grave. His rising from the dead transforms the cross from a symbol of despair into one of eternal hope. The worst act of evil in history became the greatest act of redemption.</p>
+
+    <p>In summary, Jesus’ death by crucifixion was chosen to reveal the full measure of both human sin and divine love. The cross teaches that salvation is costly, that love is sacrificial, and that victory often looks like surrender. It exposes the horror of sin and the beauty of grace. Jesus endured the cross so that through His suffering, humanity might be set free. Of all kinds of death, crucifixion best displayed the truth that God’s love reaches even the lowest place and transforms it into the highest glory.</p>
+  `,
+  refs: [
+    { term: "Romans 5:8", desc: "God demonstrates His love for us in that Christ died for us while we were still sinners." },
+    { term: "Psalm 22", desc: "A prophetic description of the Messiah’s suffering and crucifixion." },
+    { term: "Isaiah 53", desc: "Foretells the suffering servant who bears humanity’s sins." },
+    { term: "2 Corinthians 5:21", desc: "Christ became sin for us so that we might become God’s righteousness." },
+    { term: "Philippians 2:8", desc: "Jesus humbled Himself, becoming obedient to death on a cross." },
+    { term: "Colossians 2:15", desc: "Through the cross, Christ triumphed over all spiritual powers." },
+    { term: "Isaiah 53:5", desc: "By His wounds we are healed." },
+    { term: "Luke 9:23", desc: "Jesus calls His followers to take up their cross daily." }
+  ]
+},
+{
+  id: "allah-vs-jesus-christ",
+  title: "Is Allah of Islam the same as Jesus Christ of Christianity?",
+  category: "Theology and Doctrine",
+  tags: ["Allah", "Jesus Christ", "Islam", "Christianity", "God"],
+  featured: false,
+  content: `
+    <p>This question goes to the heart of how Christianity and Islam understand God. Both faiths affirm that there is one Creator of the universe, eternal, all-powerful, and merciful. Muslims call Him <em>Allah</em>—a word meaning “God” in Arabic. Arabic-speaking Christians also use the word “Allah” when referring to the God of the Bible. However, while both faiths refer to one supreme deity, their understanding of His nature, revelation, and relationship with humanity is very different. In Christianity, Jesus Christ is God Himself in human form; in Islam, Allah is not incarnate and has no son. The names may sound similar, but the identity described by each faith is fundamentally distinct.</p>
+
+    <p><strong>1. The shared starting point: belief in one God.</strong> Both Christianity and Islam are monotheistic, meaning they believe in one God, the Creator of all. Both teach that God is all-knowing, just, and merciful. Muslims and Christians agree that He created humanity, sustains life, and will judge the world. Yet from that common foundation, the two faiths diverge sharply on who God is and how He reveals Himself.</p>
+
+    <p><strong>2. The Christian understanding: God revealed in Christ.</strong> Christianity teaches that the one true God revealed Himself as Father, Son, and Holy Spirit—the Holy Trinity. This does not mean three gods, but one divine being in three co-eternal persons. The Son, Jesus Christ, became human to redeem the world. John 1:14 says, “The Word became flesh and made His dwelling among us.” Christians believe that in Jesus, God Himself entered creation. Therefore, when Christians speak of Jesus Christ, they are not talking about a prophet of God, but God incarnate—fully divine and fully human. Jesus is not a messenger pointing to God; He is God revealing Himself.</p>
+
+    <p><strong>3. The Islamic understanding: Allah as one, with no partners or equals.</strong> In Islam, Allah is strictly one and transcendent. The Qur’an explicitly rejects the idea that God could have a son or share His divine nature with anyone. Surah 112:1–4 declares, “Say: He is Allah, the One; Allah, the Eternal Refuge. He neither begets nor is born, nor is there to Him any equivalent.” Muslims view Jesus (Isa) as a great prophet and miracle worker, born of the Virgin Mary, but not divine. To call Jesus “God” or “the Son of God” is considered <em>shirk</em>, the sin of associating partners with God. Thus, while both faiths worship one God, the nature of that God is described very differently.</p>
+
+    <p><strong>4. The difference in relationship: distant authority versus personal presence.</strong> In Islam, Allah reveals His will but not His person. He is known through the Qur’an and the prophets, but He does not become human or enter creation. In Christianity, God not only reveals His will but also His nature through personal relationship. Jesus said in John 14:9, “Anyone who has seen Me has seen the Father.” This statement defines the central difference: Christians believe that to know Jesus is to know God Himself. Islam, however, considers this belief blasphemous, insisting that God cannot share His divine nature with any creature.</p>
+
+    <p><strong>5. The difference in salvation: grace through Christ versus deeds and submission.</strong> Christianity teaches that salvation is by grace through faith in Jesus Christ (Ephesians 2:8–9). Jesus’ death and resurrection reconcile humanity to God, something no human effort can achieve. In Islam, salvation is based on submission to Allah’s will and the balance of good deeds against bad. There is no concept of a divine Savior taking away sin. Muslims believe forgiveness is granted through repentance and Allah’s mercy, not through sacrifice. The cross, central to Christianity, has no place in Islam’s understanding of redemption.</p>
+
+    <p><strong>6. The issue of revelation: the Bible versus the Qur’an.</strong> Christianity teaches that God’s ultimate revelation is Jesus Christ Himself—the living Word of God (John 1:1). The Bible records this revelation through history, prophecy, and eyewitness testimony. Islam teaches that Allah’s final and perfect revelation is the Qur’an, given to Muhammad by the angel Gabriel. Where the Bible reveals God through relationship and incarnation, the Qur’an reveals Allah through law and command. These two revelations reflect completely different views of how God interacts with humanity.</p>
+
+    <p><strong>7. Similar names, different identity.</strong> The word “Allah” simply means “God” in Arabic, and Christians in the Middle East have used it for centuries to refer to the God of the Bible. However, language does not define theology. What matters is how that God is understood. The Allah of the Qur’an is a single, indivisible being who cannot be known personally or take on human nature. The God revealed in Jesus Christ is triune, relational, and self-giving. The difference is not just about terminology but about the very essence of who God is.</p>
+
+    <p><strong>8. Why the distinction matters.</strong> The question is not whether Christians and Muslims worship “the same God” in name, but whether they recognize the same truth about His nature and purpose. The Bible teaches that no one can know the Father except through the Son (John 14:6). From a Christian perspective, the fullness of God’s identity is revealed only in Jesus Christ. Without Him, our knowledge of God remains partial. Islam affirms God’s power and majesty but denies His incarnation and atoning love—truths that are central to the gospel. Thus, while Christians respect Muslims’ devotion to one God, they see Jesus Christ as the decisive difference between knowing about God and truly knowing Him.</p>
+
+    <p>In summary, Allah and Jesus Christ are not the same. Both Islam and Christianity affirm the existence of one Creator, but they describe Him in profoundly different ways. The God of the Bible is revealed as Father, Son, and Holy Spirit—a God who entered history, took on human flesh, and died to save His creation. The Allah of Islam remains beyond incarnation and relationship. The difference between them is not in number but in nature: Christianity proclaims a God who became man out of love, while Islam proclaims a God who remains forever distant. In Jesus Christ, God is not only known but near, not only powerful but personal, not only Creator but Redeemer.</p>
+  `,
+  refs: [
+    { term: "John 1:14", desc: "The Word became flesh and revealed God among us." },
+    { term: "John 14:6", desc: "Jesus declares that He is the way, the truth, and the life; no one comes to the Father except through Him." },
+    { term: "John 14:9", desc: "Anyone who has seen Jesus has seen the Father." },
+    { term: "Ephesians 2:8–9", desc: "Salvation is by grace through faith, not by works." },
+    { term: "Surah 112:1–4", desc: "The Qur’an declares Allah as one, having no partners or equals." },
+    { term: "Philippians 2:6–8", desc: "Jesus, being in very nature God, humbled Himself and became human." }
+  ]
+},
+{
+  id: "peace-in-other-religions",
+  title: "How do people find peace in other religions such as Islam, Buddhism, Hinduism, and other non-Christian faiths?",
+  category: "Theology and Doctrine",
+  tags: ["peace", "religion", "faith", "spirituality", "truth"],
+  featured: false,
+  content: `
+    <p>People across different religions often describe a sense of peace or spiritual fulfillment through their faith. This is because every human being is created with a spiritual nature and an innate longing for connection with the divine. The Bible acknowledges that God placed eternity in the human heart (Ecclesiastes 3:11). This desire drives people everywhere to seek meaning, comfort, and purpose through worship, meditation, or moral living. However, while other religions may provide a sense of inner calm or discipline, Christianity teaches that lasting and ultimate peace comes only through reconciliation with God in Jesus Christ. Other paths may reflect humanity’s search for peace, but only Christ restores the broken relationship between humanity and the Creator.</p>
+
+    <p><strong>1. The human search for peace is universal.</strong> Every culture and religion recognizes the tension between chaos and harmony, guilt and forgiveness, suffering and hope. From ancient rituals to modern mindfulness, people have always sought relief from fear, guilt, and anxiety. This longing itself is evidence of the divine image within us—an inner awareness that something greater exists and that life should be more whole. Religions like Buddhism, Islam, and Hinduism offer different frameworks to address this longing, but the underlying need is the same: to find rest for the soul.</p>
+
+    <p><strong>2. How peace is pursued in different faiths.</strong> In <strong>Islam</strong>, peace is found through submission to the will of Allah. The word “Islam” itself means “submission,” and followers believe that obedience to divine law brings spiritual order and assurance. In <strong>Buddhism</strong>, peace comes from detachment—letting go of desire and ego to reach enlightenment (nirvana), the state beyond suffering. In <strong>Hinduism</strong>, peace arises from harmony with cosmic order (dharma) and union with the divine through meditation and devotion. In other worldviews, peace might come through moral behavior, community belonging, or meditation practices that calm the mind. These practices can genuinely produce emotional or psychological peace because they engage real spiritual and moral principles, such as discipline, forgiveness, and compassion.</p>
+
+    <p><strong>3. The difference between inner calm and spiritual reconciliation.</strong> Christianity does not deny that people of other faiths can experience peace, compassion, or moral transformation. Many find temporary peace through self-discipline, meditation, or ethical living. But according to Scripture, true peace is not merely an emotion or mindset—it is a restored relationship with God. Romans 5:1 says, “Since we have been justified through faith, we have peace with God through our Lord Jesus Christ.” This peace is not based on human effort but divine grace. Other religions offer ways to manage inner conflict; Christianity offers reconciliation with the very Source of peace.</p>
+
+    <p><strong>4. The peace of Christ is different in nature and origin.</strong> Jesus said, “Peace I leave with you; my peace I give you. I do not give to you as the world gives” (John 14:27). The peace He describes is not only emotional comfort but spiritual wholeness—a deep restoration of the heart through God’s presence. Unlike the peace found through meditation or ritual, Christ’s peace remains even in suffering. It is not dependent on circumstances but rooted in the assurance of God’s love and forgiveness. While other faiths teach people to reach upward toward the divine, Christianity teaches that God came downward in Christ to bring peace to those who could not reach Him on their own.</p>
+
+    <p><strong>5. Reflections of truth in other faiths.</strong> Christians believe that since all people are made in God’s image, traces of truth and goodness appear in every culture and religion. Acts 17:27 says that God made nations “so that they would seek Him and perhaps reach out for Him and find Him.” The moral teachings, compassion, and reverence found in other religions often reflect humanity’s partial awareness of God’s truth. Yet these reflections are incomplete without Christ, who is “the way, the truth, and the life” (John 14:6). Other religions may express humanity’s reach for God; Christianity reveals God’s reach for humanity.</p>
+
+    <p><strong>6. Why people can still feel peace without knowing Christ personally.</strong> Emotional or psychological peace can arise from spiritual practices that align with natural human needs—like quiet reflection, moral behavior, or community belonging. God’s general grace allows people everywhere to experience aspects of His goodness, even if they do not yet know Him fully. However, the Bible teaches that without reconciliation through Christ, this peace cannot be complete. Isaiah 48:22 says, “There is no peace for the wicked,” meaning that apart from God’s forgiveness, humanity’s peace remains fragile and temporary. Real peace is not just the absence of conflict, but the presence of God.</p>
+
+    <p><strong>7. The role of respect and truth in dialogue.</strong> Christians are called to treat people of all faiths with respect, humility, and compassion. Recognizing that others sincerely seek peace should never lead to arrogance or hostility. But love also requires truth. While other religions may offer wisdom and moral guidance, Christians believe that salvation and eternal peace come only through Christ. Sharing this truth should always come from love, not superiority. Jesus met people of different beliefs with both grace and clarity, offering Himself as the answer to their deepest spiritual needs.</p>
+
+    <p><strong>8. The invitation of Christ’s peace.</strong> The peace found in other faiths often calms the mind, but the peace offered by Christ transforms the heart. It reconciles humanity with God, heals the conscience, and brings eternal hope. Philippians 4:7 describes it as “the peace of God, which transcends all understanding.” It is not earned through effort but received through faith. While other religions help people manage life’s struggles, only Christ gives peace that endures beyond death. His invitation remains open to all: “Come to Me, all you who are weary and burdened, and I will give you rest” (Matthew 11:28).</p>
+
+    <p>In summary, people in other religions may find genuine feelings of peace through devotion, moral discipline, or meditation. These reflect humanity’s deep desire for the divine. Yet Christianity teaches that ultimate peace is not found in human pursuit but in divine grace. True peace is not something we achieve; it is someone we meet—Jesus Christ, the Prince of Peace. His peace does not end with calmness but begins with reconciliation, and it lasts for eternity.</p>
+  `,
+  refs: [
+    { term: "Ecclesiastes 3:11", desc: "God has set eternity in the human heart, creating a longing for Him." },
+    { term: "Romans 5:1", desc: "Through faith in Christ, believers have peace with God." },
+    { term: "John 14:27", desc: "Jesus offers a peace unlike the world’s peace." },
+    { term: "Acts 17:27", desc: "God designed humanity to seek Him and find Him." },
+    { term: "John 14:6", desc: "Jesus declares Himself as the way, the truth, and the life." },
+    { term: "Isaiah 48:22", desc: "There is no lasting peace apart from God." },
+    { term: "Philippians 4:7", desc: "The peace of God surpasses human understanding." },
+    { term: "Matthew 11:28", desc: "Jesus invites the weary and burdened to find rest in Him." }
+  ]
+},
+{
+  id: "fear-vs-love-of-god",
+  title: "What is the difference between the fear of God and the love of God?",
+  category: "Faith and Christian Living",
+  tags: ["fear of God", "love of God", "wisdom", "reverence", "relationship"],
+  featured: false,
+  content: `
+    <p>The fear of God and the love of God are not opposites but complementary attitudes that together define a healthy relationship with Him. The Bible often speaks of both in the same breath, showing that genuine faith holds reverence and affection in balance. To fear God is to recognize His holiness, power, and authority. To love God is to delight in His goodness, mercy, and grace. Fear without love becomes cold religion; love without fear becomes careless familiarity. The mature believer holds both together—respecting God’s majesty while rejoicing in His mercy.</p>
+
+    <p><strong>1. What the fear of God means.</strong> The “fear of the Lord” in Scripture does not mean terror, dread, or panic. It means deep reverence, awe, and respect toward the Creator. It is the awareness of His greatness and our smallness, His holiness and our dependence. Proverbs 9:10 says, “The fear of the Lord is the beginning of wisdom.” This fear keeps the heart humble and guarded against pride and sin. It is not fear of punishment but awareness of God’s rightful authority—a recognition that life and morality have meaning because He is God and we are not.</p>
+
+    <p><strong>2. What the love of God means.</strong> The love of God draws the believer not by fear of judgment but by the experience of His goodness. 1 John 4:19 says, “We love because He first loved us.” Love of God means affection, trust, and devotion toward Him who gave Himself for us. It leads to joy, obedience, and worship not out of duty but gratitude. Where fear teaches reverence, love teaches relationship. The more we understand God’s love, the more our obedience becomes a willing response rather than reluctant compliance.</p>
+
+    <p><strong>3. Fear of God without love produces distance.</strong> If fear stands alone, it can lead to viewing God as harsh, distant, or impossible to please. Some people live in constant anxiety, trying to earn His approval rather than resting in His grace. This is not biblical fear but distortion. God does not desire slaves driven by dread, but children who honor and love Him. Romans 8:15 reminds believers that they have not received “a spirit that makes you slaves again to fear, but the Spirit of sonship.” Holy fear draws us closer in respect, not pushes us away in terror.</p>
+
+    <p><strong>4. Love of God without fear produces carelessness.</strong> On the other hand, focusing only on love without reverence can lead to a casual attitude toward holiness. When people treat God as if He were merely a friend without recognizing His lordship, they lose the sense of awe that guards against sin. Hebrews 12:28–29 says, “Let us worship God acceptably with reverence and awe, for our God is a consuming fire.” Love without holy fear can become sentimentality—feeling affection for God without transformation. True love honors God’s holiness as much as His kindness.</p>
+
+    <p><strong>5. The balance: reverent love and loving reverence.</strong> The healthiest faith is one where fear and love meet. When we fear God rightly, we avoid sin because we respect His authority. When we love God rightly, we avoid sin because we do not want to grieve His heart. Fear motivates obedience out of respect; love motivates obedience out of desire. Together, they lead to joyful submission. Psalm 130:4 expresses this balance beautifully: “With You there is forgiveness; therefore You are feared.” In other words, His mercy deepens our reverence, not diminishes it.</p>
+
+    <p><strong>6. Jesus embodied both fear and love perfectly.</strong> During His earthly life, Jesus showed perfect reverence for the Father’s will (“Not my will, but Yours be done,” Luke 22:42) and perfect love that led Him to the cross. His relationship with the Father was marked by awe, obedience, and intimacy. He called God “Abba” (meaning “Father”)—a term of both respect and affection. This shows that fearing God does not exclude closeness; it deepens it. The more we recognize God’s majesty, the more we marvel at His willingness to love us.</p>
+
+    <p><strong>7. The transformation of fear through love.</strong> 1 John 4:18 explains that “perfect love drives out fear, because fear has to do with punishment.” This verse does not mean we should lose all fear of God but that the kind of fear rooted in dread and guilt is replaced by love and confidence. Through Christ, we are no longer condemned. We stand before God not as trembling sinners but as beloved children. Our reverence remains, but our terror is gone. Love transforms fear into worshipful awe.</p>
+
+    <p><strong>8. How to cultivate both fear and love.</strong> To grow in the fear of God, reflect on His holiness and sovereignty through Scripture and worship. To grow in love for God, meditate on His grace, patience, and mercy revealed in Jesus Christ. Prayer, repentance, and gratitude strengthen both. When the heart learns to tremble at His majesty and rest in His mercy, faith matures. The fear of God keeps us grounded; the love of God keeps us joyful.</p>
+
+    <p>In summary, the fear of God and the love of God are not rivals but companions. Fear gives love its seriousness; love gives fear its warmth. Fear without love leads to despair; love without fear leads to presumption. But together, they create worship that is both humble and passionate, disciplined and joyful. To fear God rightly is to love Him deeply—to stand in awe of His holiness while resting in His grace.</p>
+  `,
+  refs: [
+    { term: "Proverbs 9:10", desc: "The fear of the Lord is the beginning of wisdom." },
+    { term: "1 John 4:19", desc: "We love because God first loved us." },
+    { term: "Romans 8:15", desc: "Believers receive the Spirit of sonship, not a spirit of fear." },
+    { term: "Hebrews 12:28–29", desc: "Worship God with reverence and awe, for He is a consuming fire." },
+    { term: "Psalm 130:4", desc: "With God there is forgiveness; therefore He is feared." },
+    { term: "Luke 22:42", desc: "Jesus submits to the Father’s will in reverent obedience." },
+    { term: "1 John 4:18", desc: "Perfect love drives out fear, replacing dread with confidence in God’s love." }
+  ]
+},
+{
+  id: "jesus-leading-disciples",
+  title: "Why was Jesus often seen walking in front of His disciples, unlike leaders who stay behind the group?",
+  category: "Theology and Doctrine",
+  tags: ["Jesus Christ", "leadership", "discipleship", "humility", "example"],
+  featured: false,
+  content: `
+    <p>When the Gospels describe Jesus walking ahead of His disciples, it is not a symbol of pride or distance, but of purpose and courage. Jesus walked in front because He was leading the way—literally and spiritually. Unlike earthly leaders who stay behind for safety or control, Jesus went before His followers to show the path they must take. His position in front represented guidance, sacrifice, and example. He was not a distant commander but a Shepherd who goes before His sheep. His leadership was not domination but demonstration, teaching by action what it means to follow God fully.</p>
+
+    <p><strong>1. Walking ahead showed His purpose and resolve.</strong> The Gospels record that Jesus “set His face toward Jerusalem” (Luke 9:51), meaning He was determined to fulfill His mission even though He knew it would lead to suffering and death. When He walked ahead of His disciples, He embodied courage and commitment to God’s plan. Mark 10:32 describes the scene: “They were on the road going up to Jerusalem, and Jesus was walking ahead of them, and they were amazed, and those who followed were afraid.” His stride forward revealed His resolve to face the cross, even when others hesitated. His followers trailed behind in awe because He walked into danger willingly.</p>
+
+    <p><strong>2. Jesus led by example, not by control.</strong> Human leaders often command from behind, ensuring their own safety or directing others into risk. Jesus reversed that image. He led from the front, modeling service, humility, and obedience. John 10:4 captures this beautifully: “When He has brought out all His own, He goes on ahead of them, and His sheep follow Him because they know His voice.” This image of the Good Shepherd shows leadership that protects and guides by presence, not by distance. Jesus went before His disciples both physically and spiritually to clear the path and show them what it means to trust God completely.</p>
+
+    <p><strong>3. His position revealed His identity as the Shepherd and the Way.</strong> Jesus did not simply tell people where to go; He was the Way Himself (John 14:6). By walking in front, He demonstrated that He is the path to God, the one who leads and sustains His followers. In ancient times, a shepherd always walked before the flock to guide it away from danger and toward safe pastures. Jesus embodied that same pattern of care. He led not to gain power, but to protect those who followed Him.</p>
+
+    <p><strong>4. The difference between worldly and divine leadership.</strong> Worldly leaders often seek position and authority. They may walk behind to control, or above to be admired. Jesus redefined leadership through humility. He said, “Whoever wants to become great among you must be your servant” (Matthew 20:26). His leadership from the front was not about superiority, but service. When He went ahead, He bore the weight of leadership by taking the first step into danger, pain, and sacrifice. His leadership meant responsibility, not privilege.</p>
+
+    <p><strong>5. Walking ahead symbolized the path of the cross.</strong> When Jesus went before His disciples on the road to Jerusalem, He was walking toward crucifixion. Every step forward was a declaration of obedience to the Father. He was not driven by others or forced by circumstance; He chose the path of suffering for love’s sake. His walk in front represented spiritual leadership through sacrifice. He was leading humanity toward redemption, showing that true victory comes not by avoiding the cross but by embracing it.</p>
+
+    <p><strong>6. The apostles’ reaction reveals the cost of following.</strong> The disciples often followed at a distance, both literally and emotionally. They admired Jesus’ courage but struggled to understand the cost. Mark 10:32 notes that they were “amazed and afraid.” Jesus’ walk ahead of them was both a challenge and an invitation—to follow Him not only in His teachings but in His suffering. He was showing them what discipleship truly meant: following even when the path leads to sacrifice.</p>
+
+    <p><strong>7. The difference from the “leader of the pack” image.</strong> In nature, some animals lead from behind to guard and control. Jesus’ leadership is different because His mission was not survival but surrender. He did not need to preserve Himself; He came to give Himself. Unlike wolves protecting their pack from behind, Jesus led His followers through His own example of faith, courage, and compassion. His goal was not dominance or protection from harm, but transformation through obedience. He walked in front not to be admired from afar, but to make the path safe for those who would follow after Him.</p>
+
+    <p><strong>8. The meaning for believers today.</strong> Jesus still leads His followers from the front. He does not ask His people to go anywhere He has not gone Himself. He faced temptation, pain, rejection, and death, so that we might face our own struggles with confidence in His presence. Hebrews 12:2 calls Him “the pioneer and perfecter of faith.” He leads by walking first, showing that obedience, humility, and love are the true marks of leadership. When believers follow His example, they learn that walking behind Jesus is not weakness—it is wisdom and trust.</p>
+
+    <p>In summary, Jesus walked ahead of His disciples because He was leading the way to God’s purpose. His leadership was marked by courage, humility, and self-sacrifice, not control or pride. He went before His followers as the Shepherd who protects His sheep, the Savior who faces death willingly, and the Teacher who demonstrates how to live. While worldly leaders may guide from behind to manage the pack, Jesus led from the front to bear the cross. His footsteps still mark the path of faith for everyone who chooses to follow Him.</p>
+  `,
+  refs: [
+    { term: "Mark 10:32", desc: "Jesus walks ahead of His disciples toward Jerusalem, determined to fulfill His mission." },
+    { term: "Luke 9:51", desc: "Jesus resolutely sets His face toward Jerusalem, showing His courage and obedience." },
+    { term: "John 10:4", desc: "The Good Shepherd goes before His sheep, who follow because they know His voice." },
+    { term: "John 14:6", desc: "Jesus declares that He is the Way, the Truth, and the Life." },
+    { term: "Matthew 20:26", desc: "Jesus teaches that greatness in His kingdom comes through serving others." },
+    { term: "Hebrews 12:2", desc: "Jesus is the pioneer and perfecter of faith, leading by His own example." }
+  ]
+},
+{
+  id: "go-forth-and-multiply",
+  title: "What does “Go forth and multiply” mean in the Bible?",
+  category: "Creation and Humanity",
+  tags: ["Genesis", "multiply", "creation", "family", "stewardship"],
+  featured: false,
+  content: `
+    <p>The phrase “Be fruitful and multiply” appears several times in the Book of Genesis, most notably in Genesis 1:28 where God blesses Adam and Eve and commands them to “be fruitful and multiply, and fill the earth and subdue it.” This command is often misunderstood as referring only to physical reproduction. In reality, it expresses a broader divine calling that includes growth, stewardship, creativity, and participation in God’s ongoing work of creation. The command to multiply is both biological and spiritual: it involves filling the earth with life, goodness, and the reflection of God’s image.</p>
+
+    <p><strong>1. The original context of the command.</strong> When God first gave this command to Adam and Eve, humanity had just been created in His image (Genesis 1:27). “Be fruitful and multiply” was not only a call to have children, but a blessing that affirmed life and partnership with God in creation. It was an invitation to participate in His creative purpose. To multiply meant to expand life and goodness, to cultivate the earth, and to spread the reflection of God’s image across it. It was both a privilege and a responsibility.</p>
+
+    <p><strong>2. The meaning of “fruitfulness.”</strong> In Scripture, fruitfulness refers not only to reproduction but also to productivity and flourishing in every aspect of life. Psalm 1:3 describes the righteous person as “a tree planted by streams of water, which yields its fruit in season.” Being fruitful means living in such a way that one’s life produces good results—righteousness, generosity, wisdom, and love. Therefore, “be fruitful” includes moral and spiritual abundance, not just physical growth. God desires humanity to fill the earth with justice, kindness, and worship as much as with people.</p>
+
+    <p><strong>3. The role of family and community.</strong> On a practical level, “multiply” includes forming families and communities that nurture faith, love, and responsibility. God designed family as the first institution of human society. Through family, faith is passed from one generation to another. The command to multiply thus supports the continuation of life and the spreading of God’s truth. However, this does not mean that every individual must have children in order to obey this command. Those who serve, teach, care, and build also multiply goodness in other forms.</p>
+
+    <p><strong>4. Misunderstanding the command.</strong> Some interpret “go forth and multiply” as a simple population directive or a measure of human value. But this is a narrow reading. The Bible never suggests that worth is based on biological reproduction. The command was given at a time when the world was empty and needed to be filled. Today, the same principle continues, but the focus shifts from physical filling to faithful flourishing. God calls His people to multiply His truth, mercy, and presence in a broken world. The emphasis is not on numbers alone, but on the quality of life that reflects His kingdom.</p>
+
+    <p><strong>5. The spiritual dimension of multiplication.</strong> In the New Testament, the idea of multiplying takes on a spiritual meaning. Jesus commanded His followers to “go and make disciples of all nations” (Matthew 28:19). This is a continuation of God’s original command, now centered on spiritual growth rather than population increase. Christians are called to multiply faith, hope, and love by sharing the gospel and nurturing others in truth. Through this, God’s image spreads not only by birth but by rebirth—through transformed lives.</p>
+
+    <p><strong>6. Multiplying as stewardship, not exploitation.</strong> The phrase “fill the earth and subdue it” has sometimes been used to justify domination over nature. However, biblical stewardship means caring for creation, not exploiting it. Humanity’s role is to manage the world wisely as God’s representatives. Multiplying life should always include protecting and nurturing it. True fruitfulness honors the Creator by cultivating balance, generosity, and respect for all living things.</p>
+
+    <p><strong>7. The continuing meaning today.</strong> “Be fruitful and multiply” still applies, but in a way that reaches beyond childbearing. It calls believers to live productively, invest in others, create goodness, and pass on wisdom and faith. Every act of kindness, every moment of teaching, every life influenced for the better fulfills the spirit of this command. In this sense, teachers, caregivers, artists, and servants of others are also multiplying the beauty of God’s design on earth.</p>
+
+    <p>In summary, “Be fruitful and multiply” was both a blessing and a mission. It was not just about population growth but about spreading life, truth, and goodness. It invited humanity to join God in sustaining creation and filling it with His presence. Whether through family, service, creativity, or faith, believers continue to fulfill this command when they help the world reflect the life and love of its Creator.</p>
+  `,
+  refs: [
+    { term: "Genesis 1:27–28", desc: "God commands humanity to be fruitful, multiply, and fill the earth as His image-bearers." },
+    { term: "Psalm 1:3", desc: "The righteous person is described as fruitful, yielding good results in season." },
+    { term: "Matthew 28:19", desc: "Jesus gives the Great Commission, calling believers to make disciples of all nations." },
+    { term: "Genesis 2:15", desc: "God places humanity in the garden to work and care for it, showing that stewardship is part of fruitfulness." },
+    { term: "John 15:8", desc: "Jesus teaches that true disciples glorify the Father by bearing much fruit." }
+  ]
+},
+{
+  id: "jesus-curses-fig-tree",
+  title: "Why did Jesus curse the fig tree, and what does this action mean?",
+  category: "Theology and Doctrine",
+  tags: ["Jesus Christ", "fig tree", "faith", "hypocrisy", "spiritual fruit"],
+  featured: false,
+  content: `
+    <p>The account of Jesus cursing the fig tree appears in the Gospels of Matthew (21:18–22) and Mark (11:12–14, 20–21). At first glance, this action may seem harsh or confusing. Why would Jesus curse a tree for not bearing fruit, especially when it was not the season for figs? However, the event is deeply symbolic and carries a spiritual message. It was not about hunger or the tree itself, but about faith, authenticity, and the danger of appearing fruitful while being spiritually barren. The fig tree became a living parable of Israel’s spiritual condition and a lesson for all believers about genuine faith and fruitfulness.</p>
+
+    <p><strong>1. The fig tree as a symbol of Israel.</strong> In Jewish Scripture, the fig tree often represents Israel as a nation. Passages such as Hosea 9:10 and Jeremiah 8:13 use the fig tree as an image of God’s people, meant to bear fruit through righteousness and faithfulness. By the time of Jesus, Israel had abundant religious activity, temple rituals, and outward displays of devotion, but lacked genuine spiritual fruit. The leaves of the tree symbolized outward appearance, while the absence of figs represented inner emptiness. When Jesus cursed the fig tree, He was illustrating God’s disappointment with religion that looks alive but produces no true faith or love.</p>
+
+    <p><strong>2. The meaning of “no fruit.”</strong> The Bible often uses fruit as a metaphor for godly character and spiritual growth. In Galatians 5:22–23, the fruit of the Spirit includes love, joy, peace, and other virtues. The fig tree, full of leaves but without fruit, represented hypocrisy—appearing righteous but lacking true devotion. Jesus’ curse was not about punishing the tree but about exposing a deeper truth. Like the tree, people can appear outwardly religious while being spiritually empty. His action was a dramatic lesson to His disciples about the importance of sincerity and faith that produces results.</p>
+
+    <p><strong>3. The timing and symbolism.</strong> Mark notes that “it was not the season for figs” (Mark 11:13). This detail might seem to excuse the tree, but fig trees in that region produced early buds that served as a sign of the coming harvest. If a tree had leaves, it should have had these small early figs as well. The tree’s leafy appearance promised fruit it did not have. In the same way, Israel had the outward signs of faith—temple worship, laws, and rituals—but lacked repentance and genuine trust in God. The timing of the event emphasized the disconnect between appearance and reality.</p>
+
+    <p><strong>4. The fig tree and the cleansing of the temple.</strong> In both Matthew and Mark, the story of the fig tree is directly connected to the cleansing of the temple. Jesus cursed the tree before entering Jerusalem, where He overturned the tables of money changers and condemned the corruption in God’s house. Then the disciples saw the withered tree the next day. These two events interpret each other: the fruitless fig tree symbolized the fruitless temple system. Both had the appearance of life but lacked spiritual substance. Through both actions, Jesus declared that God desires genuine worship, not empty ritual.</p>
+
+    <p><strong>5. A lesson on faith and prayer.</strong> After the tree withered, Jesus used the moment to teach His disciples about faith. He said, “If you have faith and do not doubt, you will not only do what was done to the fig tree, but even if you say to this mountain, ‘Be taken up and thrown into the sea,’ it will happen” (Matthew 21:21). The cursing of the fig tree was therefore also a demonstration of divine authority and the power of faith. True faith is not about external signs but internal trust in God’s word. It bears fruit through obedience, humility, and prayer.</p>
+
+    <p><strong>6. The warning against spiritual hypocrisy.</strong> The barren fig tree warns believers about the danger of appearance without substance. God is not impressed by leaves—by busy activity, titles, or reputation—but looks for fruit that reflects His character. Jesus had previously taught that a tree is known by its fruit (Matthew 7:17–20). His curse was a vivid reminder that faith must produce real change. Religion without transformation is lifeless, just as a tree without fruit is useless.</p>
+
+    <p><strong>7. The message of repentance and renewal.</strong> The story of the fig tree should not be read as hopeless judgment but as a call to renewal. Jesus’ actions urged His followers, and Israel as a whole, to return to genuine relationship with God. Luke’s Gospel includes a similar parable (Luke 13:6–9), in which a gardener pleads for more time to cultivate a barren fig tree before cutting it down. This shows God’s patience and desire for repentance. Jesus’ curse in the final week before His crucifixion was a warning that the time for empty religion had ended. God was doing something new through Christ—a new covenant based on grace, not ritual.</p>
+
+    <p><strong>8. The meaning for believers today.</strong> The cursing of the fig tree challenges every generation to examine its own faith. Are we bearing fruit or only showing leaves? Do our actions reflect true love for God and others, or do we simply maintain the appearance of faith? Jesus’ act was not petty anger but prophetic symbolism. It calls believers to live with integrity, producing fruit that honors God. Faith without fruit is incomplete, but faith that works through love brings life to others.</p>
+
+    <p>In summary, Jesus cursed the fig tree to expose spiritual hypocrisy and to teach the importance of authentic, fruitful faith. The tree’s appearance of life without fruit mirrored the religious emptiness of His time. Through this action, Jesus declared that God seeks genuine devotion, not superficial display. The withered tree remains a timeless reminder that faith must lead to transformation. God desires lives that bear fruit in truth, love, and obedience.</p>
+  `,
+  refs: [
+    { term: "Mark 11:12–14, 20–21", desc: "Jesus curses the fig tree, and it withers as a sign to His disciples." },
+    { term: "Matthew 21:18–22", desc: "Matthew’s account connects the cursing of the fig tree with a lesson on faith." },
+    { term: "Hosea 9:10", desc: "Israel is symbolized by the fig tree in prophetic imagery." },
+    { term: "Jeremiah 8:13", desc: "God laments that there are no figs on the tree, representing unfaithful Israel." },
+    { term: "Matthew 7:17–20", desc: "A tree is known by its fruit, not by its appearance." },
+    { term: "Luke 13:6–9", desc: "A parable about God’s patience toward a barren fig tree, calling for repentance." },
+    { term: "Galatians 5:22–23", desc: "The fruit of the Spirit is evidence of true faith and transformation." }
+  ]
+},
+{
+  id: "is-cursing-biblical",
+  title: "Is cursing biblical?",
+  category: "Biblical Ethics",
+  tags: ["speech", "language", "ethics", "Jesus Christ", "words"],
+  featured: false,
+  content: `
+    <p>When people ask if cursing is biblical, they usually mean two different things. The first is whether using foul or abusive language is acceptable to God. The second is whether it is ever right to pronounce a curse or judgment, as Jesus did with the fig tree or as prophets did in the Old Testament. The Bible clearly distinguishes between sinful speech that flows from anger or hatred, and holy judgment that comes from divine authority. While Scripture strictly forbids corrupt or harmful speech, it also records instances where God’s servants, under divine direction, pronounce curses as acts of justice, not malice. The key difference lies in purpose, authority, and heart.</p>
+
+    <p><strong>1. Sinful cursing: words that corrupt rather than build.</strong> The Bible is clear that believers must avoid using language that is foul, hurtful, or disrespectful. Ephesians 4:29 says, “Do not let any unwholesome talk come out of your mouths, but only what is helpful for building others up.” Colossians 3:8 adds, “Rid yourselves of anger, rage, malice, slander, and filthy language.” This kind of cursing refers to insults, profanity, or words meant to harm or degrade. Such speech reveals the state of the heart, since “out of the overflow of the heart the mouth speaks” (Matthew 12:34). God calls His people to speak with grace, truth, and love.</p>
+
+    <p><strong>2. The biblical use of curses as judgment.</strong> In Scripture, a “curse” can also mean a pronouncement of divine judgment on sin. This kind of cursing is not emotional outburst but moral declaration. God Himself pronounced curses in Genesis 3 after the fall, not out of spite, but to uphold justice. Similarly, prophets and apostles sometimes declared curses as warnings or judgments when people persistently rejected God. For example, in Galatians 1:8–9, Paul says, “If anyone is preaching to you a gospel contrary to the one you received, let him be accursed.” These were not personal attacks but serious affirmations of God’s truth and righteousness.</p>
+
+    <p><strong>3. The example of Jesus cursing the fig tree.</strong> When Jesus cursed the fig tree, His words were not spoken in anger or frustration. They carried prophetic meaning. The curse was symbolic, a teaching moment about hypocrisy and fruitlessness. It demonstrated divine authority and revealed that judgment comes upon those who appear alive in faith but are spiritually barren. This was not a sinful curse, but a righteous act consistent with His role as the Son of God. Jesus never cursed people out of spite or hatred; His words always served truth, correction, or revelation.</p>
+
+    <p><strong>4. The difference between human anger and divine judgment.</strong> Human cursing often stems from anger, revenge, or pride. Divine judgment, however, arises from holiness and justice. James 3:9–10 points out the contradiction in human speech: “With the tongue we praise our Lord and Father, and with it we curse men, who have been made in God’s likeness.” The Bible warns against this because only God has the right to judge the heart. When people curse others in anger, they step outside their place and misuse the gift of speech. Jesus taught His followers to bless even their enemies (Matthew 5:44), replacing vengeance with mercy.</p>
+
+    <p><strong>5. The biblical call to bless, not curse.</strong> Romans 12:14 instructs believers, “Bless those who persecute you; bless and do not curse.” This command echoes Jesus’ teaching about loving enemies. The follower of Christ is called to reflect God’s patience, not His wrath. When we respond to evil with kindness, we reveal the heart of the gospel. This does not mean God ignores justice, but that He has reserved judgment for Himself. Christians are to trust Him to deal with wrongdoing rather than returning curse for curse. The Christian’s speech is meant to heal and guide, not harm or condemn.</p>
+
+    <p><strong>6. Righteous judgment belongs to God alone.</strong> Throughout Scripture, when curses are spoken rightly, they come from God or His chosen messengers acting under His direction. Even then, they are meant to warn or correct, not to destroy without purpose. When people attempt to curse others out of anger or revenge, they misuse something that belongs to divine authority. Proverbs 26:2 reminds us, “Like a fluttering sparrow or a darting swallow, an undeserved curse does not come to rest.” Human words without God’s truth have no lasting power, but divine judgment always fulfills its purpose.</p>
+
+    <p><strong>7. Words reveal character and spiritual maturity.</strong> Jesus said in Matthew 12:36, “Everyone will have to give account on the day of judgment for every careless word they have spoken.” This shows how seriously God views speech. Words can build or break, heal or wound. The Christian life requires discipline of the tongue, guided by love and truth. James 3 compares the tongue to a small spark that can set a forest on fire. The way a person speaks reflects the condition of the heart and the presence of God’s Spirit within.</p>
+
+    <p><strong>8. Speaking truth versus speaking curses.</strong> There is a difference between confronting sin and cursing people. Prophets and apostles often spoke strong words of truth, but their goal was repentance and restoration. Speaking truth boldly is not cursing; it is love in action. Cursing seeks to destroy; truth seeks to redeem. The challenge for believers is to speak truth with compassion and courage, without letting anger turn words into weapons.</p>
+
+    <p>In summary, sinful cursing—using words to harm, insult, or degrade—is clearly condemned in Scripture. However, the Bible also records holy judgment expressed through curses that come from divine authority, not human temper. Jesus’ cursing of the fig tree was an act of truth and teaching, not a sinful outburst. For believers, the calling is clear: to bless and not to curse, to use words that give life rather than death. The tongue should be an instrument of grace, carrying the message of God’s justice and mercy with humility and care.</p>
+  `,
+  refs: [
+    { term: "Ephesians 4:29", desc: "Do not let unwholesome talk come from your mouth, but speak what builds others up." },
+    { term: "Colossians 3:8", desc: "Put away anger, malice, and filthy language from your lips." },
+    { term: "Matthew 12:34–36", desc: "Out of the abundance of the heart the mouth speaks, and every careless word will be judged." },
+    { term: "James 3:9–10", desc: "With the tongue we bless God and curse men, but this should not be so." },
+    { term: "Romans 12:14", desc: "Bless those who persecute you; bless and do not curse." },
+    { term: "Matthew 5:44", desc: "Love your enemies and pray for those who persecute you." },
+    { term: "Galatians 1:8–9", desc: "Paul declares a curse on those who preach a false gospel." },
+    { term: "Proverbs 26:2", desc: "An undeserved curse will not rest, showing that human anger holds no lasting power." }
+  ]
+},
+{
+  id: "do-we-pray-the-rosary",
+  title: "Do Christians pray the Rosary?",
+  category: "Faith and Christian Living",
+  tags: ["prayer", "rosary", "faith", "Mary", "worship"],
+  featured: false,
+  content: `
+    <p>The Rosary is a devotional prayer widely practiced in the Roman Catholic tradition. It involves the repetition of prayers such as the Hail Mary, the Our Father, and the Glory Be while meditating on key events in the life of Jesus and Mary. Many Christians, especially Protestants and Evangelicals, do not practice the Rosary, not because they reject prayer or meditation, but because the Rosary includes elements they believe are not supported by Scripture, particularly prayers directed to Mary. Whether Christians should pray the Rosary depends on how they understand the purpose of prayer, the role of Mary, and what Scripture teaches about approaching God.</p>
+
+    <p><strong>1. The origin and structure of the Rosary.</strong> The Rosary developed in the Middle Ages as a way for laypeople to meditate on Scripture and the life of Christ. The term “rosary” means “crown of roses,” symbolizing devotion. It consists of five groups of ten Hail Marys (called decades), each introduced by an Our Father and concluded with a Glory Be. During these prayers, believers meditate on “mysteries” such as the birth of Christ, His passion, and resurrection. The intention was to help people reflect on God’s work while keeping the mind focused through repetition.</p>
+
+    <p><strong>2. The difference in how Protestants and Catholics view prayer.</strong> In the Bible, prayer is primarily directed to God the Father through Jesus Christ in the power of the Holy Spirit. Hebrews 4:16 encourages believers to “approach the throne of grace with confidence” through Christ alone. Protestant Christians therefore focus prayer on direct communication with God, without invoking Mary or saints as intermediaries. Catholics, on the other hand, view praying the Rosary as asking Mary to intercede, meaning to pray on their behalf. Protestants generally do not accept this practice, since Scripture says, “There is one mediator between God and mankind, the man Christ Jesus” (1 Timothy 2:5).</p>
+
+    <p><strong>3. The biblical concern about repetitive prayer.</strong> In Matthew 6:7, Jesus warned, “When you pray, do not use vain repetitions as the pagans do, for they think they will be heard because of their many words.” Some Christians see this as a caution against prayers like the Rosary, which involve repeated phrases. However, the issue Jesus addressed was not repetition itself but meaningless or mechanical prayer. Repetition can be powerful if the heart and mind are truly engaged, but it becomes empty when used as a formula to gain favor from God. The danger lies in praying out of habit rather than relationship.</p>
+
+    <p><strong>4. The role of Mary in Christian faith.</strong> The Bible honors Mary as the mother of Jesus and calls her “blessed among women” (Luke 1:42). She is an example of humility and faith. However, Scripture does not instruct believers to pray to her or through her. Prayer in the New Testament is always directed to God the Father or to Jesus Christ. While Catholics see Mary as an intercessor who points people to Christ, Protestant Christians believe that all believers have direct access to God through Jesus. They honor Mary for her obedience but reserve prayer and worship for God alone.</p>
+
+    <p><strong>5. The value of meditation and remembrance.</strong> Even though many Christians do not pray the Rosary, the principle behind it—meditating on Christ’s life—is valuable. Reflecting on the incarnation, death, and resurrection of Jesus strengthens faith and deepens gratitude. The issue is not meditation itself but the object and method of devotion. Christians can and should meditate on Scripture daily, as Psalm 1:2 says, “Blessed is the one whose delight is in the law of the Lord, and who meditates on His law day and night.” The Bible invites believers to focus on Christ’s works directly, guided by the Holy Spirit.</p>
+
+    <p><strong>6. Praying in Spirit and truth.</strong> Jesus said that true worshipers “worship the Father in spirit and truth” (John 4:23–24). Prayer is a conversation with God that comes from the heart, not a ritual that earns merit. What matters most is not the words or sequence of prayers, but sincerity, faith, and obedience. Whether using a prayer guide or praying freely, the purpose is communion with God. Any form of prayer that shifts focus from God’s direct presence toward human intermediaries risks distorting the relationship Christ opened through His sacrifice.</p>
+
+    <p><strong>7. A balanced perspective.</strong> Some Christians who were raised in Catholic traditions continue to use the Rosary as a personal form of reflection on Christ’s life, while ensuring that their devotion remains centered on God. Others choose to focus solely on biblical prayer, emphasizing Scripture, praise, confession, and thanksgiving. The heart of the matter is whether the practice draws a person closer to Christ or distracts from Him. True prayer is not about method but about relationship, humility, and trust in God’s grace.</p>
+
+    <p>In summary, praying the Rosary is not a universal Christian practice. While it can serve as a form of meditation on Jesus’ life, many believers choose not to use it because of its association with prayers to Mary and concerns about unbiblical intercession. The Bible teaches that prayer is directed to God through Jesus Christ alone. What matters most is not the pattern of words but the posture of the heart. Prayer that honors God, focuses on His Word, and flows from faith in Christ will always be heard by the One who calls His people to come boldly before Him.</p>
+  `,
+  refs: [
+    { term: "Hebrews 4:16", desc: "Believers can approach God’s throne with confidence through Jesus Christ." },
+    { term: "1 Timothy 2:5", desc: "There is one mediator between God and mankind, Jesus Christ." },
+    { term: "Matthew 6:7", desc: "Do not pray with vain repetitions that lack meaning or heart." },
+    { term: "Luke 1:42", desc: "Mary is called blessed among women for her role in God’s plan." },
+    { term: "Psalm 1:2", desc: "The righteous delight in God’s law and meditate on it day and night." },
+    { term: "John 4:23–24", desc: "True worshipers worship the Father in spirit and truth." }
+  ]
+},
+{
+  id: "mary-and-saints-intercession",
+  title: "Is it necessary to pray to Mary and the saints? Are intercessory prayers biblical?",
+  category: "Faith and Christian Living",
+  tags: ["prayer", "Mary", "saints", "intercession", "worship"],
+  featured: false,
+  content: `
+    <p>Many Christians wonder whether praying to Mary or the saints is necessary or biblically supported. The question arises from the difference between honoring faithful believers of the past and directing prayers to them. The Bible teaches that prayer is communication with God, made possible through Jesus Christ. While intercession—that is, praying for one another—is clearly biblical, praying to anyone other than God is not. Scripture presents Jesus as the only mediator between God and humanity, and all prayer should ultimately be directed to Him or to the Father through Him.</p>
+
+    <p><strong>1. The meaning of intercession in Scripture.</strong> Intercession means praying on behalf of others. The Bible encourages this practice among believers. For example, 1 Timothy 2:1 says, “I urge that supplications, prayers, intercessions, and thanksgivings be made for all people.” This kind of intercession happens within the church on earth, where believers pray for one another’s needs. It is an expression of love and unity in the body of Christ. Intercessory prayer is biblical when it reflects care, compassion, and reliance on God’s mercy, but it always remains directed to God Himself.</p>
+
+    <p><strong>2. The role of Jesus Christ as the only mediator.</strong> 1 Timothy 2:5 states clearly, “There is one God and one mediator between God and mankind, the man Christ Jesus.” This means that believers have direct access to God through Jesus, without needing any other mediator. The Old Testament priests once served as go-betweens for the people, but Jesus fulfilled that role perfectly through His death and resurrection. Because of Him, every believer can now approach God personally (Hebrews 4:16). Prayer directed to Mary or the saints is unnecessary for those who are already invited to speak directly with the Creator through His Son.</p>
+
+    <p><strong>3. The difference between interceding for others and praying to them.</strong> Asking a living believer to pray for you is very different from praying to someone who has died. The Bible supports the idea of believers praying for one another on earth but does not show examples of anyone praying to departed saints or ancestors. Nowhere in Scripture do Jesus or the apostles encourage prayer directed toward anyone except God. When people tried to worship angels or deceased figures, the response was always correction (Revelation 22:8–9). God desires His people to direct all prayer and worship to Him alone.</p>
+
+    <p><strong>4. Honoring Mary and the saints versus praying to them.</strong> The Bible honors those who live faithfully. Mary is called “blessed among women” (Luke 1:42), and Hebrews 11 celebrates many faithful men and women who lived by faith. It is right to respect their example and thank God for their lives. However, there is a difference between honoring and praying to. To honor is to appreciate and remember; to pray to is to communicate with and depend upon. Scripture nowhere commands prayer to the dead, even righteous ones. True prayer belongs to God alone.</p>
+
+    <p><strong>5. Why some Christians pray to Mary or the saints.</strong> In Catholic tradition, believers may ask Mary or saints to intercede for them, much as one might ask a friend to pray for them. This practice stems from the belief that those in heaven can present prayers before God on behalf of the living. However, the Bible gives no clear teaching that departed believers hear our prayers or have authority to mediate before God. The only heavenly intercessor Scripture identifies is Jesus Christ, who “always lives to intercede” for us (Hebrews 7:25). His intercession is sufficient and perfect.</p>
+
+    <p><strong>6. The sufficiency of Christ’s intercession.</strong> Jesus does not share His mediating role with anyone. Romans 8:34 declares, “Christ Jesus who died—more than that, who was raised to life—is at the right hand of God and is also interceding for us.” This means believers have constant access to the Father through the Son. The prayers of Christ are powerful and complete. To seek other mediators, even with good intentions, risks implying that His work is incomplete. The gospel teaches that nothing and no one can add to the sufficiency of Christ’s sacrifice and advocacy.</p>
+
+    <p><strong>7. The example of biblical prayer.</strong> Throughout both the Old and New Testaments, all prayer is directed to God alone. Jesus taught His disciples to pray, “Our Father in heaven” (Matthew 6:9). The early church followed this pattern, praying in the name of Jesus (John 14:13–14). They never prayed to Abraham, Moses, or Mary. Instead, they gave thanks for those who came before them and sought to imitate their faith (Hebrews 13:7). The pattern of prayer in the Bible is clear: it begins and ends with God, empowered by the Holy Spirit, through Christ the Son.</p>
+
+    <p><strong>8. The right kind of intercession today.</strong> Believers are called to intercede for one another while alive, lifting others in prayer to God. This practice strengthens the church and reflects Christ’s love. When we pray for others, we join in His work of mercy and compassion. But the Bible does not command or encourage believers to pray to the dead or through spiritual intermediaries. Instead, we are invited into direct fellowship with the Father, through the Son, by the Spirit—a privilege that reflects both grace and intimacy with God.</p>
+
+    <p>In summary, praying to Mary and the saints is not necessary and is not taught in Scripture. Intercessory prayer—praying for others—is biblical and encouraged, but it is always addressed to God. Jesus Christ alone is our mediator and intercessor in heaven, and His advocacy is perfect. Honoring the faith of Mary and the saints is right, but prayer and worship belong to God alone. True prayer draws the believer directly to the heart of the Father through the saving work of Christ.</p>
+  `,
+  refs: [
+    { term: "1 Timothy 2:1", desc: "Believers are urged to make prayers and intercessions for all people." },
+    { term: "1 Timothy 2:5", desc: "There is one God and one mediator between God and mankind, Christ Jesus." },
+    { term: "Hebrews 4:16", desc: "Believers are invited to approach God’s throne of grace with confidence." },
+    { term: "Revelation 22:8–9", desc: "Angels forbid humans from worshiping them, redirecting worship to God." },
+    { term: "Luke 1:42", desc: "Mary is honored as blessed among women for her role in God’s plan." },
+    { term: "Hebrews 7:25", desc: "Jesus lives forever to intercede for those who come to God through Him." },
+    { term: "Romans 8:34", desc: "Christ is at the right hand of God, interceding for believers." },
+    { term: "Matthew 6:9", desc: "Jesus teaches His followers to pray directly to the Father in heaven." }
+  ]
+},
+{
+  id: "is-it-biblical",
+  title: "In our daily life as Christians, is it necessary to ask if everything we do is biblical?",
+  category: "Faith and Christian Living",
+  tags: ["Bible", "Christian living", "faith", "wisdom", "guidance"],
+  featured: false,
+  content: `
+    <p>It is good and wise for Christians to ask whether the things they do align with the teachings and spirit of the Bible. However, this question should not lead to fear or rigid legalism. The Bible is not a checklist for every possible decision but a revelation of God’s character, principles, and truth. Its purpose is to guide believers to live in a way that honors God, loves others, and reflects Christ. Asking “Is this biblical?” helps us stay grounded in truth, but it must be understood through the lens of wisdom, grace, and the Holy Spirit’s guidance.</p>
+
+    <p><strong>1. The Bible as the foundation of truth.</strong> 2 Timothy 3:16–17 declares, “All Scripture is God-breathed and is useful for teaching, rebuking, correcting, and training in righteousness.” The Bible provides principles for living, not just rules to follow. It reveals what pleases God and what leads to destruction. For this reason, Christians should seek to make choices that agree with biblical truth. When we ask, “Is this biblical?”, we are really asking, “Does this reflect the heart and wisdom of God?” Scripture shapes how we think, speak, and act.</p>
+
+    <p><strong>2. The Bible does not mention every specific situation.</strong> Many of life’s daily decisions are not directly addressed in Scripture. The Bible does not tell us what career to choose, what clothes to wear, or what kind of technology to use. Yet it gives principles that apply to every choice: honesty, humility, love, integrity, and stewardship. Romans 12:2 teaches believers to be “transformed by the renewing of your mind” so that they can “test and approve what God’s will is.” The goal is not to find exact verses for every detail, but to develop a biblical mindset that shapes decisions naturally.</p>
+
+    <p><strong>3. The role of wisdom and discernment.</strong> The Bible calls believers to grow in discernment, meaning the ability to judge what is right and good. Hebrews 5:14 says mature believers have “trained themselves to distinguish good from evil.” This kind of wisdom does not come from constantly asking others if something is biblical, but from knowing Scripture deeply and listening to the Holy Spirit. The more a person walks with God, the more naturally they live in ways that reflect His Word. Asking whether something is biblical should lead to discernment, not doubt or fear.</p>
+
+    <p><strong>4. Avoiding legalism and fear-driven faith.</strong> Some people treat the question “Is this biblical?” as a test for every small action, fearing they might sin by accident. This mindset can turn faith into anxiety rather than freedom. Galatians 5:1 reminds believers that “it is for freedom that Christ has set us free.” The purpose of the Bible is to guide hearts, not to trap them in constant guilt. God desires obedience born from love, not fear. The Spirit leads believers to walk in righteousness with confidence, not paranoia.</p>
+
+    <p><strong>5. The importance of aligning with biblical principles.</strong> Although not every choice is directly mentioned in Scripture, every choice should reflect biblical values. For example, honesty, compassion, humility, and purity are timeless principles. When facing decisions, we can ask questions like: “Does this glorify God?” (1 Corinthians 10:31), “Does this help others?” (Philippians 2:4), and “Would this please Christ?” (Colossians 3:17). These questions reflect the same heart as asking whether something is biblical, but they focus on love and faithfulness rather than strict rule-following.</p>
+
+    <p><strong>6. The Holy Spirit as our guide.</strong> Jesus promised that the Holy Spirit would “guide you into all truth” (John 16:13). The Spirit helps believers apply God’s Word in real-life situations. When something is unclear, prayer and Scripture together bring clarity. Over time, the Spirit shapes our conscience to align with the Bible’s teaching. Asking whether something is biblical, when done prayerfully, invites the Holy Spirit to direct our steps with wisdom and peace.</p>
+
+    <p><strong>7. Living by love fulfills the heart of the Bible.</strong> Jesus summarized the entire law and the prophets in two commands: “Love the Lord your God with all your heart” and “Love your neighbor as yourself” (Matthew 22:37–40). If a decision flows from love for God and others, it is in harmony with the spirit of Scripture. The Bible’s ultimate goal is not to create a list of restrictions, but to shape a heart that acts out of love, integrity, and truth. The more we love God, the more our choices naturally become biblical.</p>
+
+    <p><strong>8. Asking “Is this biblical?” as a sign of maturity.</strong> When Christians ask this question sincerely, it shows a desire to please God. It demonstrates humility and accountability. Mature believers do not seek loopholes or excuses; they seek alignment with God’s will. But they also recognize that God’s Word is meant to guide with freedom, not control. The mature Christian learns to live with a conscience trained by Scripture and a heart led by the Spirit.</p>
+
+    <p>In summary, it is wise for Christians to ask whether their actions align with the Bible, but not in a fearful or mechanical way. The Bible gives principles that apply to every area of life, even when it does not name every situation. Asking “Is this biblical?” should be a habit of the heart, not a burden on the mind. True Christian living means allowing the Word of God and the Spirit of God to shape who we are, so that in all things—big or small—we reflect the truth, grace, and love of Jesus Christ.</p>
+  `,
+  refs: [
+    { term: "2 Timothy 3:16–17", desc: "All Scripture is inspired by God and equips believers for every good work." },
+    { term: "Romans 12:2", desc: "Be transformed by renewing your mind to discern God’s will." },
+    { term: "Hebrews 5:14", desc: "Mature believers are trained to distinguish good from evil." },
+    { term: "Galatians 5:1", desc: "Christ has set believers free to live in spiritual freedom." },
+    { term: "1 Corinthians 10:31", desc: "Whatever you do, do it all for the glory of God." },
+    { term: "Philippians 2:4", desc: "Look to the interests of others, not only to your own." },
+    { term: "Colossians 3:17", desc: "Do everything in the name of the Lord Jesus, giving thanks to God." },
+    { term: "John 16:13", desc: "The Holy Spirit guides believers into all truth." },
+    { term: "Matthew 22:37–40", desc: "The greatest commandments are to love God and love others." }
+  ]
+},
+{
+  id: "kpop-demon-hunters-christian-perspective",
+  title: "Why is KPOP Demon Hunters not considered a Christian movie, and how should Christians guide their children in what they watch?",
+  category: "Faith and Christian Living",
+  tags: ["media", "discernment", "parenting", "faith", "entertainment"],
+  featured: false,
+  content: `
+    <p><strong>KPOP Demon Hunters</strong> is an animated film that blends fantasy, pop culture, and spiritual imagery. While it may appear to include themes of good versus evil, it is not a Christian movie because it does not present a biblical understanding of spiritual warfare, redemption, or the nature of God. Instead, it borrows supernatural and moral elements from various cultural ideas and merges them into an entertainment story. From a Christian perspective, it is important to recognize that not all stories about demons, angels, or powers of light align with what Scripture teaches. The concern is not simply that the movie includes demons, but that it portrays spiritual conflict apart from the authority of Christ and the truth of the gospel.</p>
+
+    <p><strong>1. Why it is not a Christian movie.</strong> A movie is considered Christian not because it mentions spiritual or moral themes, but because it reflects a worldview centered on God’s truth. A Christian story should recognize Jesus Christ as the ultimate source of salvation and victory over evil. In <em>KPOP Demon Hunters</em>, the characters fight supernatural forces using their own strength, technology, or mystical powers, not faith or divine authority. The story draws from fantasy and mythology rather than Scripture. Its goal is entertainment, not spiritual truth or moral instruction rooted in the Bible. Therefore, while it may teach teamwork or courage, it does not point to God as the source of good or redemption.</p>
+
+    <p><strong>2. The difference between moral storytelling and biblical truth.</strong> Many films promote values like friendship, sacrifice, and courage. These are good in themselves, but they are not necessarily Christian. True Christian storytelling connects moral lessons to the person and work of Jesus Christ. Without that foundation, the story may still inspire but cannot lead to spiritual understanding. Movies like <em>KPOP Demon Hunters</em> often mix light and darkness in ways that blur spiritual realities. They may make evil look exciting or harmless, turning serious biblical truths into entertainment. The danger is not always in what is shown, but in what is missing: the recognition of God’s holiness and the real nature of sin and redemption.</p>
+
+    <p><strong>3. How such media can influence a Christian worldview.</strong> Media shapes how people think about morality, spirituality, and identity. For children and teenagers, these stories can subtly define what “good” and “evil” look like. When movies use spiritual language but exclude God, they can confuse viewers about the true source of power and goodness. Over time, constant exposure to entertainment that replaces God with magic, self-empowerment, or vague spirituality can dull sensitivity to truth. Romans 12:2 warns believers, “Do not be conformed to the pattern of this world, but be transformed by the renewing of your mind.” Entertainment that mixes truth and error must be approached with discernment, especially for young audiences.</p>
+
+    <p><strong>4. The role of discernment in Christian viewing.</strong> Philippians 4:8 gives a guiding principle for media choices: “Whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable—if anything is excellent or praiseworthy—think about such things.” This does not mean Christians must avoid all fiction or fantasy, but they should learn to watch with spiritual awareness. Parents can help children understand what a story promotes. Does it honor truth, or distort it? Does it encourage dependence on God, or on human power? Does it treat evil as real and dangerous, or trivial and fun? Teaching children to ask these questions builds discernment.</p>
+
+    <p><strong>5. How to guide children in what they watch.</strong> Parents have the responsibility to protect and shape their children’s minds. Proverbs 22:6 advises, “Train up a child in the way he should go.” This includes helping them filter what they see and hear. Guidance does not mean banning everything unfamiliar, but engaging in honest discussion. Watch movies together, and talk about the messages behind the story. Ask: What did the characters rely on for strength? What message does this story send about good and evil? How does it compare to what the Bible says? This approach transforms media consumption into a teaching opportunity, helping children see the difference between fiction and spiritual truth.</p>
+
+    <p><strong>6. Replacing harmful content with godly alternatives.</strong> Children and youth are drawn to stories of power, identity, and belonging. Instead of simply forbidding certain movies, parents can offer better options. Christian films, Bible-based animations, and stories that reflect virtue without distorting truth can satisfy curiosity while pointing to God’s character. More importantly, encourage children to love Scripture itself as the most powerful and meaningful story. When children know the real story of good and evil—the gospel—they can recognize false versions easily.</p>
+
+    <p><strong>7. The importance of guarding the heart and mind.</strong> Proverbs 4:23 says, “Above all else, guard your heart, for everything you do flows from it.” The heart is shaped by what we watch, listen to, and admire. Media influences emotions, beliefs, and desires, often without us realizing it. This is why believers are called to be watchful and wise. Entertainment is not evil in itself, but it becomes dangerous when it leads people away from truth. Christians are called to enjoy creativity while staying anchored in Scripture, using God’s wisdom to evaluate everything they encounter.</p>
+
+    <p><strong>8. Encouraging spiritual maturity in a media-driven world.</strong> Children and teenagers need to grow in spiritual maturity as they navigate modern culture. Parents can help by modeling discernment, setting boundaries, and emphasizing that faith shapes every part of life—including entertainment. Teach them that not everything popular is beneficial (1 Corinthians 10:23). Encourage prayer before watching, and gratitude after. Over time, they will learn that wisdom is not about avoiding the world but living in it with clear vision and a firm foundation in God’s truth.</p>
+
+    <p>In summary, <em>KPOP Demon Hunters</em> is not a Christian movie because it presents spiritual ideas without the truth of Scripture or the authority of Christ. From a Christian perspective, its portrayal of good and evil lacks the foundation of God’s Word and replaces divine power with fantasy. While it may be entertaining, it can subtly influence how children think about spirituality. The role of Christian parents and mentors is to guide children in watching with discernment, using Scripture as the standard for truth. The goal is not to fear culture, but to engage it with wisdom, helping young hearts love what is true, noble, and godly.</p>
+  `,
+  refs: [
+    { term: "Romans 12:2", desc: "Do not be conformed to this world, but be transformed by renewing your mind." },
+    { term: "Philippians 4:8", desc: "Focus your mind on what is true, pure, lovely, and praiseworthy." },
+    { term: "Proverbs 22:6", desc: "Train up a child in the way he should go, and when he is old he will not depart from it." },
+    { term: "Proverbs 4:23", desc: "Guard your heart, for everything you do flows from it." },
+    { term: "1 Corinthians 10:23", desc: "All things are permissible, but not all things are beneficial." }
+  ]
+},
+{
+  id: "role-of-parents-in-childrens-lives",
+  title: "What is the role of parents in their children’s lives?",
+  category: "Faith and Family",
+  tags: ["parenting", "family", "children", "discipleship", "responsibility"],
+  featured: false,
+  content: `
+    <p>Parents have a sacred and vital role in shaping their children’s character, values, and faith. The Bible consistently teaches that raising children is not just a social duty but a spiritual calling. God designed the family as the first place where love, discipline, and wisdom are learned. Parents are entrusted with the responsibility to guide their children toward knowing and honoring God, to model righteousness through their actions, and to nurture them in truth and love. The influence of parents reaches far beyond childhood, laying the foundation for how their children will see themselves, others, and God.</p>
+
+    <p><strong>1. Parents as stewards of God’s gift.</strong> Children are not possessions but gifts entrusted by God. Psalm 127:3 says, “Children are a heritage from the Lord, offspring a reward from Him.” Parents are stewards, meaning they are responsible to care for what belongs to God. Their role is to raise children in a way that reflects His character and wisdom. This stewardship includes meeting physical needs, nurturing emotional well-being, and guiding spiritual growth. Every decision, from discipline to affection, becomes part of how parents fulfill this divine trust.</p>
+
+    <p><strong>2. Teaching and training in godliness.</strong> Proverbs 22:6 teaches, “Train up a child in the way he should go, and when he is old he will not depart from it.” Parental teaching is not limited to words but includes example and consistency. Children learn most deeply by watching how their parents live. Deuteronomy 6:6–7 instructs parents to talk about God’s commands “when you sit at home and when you walk along the road, when you lie down and when you get up.” In other words, spiritual instruction is meant to be woven into daily life, not reserved for special occasions. Parents lead by living what they teach.</p>
+
+    <p><strong>3. Providing love and security.</strong> A parent’s love shapes how children understand love itself. When parents show unconditional love, patience, and forgiveness, they mirror the heart of God. Ephesians 6:4 warns fathers not to provoke their children to anger but to bring them up “in the training and instruction of the Lord.” This balance of nurture and correction helps children feel safe while learning accountability. A home filled with love and order gives children confidence to grow and explore life under the umbrella of security and belonging.</p>
+
+    <p><strong>4. Discipline as guidance, not punishment.</strong> The Bible views discipline as an act of love, not cruelty. Hebrews 12:11 acknowledges that “no discipline seems pleasant at the time, but painful; later on, however, it produces a harvest of righteousness and peace.” Discipline should teach, not harm. Its purpose is to train the heart toward wisdom, respect, and self-control. Parents who discipline with fairness and compassion reflect God’s own corrective love. Children who experience such guidance learn that boundaries are not rejection, but protection.</p>
+
+    <p><strong>5. Modeling faith through example.</strong> More than lectures or rules, children are influenced by what they observe. Parents who live out their faith through prayer, integrity, and compassion provide a living testimony. When children see their parents seeking God in both joy and difficulty, they learn that faith is real and sustaining. Hypocrisy, on the other hand, undermines instruction. A parent’s consistent character is one of the strongest ways to plant seeds of faith in a child’s heart.</p>
+
+    <p><strong>6. Encouraging independence with wisdom.</strong> As children grow, parents must guide them toward maturity and responsibility. The goal is not control, but preparation for adulthood. Wise parents give space for decision-making while offering counsel rooted in Scripture. Proverbs 1:8–9 reminds children to “listen to your father’s instruction and do not forsake your mother’s teaching.” This mutual respect grows when parents teach by listening as well as speaking, guiding without smothering. Empowering children with moral strength helps them carry faith and wisdom into their own future families.</p>
+
+    <p><strong>7. Protecting children from harmful influences.</strong> Parents are also guardians of what enters their children’s minds and hearts. In a world full of conflicting values, they must actively guide what children see, hear, and learn. This includes media, friendships, and cultural influences. Proverbs 4:23 advises, “Above all else, guard your heart, for everything you do flows from it.” Parents are called to protect their children not through isolation, but through instruction and example. Helping children understand why certain choices are harmful builds discernment that will last beyond parental supervision.</p>
+
+    <p><strong>8. Praying for and with their children.</strong> Prayer is one of the most powerful responsibilities of parenting. Parents should pray regularly for their children’s salvation, health, wisdom, and future. Praying together teaches children that God is part of daily life. James 5:16 says, “The prayer of a righteous person is powerful and effective.” Through prayer, parents invite God’s presence and protection over their families and remind their children that every joy and struggle belongs to Him.</p>
+
+    <p><strong>9. Pointing children to Christ.</strong> Ultimately, the role of parents is not just to raise good citizens, but disciples of Jesus. A parent’s highest calling is to lead their children to know and follow Him. This happens not by force, but by example, patience, and faithful instruction. Parents plant seeds, but God brings growth. The goal is for children to develop their own relationship with Christ and live for His glory. When parents fulfill this calling, they participate in God’s work of shaping eternal souls.</p>
+
+    <p>In summary, parents are called to love, teach, protect, and guide their children with wisdom that comes from God. Their role is both practical and spiritual, forming the foundation for how the next generation will live and believe. Through example, discipline, and prayer, parents reflect God’s heart to their children and prepare them to walk in truth. Parenting is not only about raising children for the world, but about raising them for God.</p>
+  `,
+  refs: [
+    { term: "Psalm 127:3", desc: "Children are a heritage and reward from the Lord." },
+    { term: "Proverbs 22:6", desc: "Train up a child in the way he should go, and when he is old he will not depart from it." },
+    { term: "Deuteronomy 6:6–7", desc: "Teach God’s commands to your children daily, at home and along the way." },
+    { term: "Ephesians 6:4", desc: "Fathers, do not provoke your children to anger but raise them in the instruction of the Lord." },
+    { term: "Hebrews 12:11", desc: "Discipline produces righteousness and peace for those trained by it." },
+    { term: "Proverbs 4:23", desc: "Guard your heart, for everything you do flows from it." },
+    { term: "James 5:16", desc: "The prayer of a righteous person is powerful and effective." },
+    { term: "Proverbs 1:8–9", desc: "Children are called to listen to their parents’ instruction and teaching." }
+  ]
+},
+{
+  id: "should-we-hit-children-discipline",
+  title: "Should parents hit their children when disciplining them?",
+  category: "Faith and Family",
+  tags: ["discipline", "parenting", "children", "correction", "love"],
+  featured: false,
+  content: `
+    <p>The question of whether parents should hit their children when disciplining them is one that requires wisdom, love, and careful reflection on what the Bible truly teaches about correction. Scripture clearly supports discipline as an expression of love, but it also teaches that correction must never be harsh, abusive, or driven by anger. The goal of biblical discipline is not to cause pain, but to teach wisdom and righteousness. When physical punishment becomes harmful, humiliating, or uncontrolled, it violates both the heart of biblical teaching and the character of God.</p>
+
+    <p><strong>1. The purpose of discipline according to Scripture.</strong> Proverbs 13:24 says, “Whoever spares the rod hates their children, but the one who loves their children is careful to discipline them.” This verse is often misunderstood. The “rod” in ancient times symbolized authority and guidance, not cruelty. Shepherds used rods to guide sheep, not to injure them. Biblical discipline aims to correct behavior and guide the heart toward obedience and wisdom. Discipline is love in action when done with patience and consistency. Its purpose is restoration, not punishment.</p>
+
+    <p><strong>2. The danger of anger and abuse.</strong> Ephesians 6:4 warns, “Fathers, do not provoke your children to anger, but bring them up in the training and instruction of the Lord.” When discipline is done in anger or frustration, it easily turns into harm rather than help. Hitting out of rage or using physical punishment as a way to vent emotions teaches fear instead of respect. The Bible never condones violence or abuse. Discipline that breaks a child’s spirit rather than shaping their character goes against God’s heart. God’s discipline toward His children is always firm yet compassionate.</p>
+
+    <p><strong>3. The meaning of the “rod” in Proverbs.</strong> Several Proverbs mention the “rod” (Proverbs 22:15, 23:13–14, 29:15). These verses emphasize the importance of correction, not cruelty. In Hebrew culture, the rod was a metaphor for authority, instruction, and accountability. A shepherd used it to guide wandering sheep back to safety. Likewise, parents are called to correct their children’s wrong choices with wisdom and love. Some parents may use light physical correction with calm control, but the focus must always remain on teaching, not hurting. The goal is to train the heart, not inflict pain.</p>
+
+    <p><strong>4. The example of God’s discipline.</strong> Hebrews 12:6 says, “The Lord disciplines those He loves.” God’s discipline is purposeful, gentle, and patient. He corrects His children to bring them closer to righteousness, not to humiliate or harm them. Parents are called to reflect that same character. Discipline should aim to help children understand consequences, develop self-control, and grow in wisdom. Any form of punishment that causes fear, resentment, or physical harm fails to reflect God’s loving correction.</p>
+
+    <p><strong>5. The importance of communication and relationship.</strong> Effective discipline requires a strong relationship between parent and child. Correction must happen within a context of trust and love. When a child knows they are loved, discipline is understood as care, not rejection. Parents should explain why certain actions are wrong and what lessons need to be learned. Talking, praying, and showing grace are as essential as correction itself. The Bible shows that words of instruction, patience, and encouragement can often be more powerful than physical discipline.</p>
+
+    <p><strong>6. Discipline as teaching, not punishment.</strong> The word “discipline” comes from the same root as “disciple,” meaning to teach or train. Discipline is not about revenge or making a child “pay” for mistakes. It is about guiding them toward maturity and obedience. Proverbs 29:17 says, “Discipline your children, and they will give you peace.” This peace comes when children understand that boundaries are meant for their good. Parents must balance firmness with kindness, correction with compassion, and authority with humility.</p>
+
+    <p><strong>7. The role of cultural understanding.</strong> In biblical times, discipline was often expressed differently due to social and cultural norms. Today, parents have more understanding of child development and emotional well-being. Physical punishment can cause long-term harm when misunderstood or misused. Christians are called to exercise wisdom and love in applying biblical principles in modern contexts. What remains constant is the heart of discipline: correction rooted in love, not force or fear.</p>
+
+    <p><strong>8. A balanced biblical perspective.</strong> The Bible does not command parents to hit their children, nor does it forbid all physical correction. It commands parents to discipline in love and gentleness, using methods that train, protect, and guide. For some families, this may include non-physical forms of correction such as time-outs, loss of privileges, or reflective conversations. What matters most is that the method honors the child’s dignity and reflects God’s heart. Parents should pray for wisdom and self-control before disciplining, ensuring that every act of correction builds rather than breaks.</p>
+
+    <p><strong>9. Leading children toward godliness.</strong> The end goal of all discipline is to help children walk in truth and righteousness. Parents should ask: “Does this correction help my child know God better? Does it teach responsibility and love?” Discipline that points to God’s justice and mercy produces spiritual maturity. Children learn to associate obedience with peace, forgiveness with grace, and correction with love. In this way, discipline becomes a mirror of the gospel itself.</p>
+
+    <p>In summary, the Bible calls parents to discipline their children in love, patience, and wisdom. Hitting or harsh punishment done in anger is not biblical and can harm both body and spirit. True discipline teaches, restores, and strengthens character. Godly correction reflects God’s love, guiding children not through fear but through truth, compassion, and consistency. Parents who discipline prayerfully and gently help their children grow into wise, confident, and God-fearing adults.</p>
+  `,
+  refs: [
+    { term: "Proverbs 13:24", desc: "Whoever spares the rod hates their children, but the one who loves them is careful to discipline them." },
+    { term: "Ephesians 6:4", desc: "Fathers, do not provoke your children to anger, but bring them up in the instruction of the Lord." },
+    { term: "Proverbs 22:15", desc: "Folly is bound up in the heart of a child, but the rod of discipline drives it away." },
+    { term: "Hebrews 12:6", desc: "The Lord disciplines those He loves, and He chastens everyone He accepts as His son." },
+    { term: "Proverbs 29:17", desc: "Discipline your children, and they will give you peace and bring delight to your heart." }
+  ]
+},
+{
+  id: "honor-parents-unbelieving",
+  title: "How do we honor our father and mother if they are not Christians or if they forbid us to follow Jesus?",
+  category: "Faith and Family",
+  tags: ["parents", "obedience", "faith", "honor", "discipleship"],
+  featured: false,
+  content: `
+    <p>The command to honor one’s father and mother is one of the Ten Commandments and is repeated throughout the Bible. Exodus 20:12 says, “Honor your father and your mother, so that you may live long in the land the Lord your God is giving you.” Jesus reaffirmed this in Matthew 15:4, showing that respect for parents remains an important part of living a godly life. But what happens when parents are not believers or when they oppose their child’s faith in Jesus Christ? This situation requires wisdom, love, and courage. The Bible teaches that honoring parents and obeying God are both important, but when they conflict, obedience to God must come first while maintaining love and respect for one’s parents.</p>
+
+    <p><strong>1. Understanding what it means to honor parents.</strong> To honor parents means to respect, value, and care for them. It includes speaking kindly, showing gratitude, and treating them with dignity. However, honoring is not the same as blind obedience. Honor comes from the heart, reflecting love and respect even when parents are imperfect. Ephesians 6:1–2 teaches, “Children, obey your parents in the Lord, for this is right.” The phrase “in the Lord” reminds us that obedience is guided by God’s will. Christians should honor their parents as long as doing so does not lead them into sin or away from God.</p>
+
+    <p><strong>2. When obedience to parents conflicts with obedience to God.</strong> Acts 5:29 records the apostles saying, “We must obey God rather than men.” This principle applies when parents or authorities demand something that directly contradicts God’s commands. If a parent forbids a child from believing in Jesus or practicing their faith, the believer must remain faithful to God first. Honoring parents does not mean compromising one’s relationship with Christ. However, even when disagreeing, believers should respond with humility, patience, and love, never with hatred or disrespect. The way we handle conflict reflects the faith we profess.</p>
+
+    <p><strong>3. Honoring unbelieving parents through love and example.</strong> One of the best ways to honor unbelieving parents is through consistent love and Christlike behavior. 1 Peter 3:1–2 teaches that unbelievers may be “won over without words by the behavior” of those who follow Christ. A child who continues to show kindness, service, and respect—even when opposed—bears witness to the truth of the gospel. Parents may reject Christianity in words but notice the transformation in their child’s life. Honoring them through godly character can open doors that arguments cannot.</p>
+
+    <p><strong>4. Responding wisely when parents forbid faith in Jesus.</strong> If parents explicitly forbid belief in Christ, the believer must pray for courage and discernment. Faith cannot be forced, but it also cannot be denied when it is genuine. Jesus Himself warned that following Him may cause conflict even within families (Matthew 10:34–37). Yet He also taught believers to love and forgive those who oppose them. The Christian response is to stand firm in faith without becoming defiant or disrespectful. Silent faith, private prayer, and gentle perseverance often speak louder than confrontation. In time, God can soften hearts that once seemed closed.</p>
+
+    <p><strong>5. Balancing obedience, respect, and conviction.</strong> For minors still under parental authority, this situation can be very difficult. Obedience is expected in everyday matters, but faith in Christ is a personal conviction that cannot be abandoned. When parents restrict worship or prayer, a believing child can still honor them by being respectful, cooperative, and responsible while holding faith quietly in the heart. God understands the struggles of believers living under pressure. In such cases, prayer and patience are powerful tools. God can use a child’s steadfast faith to touch even the hardest hearts.</p>
+
+    <p><strong>6. The example of Jesus and early believers.</strong> Jesus Himself obeyed His earthly parents during His youth (Luke 2:51), but when His Father’s will required something higher, He followed God’s call without hesitation. The early disciples also faced rejection from family and society, yet they remained faithful. Their obedience to God, combined with humility, became a powerful testimony. Christians are called to the same balance: to love deeply, honor sincerely, and yet never forsake truth. In doing so, they reflect the grace and strength of Christ.</p>
+
+    <p><strong>7. Continuing to pray for unbelieving parents.</strong> Honoring unbelieving parents includes praying for them. 1 Timothy 2:1 urges believers to make “petitions, prayers, and thanksgivings” for all people. Prayer is an act of love and faith. It invites God to work in ways we cannot. Even when parents reject the gospel, prayer keeps the believer’s heart soft and compassionate. God often uses the quiet faithfulness of children to draw entire families toward salvation. No situation is beyond His reach.</p>
+
+    <p><strong>8. Trusting God in difficult family situations.</strong> Following Jesus sometimes brings division, but it also brings peace that the world cannot take away (John 14:27). When believers face opposition from parents, they can find comfort in knowing that Christ understands and stands with them. God honors those who honor Him first. In time, faithfulness can heal broken relationships and bring unexpected reconciliation. The believer’s task is to remain gentle, truthful, and steadfast, leaving the results to God.</p>
+
+    <p>In summary, honoring one’s father and mother remains a command for all believers, even when parents do not share the same faith. However, obedience to God must always come first. Honoring unbelieving parents means showing love, respect, and patience while standing firm in one’s faith. When parents oppose or forbid belief in Jesus, Christians should continue to honor them through kindness and prayer, trusting that God can use their faithfulness to shine His light in their family. True honor does not require compromise; it requires faith guided by humility and love.</p>
+  `,
+  refs: [
+    { term: "Exodus 20:12", desc: "Honor your father and your mother, that you may live long in the land God gives you." },
+    { term: "Ephesians 6:1–2", desc: "Children are told to obey their parents in the Lord, for this is right." },
+    { term: "Acts 5:29", desc: "We must obey God rather than men when authority conflicts with faith." },
+    { term: "1 Peter 3:1–2", desc: "Unbelievers may be won over by the godly conduct of believers." },
+    { term: "Matthew 10:34–37", desc: "Following Christ may cause division even among family members." },
+    { term: "Luke 2:51", desc: "Jesus obeyed His earthly parents during His youth." },
+    { term: "1 Timothy 2:1", desc: "Believers are encouraged to pray for all people, including family." },
+    { term: "John 14:27", desc: "Jesus promises peace to those who follow Him faithfully." }
   ]
 }
 ];
