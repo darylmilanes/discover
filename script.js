@@ -32,7 +32,8 @@ function renderTOC(data) {
       const el = document.createElement("div");
       el.className = "toc-item";
       el.textContent = it.title;
-      el.onclick = () => showSingleCard(it.id);
+      // use the helper so narrow-screen behavior can run when a TOC item is selected
+      el.addEventListener('click', () => selectTOCItem(el, it.id));
       itemsList.appendChild(el);
     });
 
@@ -94,6 +95,35 @@ function showFeatured() {
 function showSingleCard(id) {
   const item = DATA.find(it => it.id === id);
   if (item) renderCards([item]);
+}
+
+// New: select a TOC item (mark active, show card, and on narrow screens scroll so content sits under header)
+function selectTOCItem(itemEl, id) {
+  // render the selected card
+  showSingleCard(id);
+
+  // set active state
+  const container = document.getElementById('toc') || document;
+  const prev = container.querySelector('.toc-item.active, .toc-item[aria-current="true"]');
+  if (prev && prev !== itemEl) {
+    prev.classList.remove('active');
+    prev.removeAttribute('aria-current');
+  }
+  itemEl.classList.add('active');
+  itemEl.setAttribute('aria-current', 'true');
+
+  // On narrow screens, scroll so the content area sits at the top under the sticky header,
+  // effectively hiding the TOC which sits above the content in the flow.
+  const narrowBreakpoint = 820; // match CSS breakpoint for single-column layout
+  if (window.innerWidth <= narrowBreakpoint) {
+    const contentEl = document.querySelector('.content') || document.getElementById('content');
+    const headerEl = document.querySelector('.intro');
+    const headerHeight = headerEl ? headerEl.getBoundingClientRect().height : 0;
+    if (contentEl) {
+      const targetTop = contentEl.getBoundingClientRect().top + window.scrollY - headerHeight - 8;
+      window.scrollTo({ top: Math.max(0, targetTop), behavior: 'smooth' });
+    }
+  }
 }
 
 // Toggle favorites
