@@ -3,22 +3,26 @@ const DATA = [
      CATEGORY: Biblical History
      =========================== */
   {
+  id: "discover-intro",
   title: "About Discover",
   category: "Introduction",
+  tags: ["overview", "Bible", "faith", "learning", "guidance"],
   featured: true,
   content: `
-    <p><strong>Discover</strong> is a digital library designed to explore the history, message, and meaning of the Bible with clarity and depth. It presents reliable, well-researched explanations of Scripture, rooted in both faith and scholarship. Each topic unpacks key biblical themes, historical background, and theological insights to help readers grow in understanding and confidence in God’s Word.</p>
+    <p><strong>Discover</strong> is a digital library created to help readers explore the history, message, and meaning of the Bible with clarity and depth. It presents thoughtful explanations of Scripture that draw from both faith and sound study. Each topic brings together biblical truth, historical insight, and theological reflection to help readers grow in understanding and confidence in God’s Word.</p>
 
-    <p>Rather than offering quick summaries or surface-level answers, Discover invites thoughtful engagement with Scripture. Every article draws from biblical texts, historical evidence, and established Christian teaching, while addressing common questions and misconceptions with care. Whether a reader is new to the Bible or already familiar with it, the platform provides an opportunity to see how all of Scripture fits together as one coherent story of redemption.</p>
+    <p>Rather than providing quick summaries or surface-level answers, <strong>Discover</strong> encourages deeper engagement with Scripture. Each article invites reflection and dialogue, addressing common questions and misconceptions while guiding readers to the heart of biblical truth. Whether someone is opening the Bible for the first time or seeking a renewed understanding, this platform aims to show how all of Scripture connects as one story of God’s love and redemption.</p>
 
-    <p>Discover is built on the conviction that the Bible is not an ordinary book but the living Word of God, “useful for teaching, rebuking, correcting and training in righteousness” (2 Timothy 3:16). Through accessible explanations, historical context, and scriptural references, Discover aims to help every reader move beyond curiosity toward conviction, and beyond information toward transformation.</p>
+    <p><strong>Discover</strong> is built on the conviction that the Bible is not an ordinary book but the living Word of God, “useful for teaching, rebuking, correcting and training in righteousness” (2 Timothy 3:16). Through clear explanations, historical background, and scriptural connections, Discover encourages every reader to move beyond curiosity toward conviction and transformation.</p>
 
-    <p>Ultimately, the purpose of Discover is to glorify God by helping people encounter truth. Every page is an invitation to go deeper and to explore how divine revelation was recorded, preserved, and continues to speak powerfully to the world today.</p>
+    <p>Readers are encouraged to approach these writings prayerfully, asking the Holy Spirit for wisdom and discernment in understanding God’s truth. While this collection was carefully written and researched, human words are never perfect. Let the Spirit of God be the ultimate guide as you read, reflect, and respond to what He reveals through His Word.</p>
+
+    <p>The purpose of <strong>Discover</strong> is not to replace the Bible but to awaken a desire to read it personally. It seeks to spark curiosity that leads to a lifelong habit of studying Scripture and growing in love for God. Every page is an invitation to go deeper and to encounter the living God who continues to speak through His Word with grace, truth, and power.</p>
   `,
   refs: [
-    { term: "2 Timothy 3:16", desc: "All Scripture is God-breathed and useful for teaching and spiritual growth." },
-    { term: "Biblical Context", desc: "Understanding the historical and cultural background of Scripture for accurate interpretation." },
-    { term: "Theology", desc: "The study of God and His relationship with creation, revealed through Scripture." }
+    { term: "2 Timothy 3:16", desc: "All Scripture is inspired by God and useful for teaching, correction, and training in righteousness." },
+    { term: "Holy Spirit", desc: "The divine guide who leads believers into truth and understanding when reading Scripture." },
+    { term: "Bible Study", desc: "The practice of reading and reflecting on Scripture to grow in knowledge and love of God." }
   ]
 },
      {
