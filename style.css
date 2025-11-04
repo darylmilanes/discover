@@ -109,6 +109,44 @@ body {
   gap: 20px;
 }
 
+@media (min-width: 821px) {
+  /* Constrain the grid area to the viewport height below the sticky header so children can scroll independently */
+  .layout {
+    /* subtract header height and a small margin so content sits comfortably */
+    height: calc(100vh - var(--header-height) - 32px);
+    overflow: hidden; /* prevent the whole page from scrolling inside this area */
+  }
+
+  /* Ensure the direct children fill the available height */
+  .layout > aside,
+  .layout > main {
+    max-height: 100%;
+    overflow: hidden;
+  }
+
+  /* Make the TOC panel scroll independently */
+  .toc {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    max-height: 100%;
+    padding-right: 8px; /* space for scrollbar so content doesn't jump */
+    padding-bottom: 28px; /* bottom gutter so last item has breathing room */
+  }
+
+  /* Make the content column scroll independently */
+  .content {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    max-height: 100%;
+  }
+
+  /* Prevent .cards from expanding beyond the content area */
+  .cards {
+    max-height: 100%;
+    overflow: auto;
+  }
+}
+
 /* --- TOC --- */
 .toc {
   background: rgba(255,255,255,0.8);
@@ -116,8 +154,11 @@ body {
   padding: 14px;
   box-shadow: var(--shadow);
   position: sticky;
-  top: 100px;
+  top: calc(var(--header-height) + 12px);
   z-index: 70;
+  transform-origin: top;
+  /* ensure some breathing room at the bottom across breakpoints */
+  padding-bottom: 28px;
 }
 
 .toc h3 {
@@ -140,12 +181,17 @@ body {
 }
 
 .toc-items {
-  display: none;
+  /* collapse by limiting max-height so it expands downward when opened */
+  max-height: 0;
+  overflow: hidden;
   margin-left: 12px;
+  transition: max-height 260ms cubic-bezier(.2,.9,.2,1), opacity 180ms ease;
+  opacity: 0;
 }
 
 .toc-items.open {
-  display: block;
+  max-height: 1200px; /* large enough to accommodate long lists */
+  opacity: 1;
 }
 
 .toc-item {
@@ -178,6 +224,11 @@ body {
   outline: none;
   box-shadow: 0 0 0 4px rgba(0,64,128,0.08);
   border-radius: 6px;
+}
+
+/* make sure the last category doesn't sit flush against the bottom */
+.toc .toc-category:last-child {
+  margin-bottom: 24px;
 }
 
 /* --- Cards --- */
