@@ -24,25 +24,23 @@ function renderTOC(data) {
 
     const catHeader = document.createElement("h4");
     catHeader.textContent = category;
-    // toggle the items and, when opening, ensure the first item is visible in the scrollable TOC
-    catHeader.addEventListener('click', () => {
+    // make header interactive and keyboard-accessible
+    catHeader.style.cursor = 'pointer';
+    catHeader.tabIndex = 0;
+    catHeader.onclick = () => {
       const opened = itemsList.classList.toggle('open');
       if (opened) {
-        // wait a frame for the CSS transition to begin, then scroll the first item into view inside the .toc container
+        // ensure the expanded list is visible inside the scrollable TOC
+        // run on next frame so layout has updated
         requestAnimationFrame(() => {
-          const first = itemsList.querySelector('.toc-item');
-          const tocContainer = document.querySelector('aside .toc') || document.querySelector('.toc');
-          if (first && tocContainer) {
-            // scroll the first item to the top of the TOC so expanded items are visible
-            first.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
-            // also move a little offset so the category header remains visible above
-            // a small timeout adjusts the final position after the smooth scroll
-            setTimeout(() => {
-              const offset = Math.max(0, tocContainer.scrollTop - 8);
-              tocContainer.scrollTo({ top: offset, behavior: 'smooth' });
-            }, 220);
-          }
+          itemsList.scrollIntoView({ behavior: 'smooth', block: 'end' });
         });
+      }
+    };
+    catHeader.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        catHeader.click();
       }
     });
 
@@ -131,12 +129,6 @@ function selectTOCItem(itemEl, id) {
   }
   itemEl.classList.add('active');
   itemEl.setAttribute('aria-current', 'true');
-
-  // ensure the selected item is visible inside the TOC scroll container
-  const tocContainer = document.querySelector('aside .toc') || document.querySelector('.toc');
-  if (tocContainer && itemEl) {
-    itemEl.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
-  }
 
   // On narrow screens, scroll so the content area sits at the top under the sticky header,
   // effectively hiding the TOC which sits above the content in the flow.
