@@ -123,6 +123,9 @@ function selectTOCItem(itemEl, id) {
       const targetTop = contentEl.getBoundingClientRect().top + window.scrollY - headerHeight - 8;
       window.scrollTo({ top: Math.max(0, targetTop), behavior: 'smooth' });
     }
+  } else {
+    // Wide screens: scroll to very top so the selected content is fully visible beneath the sticky header
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 }
 
