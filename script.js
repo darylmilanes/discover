@@ -14,6 +14,40 @@ function groupByCategory(data) {
   return grouped;
 }
 
+// Smooth open/close helpers for TOC accordion
+function openTOCList(list) {
+  list.classList.add('open');
+  // ensure transition properties are present
+  list.style.transition = 'max-height 320ms cubic-bezier(.2,.9,.2,1), opacity 220ms ease';
+  list.style.opacity = '1';
+  // set explicit max-height to trigger the transition
+  const h = list.scrollHeight;
+  list.style.maxHeight = h + 'px';
+}
+
+function closeTOCList(list) {
+  // set current height so transition has a start value
+  list.style.transition = 'max-height 280ms cubic-bezier(.2,.9,.2,1), opacity 180ms ease';
+  list.style.maxHeight = list.scrollHeight + 'px';
+  // next frame set to zero to animate collapse
+  requestAnimationFrame(() => {
+    list.style.maxHeight = '0px';
+    list.style.opacity = '0';
+  });
+  // when transition ends, clean up
+  const onEnd = () => {
+    list.classList.remove('open');
+    list.style.maxHeight = '';
+    list.style.transition = '';
+    list.removeEventListener('transitionend', onEnd);
+  };
+  list.addEventListener('transitionend', onEnd);
+}
+
+function closeAllTOCLists() {
+  document.querySelectorAll('.toc-items.open').forEach(l => closeTOCList(l));
+}
+
 // Render TOC
 function renderTOC(data) {
   tocListEl.innerHTML = "";
@@ -27,16 +61,17 @@ function renderTOC(data) {
     // make header interactive and keyboard-accessible
     catHeader.style.cursor = 'pointer';
     catHeader.tabIndex = 0;
-    catHeader.onclick = () => {
-      const opened = itemsList.classList.toggle('open');
-      if (opened) {
+    // accordion behavior: open this category and close others (animated)
+    catHeader.addEventListener('click', () => {
+      const isOpen = itemsList.classList.contains('open');
+      // close any other open lists
+      closeAllTOCLists();
+      if (!isOpen) {
+        openTOCList(itemsList);
         // ensure the expanded list is visible inside the scrollable TOC
-        // run on next frame so layout has updated
-        requestAnimationFrame(() => {
-          itemsList.scrollIntoView({ behavior: 'smooth', block: 'end' });
-        });
+        requestAnimationFrame(() => itemsList.scrollIntoView({ behavior: 'smooth', block: 'end' }));
       }
-    };
+    });
     catHeader.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
