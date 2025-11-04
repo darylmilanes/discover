@@ -149,12 +149,12 @@ body {
 
 /* --- TOC --- */
 .toc {
-  background: rgba(255,255,255,0.8);
+  background: rgba(250, 254, 255, 1);
   border-radius: var(--radius);
   padding: 14px;
-  box-shadow: var(--shadow);
-  position: sticky;
-  top: calc(var(--header-height) + 12px);
+  /* sit below the sticky header in normal flow (like .content) */
+  position: relative;
+  top: unset;
   z-index: 70;
   transform-origin: top;
   /* ensure some breathing room at the bottom across breakpoints */
