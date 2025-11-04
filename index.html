@@ -1,51 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title>Discover</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discover | A Library for Curiosity</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <!-- Hero Section moved to top-level so it can span full width -->
-  <section class="intro">
-    <h1>Disc<span class="accent-o">o</span>ver</h1>
-    <p>A LIBRARY FOR CURIOSITY</p>
-  </section>
+  <div class="layout">
+    <aside class="toc">
+      <header class="toc-header">
+        <h1>Discover</h1>
+        <p>A Library for Curiosity</p>
+      </header>
 
-  <div class="page">
-    <div class="site">
-
-      <div class="layout">
-        <aside aria-label="Table of contents">
-          <div class="toc" id="toc">
-            <h3>Explore</h3>
-            <div id="toc-list" class="toc-list"></div>
-          </div>
-        </aside>
-
-        <main class="content" id="content">
-          <section class="cards" id="cards" aria-live="polite"></section>
-        </main>
+      <div class="toc-search">
+        <input type="text" id="search" placeholder="Search topics..." />
       </div>
-    </div>
-  </div>
 
-  <!-- Bottom fade background behind the search footer -->
-  <div class="bottom-fade" aria-hidden="true"></div>
+      <nav id="toc-list"></nav>
+    </aside>
 
-  <!-- Sticky Search Footer -->
-  <div class="sticky-search" role="search" aria-label="Search contents">
-    <div class="search-panel">
-      <input id="searchInput" class="search-input" type="search" placeholder="Search topics, keywords, tags..." aria-label="Search" />
-      <button id="searchBtn" class="search-btn">Search</button>
-      <button id="clearSearch" class="search-btn" title="Clear">Clear</button>
-    </div>
+    <main class="content">
+      <article id="content-display" class="fade-in">
+        <h2>Welcome to Discover</h2>
+        <p>Select a topic from the table of contents to begin exploring thoughtful studies and insights.</p>
+      </article>
+    </main>
   </div>
 
   <script src="data.js"></script>
+  <script src="render.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
