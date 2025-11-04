@@ -1,0 +1,107 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const sidebar = document.getElementById("sidebar");
+  const menuToggle = document.getElementById("menuToggle");
+  const overlay = document.getElementById("overlay");
+  const categoryList = document.getElementById("categoryList");
+  const contentArea = document.getElementById("contentArea");
+
+  // ===== Sidebar Toggle =====
+  function toggleSidebar(show) {
+    if (show) {
+      sidebar.classList.add("open");
+      overlay.classList.add("active");
+    } else {
+      sidebar.classList.remove("open");
+      overlay.classList.remove("active");
+    }
+  }
+
+  menuToggle.addEventListener("click", () => {
+    const isOpen = sidebar.classList.contains("open");
+    toggleSidebar(!isOpen);
+  });
+
+  overlay.addEventListener("click", () => toggleSidebar(false));
+
+  // ===== Group Data by Category =====
+  const grouped = {};
+  DATA.forEach(item => {
+    if (!grouped[item.category]) grouped[item.category] = [];
+    grouped[item.category].push(item);
+  });
+
+  let openCategory = null; // Track open accordion
+  let activeItemEl = null; // Track highlighted TOC item
+
+  // ===== Build Sidebar =====
+  Object.keys(grouped).forEach(category => {
+    const group = document.createElement("div");
+    group.classList.add("category-group");
+
+    const title = document.createElement("div");
+    title.classList.add("category-title");
+    title.textContent = category;
+
+    const ul = document.createElement("ul");
+    ul.classList.add("category-items");
+
+    grouped[category].forEach(item => {
+      const li = document.createElement("li");
+      li.textContent = item.title;
+      li.addEventListener("click", () => {
+        showContent(item);
+
+        // Close sidebar on mobile
+        if (window.innerWidth < 768) toggleSidebar(false);
+
+        // Highlight selected item
+        if (activeItemEl) activeItemEl.classList.remove("active-item");
+        li.classList.add("active-item");
+        activeItemEl = li;
+      });
+      ul.appendChild(li);
+    });
+
+    // Accordion — only one open
+    title.addEventListener("click", () => {
+      if (openCategory && openCategory !== ul) {
+        openCategory.style.display = "none";
+      }
+      ul.style.display = ul.style.display === "block" ? "none" : "block";
+      openCategory = ul.style.display === "block" ? ul : null;
+    });
+
+    group.appendChild(title);
+    group.appendChild(ul);
+    categoryList.appendChild(group);
+  });
+
+  // ===== Show Content =====
+  function showContent(item) {
+    contentArea.innerHTML = `
+      <article>
+        <h2>${item.title}</h2>
+        ${item.content}
+        ${
+          item.refs?.length
+            ? `<h4>References</h4><ul>${item.refs
+                .map(
+                  ref =>
+                    `<li><strong>${ref.term}:</strong> ${ref.desc}</li>`
+                )
+                .join("")}</ul>`
+            : ""
+        }
+      </article>
+    `;
+
+    // Scroll to top so reader starts at beginning
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  // ===== Default: Load "About Discover" =====
+  const defaultItem = DATA.find(i => i.id === "discover-intro");
+  if (defaultItem) {
+    showContent(defaultItem);
+  }
+});
