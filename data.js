@@ -785,40 +785,7 @@ const DATA = [
     { term: "Proverbs 3:5–6", desc: "Trust in God leads to clear direction and straight paths." }
   ]
 },
-{
-  id: "apostles-chosen",
-  title: "Who were the apostles, and why were they the ones chosen?",
-  category: "Biblical History",
-  tags: ["apostles", "disciples", "Jesus", "ministry", "calling"],
-  featured: false,
-  content: `
-    <p>The apostles were the twelve men personally chosen by Jesus Christ to follow Him, learn from Him, and become the foundation of His Church. The word <em>apostle</em> comes from the Greek <em>apostolos</em>, meaning “one who is sent.” These men were not chosen for their status, education, or perfection, but for their willingness to follow and be transformed. Jesus selected ordinary people—fishermen, a tax collector, and even a political zealot—to show that God’s power works through availability, not ability.</p>
 
-    <p><strong>1. Who the apostles were:</strong> The twelve original apostles named in the Gospels are Peter (also called Simon), Andrew, James (son of Zebedee), John, Philip, Bartholomew (also called Nathanael), Matthew (the tax collector), Thomas, James (son of Alphaeus), Thaddeus (also called Judas, son of James), Simon the Zealot, and Judas Iscariot, who later betrayed Jesus and was replaced by Matthias (Acts 1:26). They came from different backgrounds, but all were personally called by Jesus to leave their ordinary lives and join His mission.</p>
-
-    <p><strong>2. Why Jesus chose them:</strong> Jesus chose His apostles not because they were perfect, but because they were willing to be changed. In Luke 6:12–13, Jesus spent the entire night praying before selecting them, showing that their appointment was guided by divine wisdom, not human reasoning. Each apostle represented a piece of humanity—impulsive Peter, skeptical Thomas, ambitious James and John, meticulous Matthew, and others. Their diversity demonstrated that God can use all kinds of people for His purpose when they surrender to Him.</p>
-
-    <p><strong>3. Their role in God’s plan:</strong> The apostles were called to be eyewitnesses of Jesus’ life, death, and resurrection. They were the first to receive His teaching directly, to witness His miracles, and to be sent into the world as His representatives. Jesus said to them, “As the Father has sent me, I am sending you” (John 20:21). Their mission was to preach the gospel, heal the sick, cast out demons, and testify to the truth that Jesus is the Son of God. Through them, the message of salvation spread from Jerusalem to the ends of the earth.</p>
-
-    <p><strong>4. Why they were ordinary people:</strong> The apostles’ ordinariness was intentional. None of them were religious scholars or political leaders. Their simplicity made the power of God unmistakable. Acts 4:13 notes that when people saw the boldness of Peter and John, they were astonished because they were “unschooled, ordinary men,” yet they recognized that they had been with Jesus. God’s choice of ordinary people reveals that greatness in His kingdom comes not from human credentials but from divine calling and obedience.</p>
-
-    <p><strong>5. Their transformation through discipleship:</strong> The apostles were far from flawless. They doubted, argued, fled in fear, and misunderstood Jesus many times. But after His resurrection and the coming of the Holy Spirit at Pentecost (Acts 2), they were completely transformed. The same men who once hid in fear became bold witnesses, willing to suffer and die for the message they carried. Their courage and faith became the foundation of the early Church.</p>
-
-    <p><strong>6. The symbolic significance of the twelve:</strong> The number twelve was not random—it symbolized the twelve tribes of Israel, representing God’s covenant people. By choosing twelve apostles, Jesus signaled the renewal of God’s people through a new covenant, not based on ancestry but on faith. Just as the twelve tribes formed the foundation of ancient Israel, the twelve apostles became the foundation of the spiritual Israel—the Church (Revelation 21:14).</p>
-
-    <p><strong>7. The enduring mission of apostleship:</strong> Although the original apostles held a unique, unrepeatable role as eyewitnesses of Christ’s ministry, the spirit of their mission continues. Every believer is called to be a witness—to share Christ’s truth and love in their own context. The Great Commission (Matthew 28:19–20) extends this apostolic mission to all Christians: “Go and make disciples of all nations.” The apostles were the first to do what every follower of Jesus is now invited to continue.</p>
-
-    <p>In short, Jesus chose the apostles to show that God’s kingdom is built not on prestige but on faithfulness. They remind us that God calls ordinary people to extraordinary purposes. Their lives teach that being chosen by God is not about perfection but transformation—allowing His grace to turn weakness into witness and humility into strength. The apostles were not the best candidates by human standards, but they were the right ones by God’s design.</p>
-  `,
-  refs: [
-    { term: "Luke 6:12–13", desc: "Jesus prayed all night before choosing the twelve apostles, showing divine intention." },
-    { term: "John 20:21", desc: "Jesus sends His apostles just as the Father sent Him." },
-    { term: "Acts 4:13", desc: "The boldness of Peter and John amazed people because they were ordinary men empowered by God." },
-    { term: "Acts 2", desc: "The coming of the Holy Spirit empowered the apostles for their mission." },
-    { term: "Revelation 21:14", desc: "The names of the twelve apostles are inscribed on the foundations of the New Jerusalem." },
-    { term: "Matthew 28:19–20", desc: "The Great Commission extends the apostles’ mission to all believers." }
-  ]
-},
 {
   id: "apostles-purpose",
   title: "Who were the apostles, and why did Jesus choose them?",
