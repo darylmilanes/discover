@@ -1,36 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Basic Meta -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO & Metadata -->
   <title>Discover | A Library for Curiosity</title>
+  <meta name="description" content="Discover is a digital library designed to explore the Bible’s history, message, and meaning — with clarity, curiosity, and depth." />
+  <meta name="author" content="Discover Project Team" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+
+  <!-- Styles -->
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+  <header class="site-header">
+    <div class="branding">
+      <h1 class="site-title">Discover</h1>
+      <p class="site-tagline">A Library for Curiosity</p>
+    </div>
+  </header>
+
   <div class="layout">
-    <aside class="toc">
-      <header class="toc-header">
-        <h1>Discover</h1>
-        <p>A Library for Curiosity</p>
-      </header>
+    <!-- ===== Left Panel: Table of Contents ===== -->
+    <aside class="toc" aria-label="Table of Contents">
+      <section class="toc-controls">
+        <label for="search" class="visually-hidden">Search Topics</label>
+        <input 
+          type="search" 
+          id="search" 
+          name="search" 
+          placeholder="Search topics..." 
+          aria-label="Search through topics"
+        />
+      </section>
 
-      <div class="toc-search">
-        <input type="text" id="search" placeholder="Search topics..." />
-      </div>
-
-      <nav id="toc-list"></nav>
+      <nav id="toc-list" class="toc-list" role="navigation" aria-label="Topic Navigation">
+        <!-- Categories and topics dynamically inserted by render.js -->
+      </nav>
     </aside>
 
-    <main class="content">
+    <!-- ===== Right Panel: Content Viewer ===== -->
+    <main class="content" role="main">
       <article id="content-display" class="fade-in">
-        <h2>Welcome to Discover</h2>
-        <p>Select a topic from the table of contents to begin exploring thoughtful studies and insights.</p>
+        <header class="article-header">
+          <h2>Welcome to Discover</h2>
+        </header>
+        <section class="article-body">
+          <p>
+            Select a topic from the table of contents to begin exploring thoughtful studies,
+            historical insights, and scriptural reflections.
+          </p>
+        </section>
       </article>
     </main>
   </div>
 
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Discover. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
   <script src="data.js"></script>
   <script src="render.js"></script>
   <script src="script.js"></script>
+
+  <script>
+    // Automatically update footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
