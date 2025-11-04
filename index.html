@@ -1,36 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Discover | A Library for Curiosity</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover | Digital Bible Library</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="data.js"></script>
+  <script defer src="main.js"></script>
 </head>
 <body>
-  <div class="layout">
-    <aside class="toc">
-      <header class="toc-header">
-        <h1>Discover</h1>
-        <p>A Library for Curiosity</p>
-      </header>
+  <header>
+    <button id="menuToggle" aria-label="Toggle menu">☰</button>
+    <h1>Discover</h1>
+  </header>
 
-      <div class="toc-search">
-        <input type="text" id="search" placeholder="Search topics..." />
-      </div>
+  <aside id="sidebar">
+    <h2>Categories</h2>
+    <nav id="categoryList"></nav>
+  </aside>
 
-      <nav id="toc-list"></nav>
-    </aside>
+  <!-- ✨ Overlay for tap-to-close behavior -->
+  <div id="overlay"></div>
 
-    <main class="content">
-      <article id="content-display" class="fade-in">
-        <h2>Welcome to Discover</h2>
-        <p>Select a topic from the table of contents to begin exploring thoughtful studies and insights.</p>
-      </article>
-    </main>
-  </div>
+  <main id="contentArea"></main>
 
-  <script src="data.js"></script>
-  <script src="render.js"></script>
-  <script src="script.js"></script>
+  <footer>
+    <p>A Library for Curiosity</p>
+  </footer>
 </body>
 </html>
