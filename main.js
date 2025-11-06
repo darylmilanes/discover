@@ -1,53 +1,146 @@
-// Open the guidance modal on every load; no persistence to localStorage
-(function(){
-  const modal = document.getElementById('guidanceModal');
-  if (!modal) return;
+document.addEventListener("DOMContentLoaded", () => {
+  const sidebar = document.getElementById("sidebar");
+  const menuToggle = document.getElementById("menuToggle");
+  const overlay = document.getElementById("overlay");
+  const categoryList = document.getElementById("categoryList");
+  const contentArea = document.getElementById("contentArea");
+  const tagSearch = document.getElementById("tagSearch");
+  const clearSearch = document.getElementById("clearSearch");
 
-  const acceptBtn = document.getElementById('acceptGuidance');
-  const backdrop = modal.querySelector('.modal-backdrop');
-
-  function openModal(){
-    modal.removeAttribute('hidden');
-    // save currently focused element to restore later
-    modal.__previouslyFocused = document.activeElement;
-    // move focus to the primary action
-    acceptBtn.focus();
-    document.body.style.overflow = 'hidden';
-  }
-
-  function closeModal(){
-    modal.setAttribute('hidden', '');
-    document.body.style.overflow = '';
-    if (modal.__previouslyFocused && typeof modal.__previouslyFocused.focus === 'function'){
-      modal.__previouslyFocused.focus();
+  // ===== Sidebar Toggle =====
+  function toggleSidebar(show) {
+    if (show) {
+      sidebar.classList.add("open");
+      overlay.classList.add("active");
+    } else {
+      sidebar.classList.remove("open");
+      overlay.classList.remove("active");
     }
   }
 
-  // Always open the modal on each page load
-  openModal();
-
-  acceptBtn.addEventListener('click', function(){
-    closeModal();
+  menuToggle.addEventListener("click", () => {
+    const isOpen = sidebar.classList.contains("open");
+    toggleSidebar(!isOpen);
   });
 
-  // Close when clicking on backdrop
-  backdrop.addEventListener('click', function(e){
-    closeModal();
+  overlay.addEventListener("click", () => toggleSidebar(false));
+
+  // ===== Group Data by Category =====
+  const grouped = {};
+  DATA.forEach(item => {
+    if (!grouped[item.category]) grouped[item.category] = [];
+    grouped[item.category].push(item);
   });
 
-  // Close on Escape key
-  document.addEventListener('keydown', function(e){
-    if (e.key === 'Escape' && !modal.hasAttribute('hidden')){
-      closeModal();
+  let openCategory = null; // Track open accordion
+  let activeItemEl = null; // Track highlighted TOC item
+
+  // ===== Build Sidebar =====
+  Object.keys(grouped).forEach(category => {
+    const group = document.createElement("div");
+    group.classList.add("category-group");
+
+    const title = document.createElement("div");
+    title.classList.add("category-title");
+    title.textContent = category;
+
+    const ul = document.createElement("ul");
+    ul.classList.add("category-items");
+
+    grouped[category].forEach(item => {
+      const li = document.createElement("li");
+      li.textContent = item.title;
+      li.addEventListener("click", () => {
+        showContent(item);
+
+        // Close sidebar on mobile
+        if (window.innerWidth < 768) toggleSidebar(false);
+
+        // Highlight selected item
+        if (activeItemEl) activeItemEl.classList.remove("active-item");
+        li.classList.add("active-item");
+        activeItemEl = li;
+      });
+      ul.appendChild(li);
+    });
+
+    // Accordion — only one open
+    title.addEventListener("click", () => {
+      if (openCategory && openCategory !== ul) {
+        openCategory.style.display = "none";
+      }
+      ul.style.display = ul.style.display === "block" ? "none" : "block";
+      openCategory = ul.style.display === "block" ? ul : null;
+    });
+
+    group.appendChild(title);
+    group.appendChild(ul);
+    categoryList.appendChild(group);
+  });
+
+  // Live filter for tag/title search input
+  if (tagSearch) {
+    const doFilter = () => {
+      const query = tagSearch.value.toLowerCase();
+
+      document.querySelectorAll(".category-items li").forEach(li => {
+        const title = li.textContent.toLowerCase();
+        const item = DATA.find(x => x.title === li.textContent);
+        const tags = item?.tags?.join(" ").toLowerCase() || "";
+
+        // Match either title or tags
+        const match = title.includes(query) || tags.includes(query);
+        li.style.display = match ? "block" : "none";
+      });
+
+      // Show/hide entire category groups based on whether any item is visible
+      document.querySelectorAll(".category-group").forEach(group => {
+        const items = group.querySelectorAll("li");
+        const anyVisible = Array.from(items).some(li => li.style.display !== "none");
+        group.querySelector(".category-items").style.display = anyVisible ? "block" : "none";
+      });
+
+      // Toggle clear button visibility
+      if (clearSearch) clearSearch.style.display = tagSearch.value ? "block" : "none";
+    };
+
+    tagSearch.addEventListener("input", doFilter);
+
+    if (clearSearch) {
+      clearSearch.addEventListener("click", () => {
+        tagSearch.value = "";
+        doFilter();
+        tagSearch.focus();
+      });
     }
-  });
+  }
 
-  // Basic focus trap: keep focus inside the modal while open
-  document.addEventListener('focus', function(e){
-    if (modal.hasAttribute('hidden')) return;
-    if (!modal.contains(e.target)){
-      e.stopPropagation();
-      acceptBtn.focus();
-    }
-  }, true);
-})();
+  // ===== Show Content =====
+  function showContent(item) {
+    contentArea.innerHTML = `
+      <article>
+        <h2>${item.title}</h2>
+        ${item.content}
+        ${
+          item.refs?.length
+            ? `<h4>References</h4><ul>${item.refs
+                .map(
+                  ref =>
+                    `<li><strong>${ref.term}:</strong> ${ref.desc}</li>`
+                )
+                .join("")}</ul>`
+            : ""
+        }
+      </article>
+    `;
+
+    // Scroll to top so reader starts at beginning
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  // ===== Default: Load "About Discover" =====
+  const defaultItem = DATA.find(i => i.id === "discover-intro");
+  if (defaultItem) {
+    showContent(defaultItem);
+  }
+});
