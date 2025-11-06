@@ -75,7 +75,7 @@ footer {
   height: calc(100vh - 82px - 48px); /* full visible viewport height */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch; /* smooth iOS scroll */
-  padding-bottom: 80px; /* buffer above footer */
+  padding-bottom: 110px; /* buffer above footer */
   background: white;
   border-right: 1px solid #ddd;
   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
