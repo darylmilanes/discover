@@ -130,7 +130,7 @@ footer {
 
 /* ✅ Highlight for current topic */
 .category-items li.active-item {
-  background: var(--accent);
+  background: #f1c40f;
   color: #222;
   font-weight: 600;
 }
