@@ -20,10 +20,51 @@
     <div class="modal-backdrop" data-dismiss="modal"></div>
     <div class="modal-content" role="document">
       <h2 id="guidanceTitle">A Word Before You Read</h2>
-      <p id="guidanceText">May the Lord grant you discernment and humility as you read. Pray for understanding and seek truth with love.</p>
+      <p id="guidanceText">May the Lord grant you discernment and humility as you read. Pray for understanding and seek truth with love. — Amen.</p>
       <div class="modal-actions">
         <button id="acceptGuidance" class="btn">Amen!</button>
       </div>
+    </div>
+  </div>
+
+  <!-- Curiosity form modal (in-page dialog) -->
+  <div id="curiosityModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="curiosityTitle" hidden>
+    <div class="modal-backdrop" data-dismiss="curiosity"></div>
+    <div class="modal-content" role="document">
+      <h2 id="curiosityTitle">Share Your Curiosity</h2>
+      <form id="curiosityForm" novalidate>
+        <label for="name">Name (optional)</label>
+        <input id="name" name="name" type="text" placeholder="Full name">
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem">
+          <div>
+            <label for="mobile">Mobile Number (optional)</label>
+            <input id="mobile" name="mobile" type="tel" placeholder="+63...">
+          </div>
+          <div>
+            <label for="email">Email Address (optional)</label>
+            <input id="email" name="email" type="email" placeholder="name@example.com">
+          </div>
+        </div>
+
+        <label for="inq1">Inquiry 1 (required)</label>
+        <input id="inq1" name="inq1" type="text" required>
+
+        <label for="inq2">Inquiry 2 (optional)</label>
+        <input id="inq2" name="inq2" type="text">
+
+        <label for="inq3">Inquiry 3 (optional)</label>
+        <input id="inq3" name="inq3" type="text">
+
+        <label for="message">Message (optional)</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <div class="modal-actions" style="gap:0.5rem;margin-top:0.75rem">
+          <button type="submit" class="btn">Submit</button>
+          <button type="button" id="cancelCuriosity" class="btn secondary">Cancel</button>
+          <div id="status" class="muted" aria-live="polite" style="margin-left:0.5rem"></div>
+        </div>
+      </form>
     </div>
   </div>
 
