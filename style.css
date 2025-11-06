@@ -14,6 +14,10 @@ body {
   overflow-x: hidden;
 }
 
+html, body {
+  overscroll-behavior: contain;
+}
+
 /* ---------- HEADER ---------- */
 header {
   background: var(--primary);
