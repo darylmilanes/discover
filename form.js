@@ -1,5 +1,5 @@
 // Google Apps Script Web App URL (deployed to accept POSTs)
-const FORM_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwgyWRCH891VUQbpWMYNrL9fKdgg35s6QH9y4v28-3a/dev';
+const FORM_ENDPOINT = 'https://script.google.com/macros/s/AKfycbz-hWbeAOxfSDvzkeTZLPqyrNnJzk_wTiVPtgZoXFWjY6wsJ-4F4ipnR3lMqp_j_KH_qw/exec';
 
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('curiosityForm');
