@@ -65,21 +65,19 @@ footer {
 /* ---------- SIDEBAR ---------- */
 #sidebar {
   position: fixed;
-  top: 82px; /* match new header height */
+  top: 82px; /* match header height */
   left: -260px;
   width: 250px;
-  height: calc(100vh - 82px - 48px);
+  height: calc(100vh - 82px - 48px); /* full visible viewport height */
   overflow-y: auto;
-  -webkit-overflow-scrolling: touch; /* smoother scroll on iOS */
-  padding-bottom: calc(48px + env(safe-area-inset-bottom));
+  -webkit-overflow-scrolling: touch; /* smooth iOS scroll */
+  padding-bottom: calc(60px + env(safe-area-inset-bottom)); /* buffer above footer */
   background: white;
   border-right: 1px solid #ddd;
   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-  overflow-y: auto;
   transition: left var(--transition);
   z-index: 25;
-  scrollbar-gutter: stable; /* prevents layout shift on scrollbars */
-  padding-bottom: 60px; /* ✅ gives safe scroll room above footer */
+  scrollbar-gutter: stable;
 }
 
 #sidebar.open {
