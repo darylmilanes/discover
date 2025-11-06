@@ -137,74 +137,38 @@ document.addEventListener("DOMContentLoaded", () => {
     categoryList.appendChild(group);
   });
 
-  // Add final curiosity link below the last item (now a button that opens modal)
-  (function addCuriosityLink(){
-    const curiosityGroup = document.createElement('div');
-    curiosityGroup.classList.add('category-group');
+  // ===== Show Content =====
+  function showContent(item) {
+    contentArea.innerHTML = `
+      <article>
+        <h2>${item.title}</h2>
+        ${item.content}
+        ${
+          item.refs?.length
+            ? `<h4>References</h4><ul>${item.refs
+                .map(
+                  ref =>
+                    `<li><strong>${ref.term}:</strong> ${ref.desc}</li>`
+                )
+                .join("")}</ul>`
+            : ""
+        }
+      </article>
+    `;
 
-    const curiosityUl = document.createElement('ul');
-    curiosityUl.classList.add('category-items');
-
-    const curiosityLi = document.createElement('li');
-    const curiosityBtn = document.createElement('button');
-    curiosityBtn.type = 'button';
-    curiosityBtn.textContent = 'What are you curious about?';
-    curiosityBtn.className = 'ask-btn';
-    curiosityBtn.addEventListener('click', () => openCuriosityModal());
-
-    curiosityLi.appendChild(curiosityBtn);
-    curiosityUl.appendChild(curiosityLi);
-    curiosityGroup.appendChild(curiosityUl);
-    categoryList.appendChild(curiosityGroup);
-  })();
-
-  // Curiosity modal helpers
-  const curiosityModal = document.getElementById('curiosityModal');
-  const cancelCuriosity = document.getElementById('cancelCuriosity');
-  const curiosityBackdrop = curiosityModal?.querySelector('.modal-backdrop');
-  const curiosityForm = document.getElementById('curiosityForm');
-  const curiosityStatus = curiosityModal?.querySelector('#status');
-
-  function openCuriosityModal(){
-    if (!curiosityModal) return;
-    curiosityModal.removeAttribute('hidden');
-    curiosityModal.__previouslyFocused = document.activeElement;
-    curiosityModal.querySelector('input,textarea,button')?.focus();
-    document.body.classList.add('no-scroll');
+    // Scroll to top so reader starts at beginning
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
-  function closeCuriosityModal(){
-    if (!curiosityModal) return;
-    curiosityModal.setAttribute('hidden', '');
-    document.body.classList.remove('no-scroll');
-    if (curiosityModal.__previouslyFocused) curiosityModal.__previouslyFocused.focus();
-  }
-
-  // Prevent closing on backdrop click by default; allow only cancel button
-  if (cancelCuriosity) cancelCuriosity.addEventListener('click', () => closeCuriosityModal());
-
-  // Handle form submit by delegating to existing form code (form.js) via custom event
-  if (curiosityForm){
-    curiosityForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      // build payload and dispatch a custom event so form.js can listen
-      const data = new FormData(curiosityForm);
-      const payload = {
-        timestamp: new Date().toISOString(),
-        name: data.get('name') || '',
-        mobile: data.get('mobile') || '',
-        email: data.get('email') || '',
-        inquiry1: data.get('inq1') || '',
-        inquiry2: data.get('inq2') || '',
-        inquiry3: data.get('inq3') || '',
-        message: data.get('message') || ''
-      };
-      document.dispatchEvent(new CustomEvent('curiosity:submit', { detail: { payload, form: curiosityForm, statusEl: curiosityStatus }}));
-    });
+  // ===== Default: Load "About Discover" =====
+  const defaultItem = DATA.find(i => i.id === "discover-intro");
+  if (defaultItem) {
+    showContent(defaultItem);
   }
 
   // Live filter for tag/title search input
   if (tagSearch) {
+    // move doFilter into outer scope so clearSearch can call it
     const doFilter = () => {
       const query = tagSearch.value.toLowerCase().trim();
 
@@ -249,43 +213,5 @@ document.addEventListener("DOMContentLoaded", () => {
         tagSearch.focus();
       });
     }
-  }
-
-  // ===== Show Content =====
-  function showContent(item) {
-    contentArea.innerHTML = `
-      <article>
-        <h2>${item.title}</h2>
-        ${item.content}
-        ${
-          item.refs?.length
-            ? `<h4>References</h4><ul>${item.refs
-                .map(
-                  ref =>
-                    `<li><strong>${ref.term}:</strong> ${ref.desc}</li>`
-                )
-                .join("")}</ul>`
-            : ""
-        }
-      </article>
-
-      <!-- Ask CTA placed immediately after the article -->
-      <div class="ask-cta inline">
-        <button class="ask-btn" type="button">What are you curious about?</button>
-      </div>
-    `;
-
-    // Attach click handler to the newly created inline ask button
-    const inlineAskBtn = contentArea.querySelector('.ask-cta.inline .ask-btn');
-    if (inlineAskBtn) inlineAskBtn.addEventListener('click', openCuriosityModal);
-
-    // Scroll to top so reader starts at beginning
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
-
-  // ===== Default: Load "About Discover" =====
-  const defaultItem = DATA.find(i => i.id === "discover-intro");
-  if (defaultItem) {
-    showContent(defaultItem);
   }
 });
