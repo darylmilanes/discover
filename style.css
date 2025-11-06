@@ -213,8 +213,10 @@ footer {
   color: #666;
   padding: 0.1rem 0.3rem;
   border-radius: 4px;
-  display: none; /* controlled via JS */
+  display: block; /* show by default; JS still toggles when typing */
 }
+
+#clearSearch[aria-hidden="true"] { display: none; }
 
 #clearSearch:hover {
   background: rgba(0,0,0,0.05);
@@ -263,42 +265,9 @@ ul {
   visibility: visible;
 }
 
-/* ---------- Ask CTA below main content ---------- */
-.ask-cta {
-  max-width: 720px;
-  margin: 1rem auto 0.5rem auto;
-  padding: 0 1rem;
-}
-
-.ask-cta.inline {
-  max-width: none;
-  margin: 1rem 0 1.5rem 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-
-.ask-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0;
-  text-decoration: none;
-  text-align: center;
-  padding: 0.85rem 1.1rem;
-  border-radius: 10px;
-  background: linear-gradient(180deg, rgba(0,64,128,0.96), rgba(0,64,128,0.75)); /* #004080 glass */
-  color: #fafeff;
-  border: 1.5px solid rgba(255,255,255,0.06);
-  box-shadow: 0 12px 36px rgba(2,24,50,0.25);
-  backdrop-filter: blur(10px) saturate(120%);
-  -webkit-backdrop-filter: blur(10px) saturate(120%);
-  font-weight: 700;
-  font-size: 1rem;
-  min-width: 320px;
-}
-
-.ask-btn:hover{ background: linear-gradient(180deg, rgba(0,72,144,1), rgba(0,64,128,0.9)); }
+/* ---------- Ask CTA below main content (removed) ---------- */
+.ask-cta { display: none; }
+.ask-btn { display: none; }
 
 @media (max-width: 720px){
   .ask-btn{ min-width: 0; width: calc(100% - 2rem); }
@@ -320,3 +289,4 @@ ul {
     display: none;
   }
 }
+
