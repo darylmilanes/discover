@@ -7,6 +7,14 @@
   --glass-highlight: rgba(255,255,255,0.9);
   --max-width: 520px;
   --gutter: 1rem; /* space from viewport edges */
+
+  /* Modal styles — glassmorphic dialog used for guidance and curiosity form */
+  --modal-backdrop: rgba(0,0,0,0.45);
+  --panel-bg-start: rgba(255,255,255,0.96);
+  --panel-bg-end: rgba(250,250,250,0.9);
+  --panel-border: rgba(10,20,30,0.06);
+  --panel-radius: 14px;
+  --panel-shadow: 0 18px 48px rgba(8,18,30,0.12);
 }
 
 /* Basic modal container - hidden by default via [hidden] attribute on element */
@@ -15,7 +23,7 @@
   inset: 0;
   display: grid;
   place-items: center;
-  z-index: 1000;
+  z-index: 1200;
   pointer-events: none;
 }
 
@@ -23,28 +31,29 @@
 .modal-backdrop {
   position: fixed;
   inset: 0;
-  background: var(--modal-bg);
-  backdrop-filter: blur(2px);
+  background: var(--modal-backdrop);
+  backdrop-filter: blur(6px) saturate(120%);
+  -webkit-backdrop-filter: blur(6px) saturate(120%);
   pointer-events: auto;
 }
 
 /* Actual dialog content - bright, light glass */
 .modal-content {
   position: relative;
-  background: linear-gradient(180deg, var(--content-bg-start), var(--content-bg-end));
-  color: #052324;
-  padding: 1.25rem;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(10,20,30,0.08), inset 0 1px 0 rgba(255,255,255,0.6);
   width: calc(100% - (var(--gutter) * 2));
   max-width: var(--max-width);
-  z-index: 1010;
+  margin: 0 1rem;
+  background: linear-gradient(180deg, var(--panel-bg-start), var(--panel-bg-end));
+  border-radius: var(--panel-radius);
+  box-shadow: var(--panel-shadow);
+  border: 1px solid var(--panel-border);
+  padding: 1.25rem;
+  z-index: 1210;
   pointer-events: auto;
-  overflow: hidden;
-  border: 1px solid var(--glass-border);
-  backdrop-filter: blur(8px) saturate(120%) contrast(1.01);
-  -webkit-backdrop-filter: blur(8px) saturate(120%) contrast(1.01);
   box-sizing: border-box;
+  color: #042b2a;
+  backdrop-filter: blur(10px) saturate(120%);
+  -webkit-backdrop-filter: blur(10px) saturate(120%);
 }
 
 /* subtle rim / bevel using overlay gradients for a light feel */
@@ -78,7 +87,7 @@
 .modal-content h2 {
   margin: 0 0 0.5rem 0;
   font-size: 1.125rem;
-  color: #042b2a;
+  color: var(--primary);
 }
 
 .modal-content p {
@@ -89,21 +98,30 @@
 
 .modal-actions {
   display: flex;
+  gap: 0.5rem;
   justify-content: flex-end;
+  align-items: center;
 }
 
+/* Buttons inside modals */
 .btn {
   background: var(--accent);
-  color: #fff;
+  color: #fafeff; /* lighten modal button text (Submit / Amen!) */
   border: none;
-  padding: 0.5rem 0.75rem;
-  border-radius: 6px;
+  padding: 0.55rem 0.85rem;
+  border-radius: 10px;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 700;
+}
+
+.btn.secondary {
+  background: transparent;
+  color: var(--primary);
+  border: 1px solid rgba(0,0,0,0.06);
 }
 
 .btn:focus {
-  outline: 3px solid rgba(43,122,120,0.25);
+  outline: 3px solid rgba(0,64,128,0.16);
   outline-offset: 2px;
 }
 
@@ -112,29 +130,74 @@
   display: none;
 }
 
-@media (max-width: 420px) {
-  /* use a smaller gutter on narrow screens so the modal doesn't touch the edges */
-  .modal { --gutter: 0.75rem; }
+/* Form layout inside modal */
+.modal-content form{
+  display: block;
+  margin: 0;
+  padding: 0;
+}
 
-  .modal-content {
-    padding: 0.75rem;
-    border-radius: 8px;
-    width: calc(100% - (var(--gutter) * 2));
-    max-width: 360px;
-  }
+.modal-content label{
+  display: block;
+  margin: 0.6rem 0 0.25rem 0;
+  font-weight: 600;
+  color: #042b2a;
+  font-size: 0.95rem;
+}
 
-  .modal-content::after {
-    top: -45%;
-    height: 30%;
-    filter: blur(3px);
-  }
+.modal-content input[type="text"],
+.modal-content input[type="email"],
+.modal-content input[type="tel"],
+.modal-content textarea{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.55rem 0.6rem;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background: rgba(255,255,255,0.92);
+  color: #032424;
+}
 
-  .modal-content h2 {
-    font-size: 1rem;
-  }
+.modal-content textarea{ min-height: 96px; resize: vertical; }
 
-  .modal-content p {
-    line-height: 1.35;
-    font-size: 0.95rem;
-  }
+/* two-column grid for pairs (mobile-first) */
+.modal-form-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.6rem;
+}
+
+@media (min-width: 520px){
+  .modal-form-grid{ grid-template-columns: 1fr 1fr; }
+}
+
+/* status message inside modal */
+.modal-content .muted,
+.modal-content .status-msg{
+  font-size: 0.95rem;
+  color: #566168;
+}
+
+.modal-content .status-msg.error{ color: crimson; }
+
+/* tighter actions row for modal form */
+.modal-content .modal-actions{ justify-content: flex-end; align-items:center; }
+
+/* adjust primary/secondary button sizing inside modal */
+.modal-content .btn{ padding: 0.6rem 0.85rem; border-radius: 10px; }
+.modal-content .btn.secondary{ padding: 0.55rem 0.75rem; }
+
+/* focus states for form controls */
+.modal-content input:focus, .modal-content textarea:focus{
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(0,64,128,0.08);
+  border-color: rgba(0,64,128,0.35);
+}
+
+@media (max-width:720px){
+  :root{ --gutter: 0.75rem; }
+  .modal-content{ padding: 0.9rem; border-radius: 12px; }
+  .modal-content h2{ font-size: 1rem; }
+  .modal-content input, .modal-content textarea{ font-size: 0.95rem; }
 }
