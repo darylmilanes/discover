@@ -156,8 +156,13 @@ document.addEventListener("DOMContentLoaded", () => {
       </article>
     `;
 
-    // Scroll to top so reader starts at beginning
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    // Ensure any modal/sidebar no-scroll is cleared so the page can scroll
+    document.body.classList.remove('no-scroll');
+
+    // Defer scrolling until the browser has laid out the new content
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
   }
 
   // ===== Default: Load "About Discover" =====
