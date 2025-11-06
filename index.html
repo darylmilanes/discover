@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Discover | Digital Bible Library</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="modal.css">
+  <script defer src="modal.js"></script>
   <script defer src="data.js"></script>
   <script defer src="main.js"></script>
 </head>
@@ -13,6 +15,17 @@
     <button id="menuToggle" aria-label="Toggle menu">☰</button>
     <h1>Discover</h1>
   </header>
+
+  <div id="guidanceModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="guidanceTitle" aria-describedby="guidanceText" hidden>
+    <div class="modal-backdrop" data-dismiss="modal"></div>
+    <div class="modal-content" role="document">
+      <h2 id="guidanceTitle">A Word Before You Read</h2>
+      <p id="guidanceText">May the Lord grant you discernment and humility as you read. Pray for understanding and seek truth with love.</p>
+      <div class="modal-actions">
+        <button id="acceptGuidance" class="btn">Amen!</button>
+      </div>
+    </div>
+  </div>
 
   <aside id="sidebar">
     <div class="search-wrap">
