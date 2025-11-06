@@ -122,225 +122,540 @@ const DATA = [
      CATEGORY: Time and Calendars
      =========================== */
   {
-    id: "bc-ad",
-    title: "What do BC and AD mean?",
-    category: "Time and Calendars",
-    tags: ["calendar", "dating", "history"],
-    featured: false,
-    content: `
-      <p><strong>BC</strong> means “Before Christ,” while <strong>AD</strong> stands for the Latin phrase <em>Anno Domini</em>, meaning “in the year of our Lord.” This system measures years based on the estimated birth of Jesus. Modern scholars also use <strong>BCE</strong> (“Before Common Era”) and <strong>CE</strong> (“Common Era”), which use the same numbering but without religious language.</p>
-    `,
-    refs: [
-      { term: "Dionysius Exiguus", desc: "The monk who created the AD system around 525 CE." },
-      { term: "No year zero", desc: "The calendar moves directly from 1 BC to AD 1." }
-    ]
-  },
+  id: "bc-ad",
+  title: "What do BC and AD mean, and how did this system begin?",
+  category: "Time and Calendars",
+  tags: ["calendar", "dating", "history", "Jesus Christ", "chronology"],
+  featured: false,
+  content: `
+    <p>The abbreviations <strong>BC</strong> and <strong>AD</strong> are familiar markers of time that shape how most of the world measures history. <strong>BC</strong> means “Before Christ,” referring to all the years before the birth of Jesus. <strong>AD</strong> stands for the Latin phrase <em>Anno Domini</em>, which means “in the year of our Lord.” This system of dating was designed to center human history around the coming of Jesus Christ, acknowledging His birth as the pivotal moment that divides all of time into two eras: before His arrival and after His incarnation. The way we speak about years today—whether 500 BC or AD 2025—reflects the lasting influence of that belief.</p>
+
+    <p><strong>1. The origin of the BC/AD system.</strong> The system was introduced by a monk named <em>Dionysius Exiguus</em> (Dionysius the Humble) around AD 525. He was asked to create a calendar to determine the correct date for celebrating Easter each year. At the time, the Roman Empire still used a dating system based on the reign of Emperor Diocletian, a ruler known for his persecution of Christians. Dionysius wanted to replace that system with one that honored Christ rather than a pagan emperor. To do this, he counted years starting from what he believed to be the year of Jesus’ birth, calling it <em>Anno Domini 1</em>, or “the year of our Lord one.”</p>
+
+    <p><strong>2. Miscalculations and adjustments.</strong> Although Dionysius’ intention was clear, his calculations were not perfect. Modern scholars later discovered that Jesus was likely born a few years earlier, around 4 to 6 BC, during the reign of King Herod. Historical records show that Herod died in 4 BC, which means the birth of Christ had already occurred by then. Despite this small error, the system Dionysius created became widely accepted because it provided a unified way of marking time for Christian Europe. The focus was not mathematical precision, but theological meaning: history itself revolves around the life of Jesus.</p>
+
+    <p><strong>3. The meaning of AD and common misconceptions.</strong> A common misunderstanding is that <strong>AD</strong> means “After Death.” This is incorrect. It stands for <em>Anno Domini</em>, meaning “in the year of our Lord,” referring to all years following Jesus’ birth. For example, AD 30 refers to the year when Jesus was about 30 years old, not 30 years after His death. The system begins with His birth, not His resurrection or death. There is also no “year zero” in this timeline. The calendar moves directly from 1 BC to AD 1, since the concept of zero as a numeral did not exist in ancient Europe when the system was created.</p>
+
+    <p><strong>4. The spread and influence of the BC/AD system.</strong> Over the centuries, the BC/AD system spread through Europe with the growth of Christianity and Western civilization. When European nations expanded their trade, exploration, and influence, this dating system was carried across the world. Today, it is the most widely used chronological system, even in non-Christian societies. It became the foundation of the modern Gregorian calendar, which was introduced in 1582 to correct earlier errors in the Julian calendar and align the calendar year more closely with the solar year.</p>
+
+    <p><strong>5. The rise of BCE and CE.</strong> In more recent times, many historians and educators have adopted the abbreviations <strong>BCE</strong> (Before Common Era) and <strong>CE</strong> (Common Era) as alternatives to BC and AD. These terms use the same numbering system but remove explicit reference to Christ. BCE and CE are intended to be neutral and inclusive for academic or interfaith contexts. However, even though the names changed, the dividing point between the two eras remains the same—the birth of Jesus Christ still marks the transition from “before” to “after.” This shows that, whether people acknowledge it or not, human history is still anchored in the life of Christ.</p>
+
+    <p><strong>6. The theological and spiritual significance.</strong> Beyond the calendar, the use of BC and AD reminds us that Jesus Christ stands at the center of history. The entire measurement of time—past, present, and future—symbolically points to Him. As Revelation 22:13 declares, Jesus said, “I am the Alpha and the Omega, the First and the Last, the Beginning and the End.” Every moment in human history, whether before or after His birth, falls under His sovereign plan. The BC/AD system is not just a historical convention; it is a testimony to how deeply the coming of Christ has shaped the world’s understanding of time and purpose.</p>
+
+    <p><strong>7. Understanding time through a biblical lens.</strong> In Scripture, time is not merely chronological but redemptive. The timeline of human history moves toward God’s ultimate restoration of creation. The birth of Jesus marks the fulfillment of prophecy and the turning point in God’s plan of salvation. When we say a year like “AD 2025,” we are, knowingly or not, declaring that we live “in the year of our Lord,” under His rule and grace. It is a quiet reminder that every era belongs to Him, and every life is part of His story.</p>
+
+    <p>Summary: The terms <strong>BC</strong> and <strong>AD</strong> originated from the desire to center human history around Jesus Christ. Though the world has developed secular alternatives like <strong>BCE</strong> and <strong>CE</strong>, the system still revolves around the same pivotal event—the incarnation of Christ. Whether measured by faith or by habit, time itself reflects the truth that history is not random but divinely guided. The coming of Jesus changed not only the hearts of people but also the way humanity marks every passing year. From the perspective of faith, every date becomes a quiet testimony to the Lord of time Himself.</p>
+  `,
+  refs: [
+    { term: "Dionysius Exiguus", desc: "The monk who developed the AD system around AD 525 to replace pagan dating systems." },
+    { term: "Anno Domini", desc: "A Latin phrase meaning 'in the year of our Lord,' referring to years after the birth of Jesus Christ." },
+    { term: "BCE/CE", desc: "Modern alternatives meaning 'Before Common Era' and 'Common Era,' which use the same year numbering without Christian terms." },
+    { term: "No Year Zero", desc: "The calendar transitions directly from 1 BC to AD 1 since zero was not used in ancient chronology." },
+    { term: "Revelation 22:13", desc: "Jesus declares Himself as the Alpha and the Omega, the beginning and the end of all things." },
+    { term: "Gregorian Calendar", desc: "The calendar introduced in 1582 that corrected earlier timekeeping errors and remains in global use today." }
+  ]
+},
   {
-    id: "jesus-crucifixion-year",
-    title: "In what AD year was Jesus crucified?",
-    category: "Time and Calendars",
-    tags: ["Jesus", "crucifixion", "timeline"],
-    featured: false,
-    content: `
-      <p>Historians estimate that Jesus was crucified between AD 30 and AD 33, during the rule of Pontius Pilate. Ironically, Jesus was probably born a few years before AD 1, since early historians miscalculated the reign of King Herod. The AD system was applied centuries later, retroactively counting years from His birth.</p>
-    `,
-    refs: [
-      { term: "Pontius Pilate", desc: "Roman governor of Judea from AD 26–36." },
-      { term: "Chronological gap", desc: "Jesus’ birth likely occurred around 4–6 BC." }
-    ]
-  },
+  id: "jesus-crucifixion-year",
+  title: "When did the crucifixion of Jesus take place, and how do historians estimate the year?",
+  category: "Time and Calendars",
+  tags: ["Jesus", "crucifixion", "timeline", "history", "Bible"],
+  featured: false,
+  content: `
+    <p>The crucifixion of Jesus Christ is one of the most significant moments in human history. Determining its exact year requires careful study of Scripture, historical records, and astronomical data. While the Bible does not give a specific year, both biblical and secular sources allow scholars to estimate that Jesus was crucified between AD 30 and AD 33, during the governorship of Pontius Pilate. This time frame aligns with the Gospels, which place the crucifixion during the Jewish Passover, and with Roman records that detail who ruled Judea at that time.</p>
+
+    <p><strong>1. The historical framework of Jesus’ ministry.</strong> The Gospels situate Jesus’ public ministry during the reigns of Emperor Tiberius Caesar and Pontius Pilate. Luke 3:1 mentions that John the Baptist began preaching “in the fifteenth year of the reign of Tiberius Caesar,” which corresponds to around AD 28 or 29. Jesus’ ministry began shortly after John’s, lasting approximately three years, which would place His crucifixion around AD 30 to 33. This period fits within the years Pilate governed Judea (AD 26 to 36), providing a clear historical boundary for when the event occurred.</p>
+
+    <p><strong>2. Clues from the Passover timeline.</strong> All four Gospels describe the crucifixion taking place during Passover, a major Jewish feast commemorating Israel’s deliverance from Egypt. The Passover always began on the 14th day of the Hebrew month of Nisan, which corresponds roughly to March or April in the modern calendar. Astronomical data about the phases of the moon help historians narrow down which years within Pilate’s rule had a Friday Passover eve. These calculations make AD 30 (April 7) and AD 33 (April 3) the two most likely candidates for the date of Jesus’ crucifixion.</p>
+
+    <p><strong>3. The political and religious setting under Pontius Pilate.</strong> Pontius Pilate served as the Roman governor of Judea from AD 26 to 36 under Emperor Tiberius. Historical records, including the writings of Jewish historian Josephus and Roman historians Tacitus and Philo, confirm Pilate’s role during this period. His administration was marked by tension between Roman authority and Jewish religious leaders. The Gospel accounts show that Jesus’ trial before Pilate reflected this tension, as Pilate found no legal fault in Jesus but yielded to political pressure from the crowd. The fact that Pilate personally authorized the crucifixion anchors the event firmly within this decade.</p>
+
+    <p><strong>4. Correcting early calendar miscalculations.</strong> The AD (Anno Domini) system used today to count years from the supposed birth of Jesus was not created until AD 525 by a monk named Dionysius Exiguus. When Dionysius made his calculations, he mistakenly dated Jesus’ birth a few years too late. Historical and biblical evidence now suggest that Jesus was born around 4 to 6 BC, during the reign of King Herod the Great, who died in 4 BC. This means that Jesus was about thirty to thirty-three years old at the time of His crucifixion, consistent with the Gospel accounts.</p>
+
+    <p><strong>5. Evidence from non-biblical sources.</strong> Ancient non-Christian historians also reference the crucifixion of Jesus. The Roman historian Tacitus wrote that “Christus, the founder of the name [Christian], was put to death by Pontius Pilate” during the reign of Tiberius. The Jewish historian Josephus also mentioned Jesus’ execution and the growth of His followers afterward. These writings, although brief, independently affirm that Jesus lived and was crucified in the early first century under Roman rule, confirming the reliability of the Gospel narrative.</p>
+
+    <p><strong>6. The theological meaning of the timing.</strong> The crucifixion took place during Passover for a divine reason. Just as the blood of the Passover lamb in Exodus protected Israel from death, the death of Jesus, the “Lamb of God” (John 1:29), brought salvation to humanity. His crucifixion fulfilled centuries of prophecy and symbolized the ultimate deliverance from sin and death. The historical timing was not coincidence; it was part of God’s sovereign plan of redemption, connecting the old covenant of Israel to the new covenant through Christ’s sacrifice.</p>
+
+    <p><strong>7. Why the exact year still matters.</strong> While faith in Christ does not depend on pinpointing an exact date, understanding the historical context strengthens confidence in the truth of Scripture. The crucifixion is not myth or legend but a verifiable event that occurred at a specific time in history. Archaeological and historical evidence continues to confirm the accuracy of the biblical record. Each year that scholars study ancient sources, the more clearly the timeline of Jesus’ life and death emerges as real and trustworthy.</p>
+
+    <p>The crucifixion of Jesus likely occurred between AD 30 and AD 33, most probably around the Jewish Passover in early spring. This moment stands at the heart of the Christian faith, marking the point where history and eternity meet. Through the cross, time itself was given new meaning—what was once marked by kingdoms and emperors became forever centered on the life, death, and resurrection of Jesus Christ. The years may be counted by human calendars, but the event of the crucifixion transcends them all as the turning point of salvation history.</p>
+  `,
+  refs: [
+    { term: "Luke 3:1", desc: "John the Baptist began his ministry in the fifteenth year of Tiberius Caesar, around AD 28–29." },
+    { term: "Pontius Pilate", desc: "Roman governor of Judea from AD 26 to 36, who authorized Jesus’ crucifixion." },
+    { term: "Josephus", desc: "Jewish historian who mentioned Jesus’ execution under Pilate in his writings." },
+    { term: "Tacitus", desc: "Roman historian who recorded the crucifixion of 'Christus' under Pontius Pilate." },
+    { term: "Dionysius Exiguus", desc: "Monk who created the AD dating system around AD 525, later shown to miscalculate Jesus’ birth." },
+    { term: "John 1:29", desc: "John the Baptist calls Jesus the 'Lamb of God who takes away the sin of the world.'" },
+    { term: "Passover", desc: "Jewish feast commemorating God’s deliverance of Israel, during which Jesus was crucified." }
+  ]
+},
   {
-    id: "bible-chapters",
-    title: "Why does the Bible have chapters and verses?",
-    category: "Time and Calendars",
-    tags: ["Bible", "structure", "chapters"],
-    featured: false,
-    content: `
-      <p>The earliest biblical manuscripts contained no punctuation, paragraphs, or numbering—often not even spaces between words. These divisions were added much later for readability and study. Chapters appeared in the 1200s under Stephen Langton, and verse numbers were added in the 1500s by Robert Estienne.</p>
-    `,
-    refs: [
-      { term: "Stephen Langton", desc: "Introduced chapter divisions in the 13th century." },
-      { term: "Robert Estienne", desc: "Added verse numbering in the 16th century." }
-    ]
-  },
+  id: "bible-chapters",
+  title: "How did the Bible get its chapters and verses, and why were they added?",
+  category: "Time and Calendars",
+  tags: ["Bible", "structure", "history", "scripture", "translation"],
+  featured: false,
+  content: `
+    <p>The Bible, as we know it today, is divided into chapters and verses, making it easy to reference, read, and study. However, the earliest manuscripts of Scripture looked very different. When the prophets, apostles, and scribes first wrote the sacred texts, they did not include chapter divisions, verse numbers, or even punctuation. The original scrolls were written in continuous lines of text, often without spaces between words. These ancient writings were meant to be read aloud and memorized, not studied in the analytical way we read Scripture today. The system of chapters and verses was developed centuries later to help readers find passages more easily and to make the Bible more accessible for teaching, translation, and study.</p>
+
+    <p><strong>1. The structure of ancient manuscripts.</strong> The Hebrew Old Testament and the Greek New Testament were originally written in forms that prioritized preservation and oral tradition over visual organization. In Hebrew scrolls, words flowed from right to left in continuous script, and punctuation marks were absent. In Greek manuscripts, text was often written in a style known as “scriptio continua,” which means continuous writing without spaces or breaks. Early readers depended on familiarity and context to understand where sentences began and ended. The focus was not on layout but on accurately transmitting God’s words through careful copying and memorization.</p>
+
+    <p><strong>2. Early attempts to divide Scripture for clarity.</strong> As the Bible began to be used for teaching and worship in synagogues and churches, readers and scholars saw the need to mark sections for easier reference. Jewish scribes created paragraph-like divisions in the Hebrew text called <em>parashot</em>, which were used in public readings. Later, around the second and third centuries, Christian scholars developed ways to locate parts of Scripture for study. One early system came from Eusebius of Caesarea in the fourth century, who created cross-references called “Eusebian Canons” to help readers compare the Gospels. These early divisions were the foundation for the structured Bible that would come later.</p>
+
+    <p><strong>3. The development of chapter divisions.</strong> The modern chapter system is credited to Stephen Langton, an English theologian and later Archbishop of Canterbury, around the early 1200s. Langton divided the Latin Vulgate Bible into chapters while teaching at the University of Paris. His goal was to make Scripture easier for students to locate and study specific passages. This division spread quickly because it made preaching, teaching, and commentary more practical. When later translations were produced, including the English Wycliffe Bible in the 14th century, Langton’s chapter divisions were retained and became the standard across most versions.</p>
+
+    <p><strong>4. The addition of verse numbers.</strong> While chapters made Scripture easier to navigate, verses brought even greater precision. The verse numbering system familiar today was introduced by Robert Estienne, a French printer and scholar, in the 1500s. Also known as Robertus Stephanus, Estienne added numbered verses to his 1551 edition of the Greek New Testament and later to his 1553 French Bible. He divided the text while traveling, and legend says he did some of the work while riding on horseback. Although not perfect in every case, his numbering system became widely accepted and is still used today. In the Hebrew Bible, verse divisions had already existed in a different form, but Estienne’s system unified the numbering across both Old and New Testaments for consistency in printed editions.</p>
+
+    <p><strong>5. The purpose and benefits of chapters and verses.</strong> These divisions were not part of divine revelation but were created to serve the reader. They help believers locate specific passages, memorize verses, and compare translations. They also make it possible for people around the world to study the same parts of Scripture together. For example, saying “John 3:16” immediately directs readers to a single verse recognized across countless languages and cultures. Chapters and verses have become a universal language for referencing God’s Word, allowing preachers, teachers, and scholars to share insights with precision and clarity.</p>
+
+    <p><strong>6. The potential limitations of the divisions.</strong> While chapters and verses are incredibly useful, they can sometimes interrupt the natural flow of Scripture. The original writings were intended to be read as continuous narratives, letters, and poems. A verse taken out of context can easily be misunderstood when separated from the larger passage. For this reason, believers are encouraged to read Scripture holistically, paying attention to the surrounding chapters and themes. The Bible’s structure is a tool for guidance, not a boundary for understanding. The Spirit of God still speaks through the entire message, not only through isolated sentences.</p>
+
+    <p><strong>7. The role of the Holy Spirit in understanding Scripture.</strong> While human hands divided the Bible into sections, divine truth remains unchanged. The power of God’s Word does not depend on formatting or numbering but on the Spirit who illuminates its meaning. The same Spirit who inspired the authors of Scripture guides believers today as they read and interpret it. Chapters and verses help us find the words, but it is the Spirit who helps us hear the message. Every passage, whether one line or an entire book, reveals the heart of God to those who approach it with humility and faith.</p>
+
+    <p>The development of chapters and verses reflects humanity’s effort to make the Word of God more accessible and understandable. Though these divisions were added long after the Bible was written, they serve as bridges connecting readers across time and language. They remind us that Scripture is both divine and communal, meant to be read, shared, and studied together. What began as unbroken lines on ancient scrolls now stands as a beautifully structured testimony that has guided believers for centuries, helping each generation discover truth in every line of God’s inspired Word.</p>
+  `,
+  refs: [
+    { term: "Parashot", desc: "Traditional Hebrew paragraph divisions used in ancient Scripture readings." },
+    { term: "Eusebian Canons", desc: "An early cross-referencing system created by Eusebius of Caesarea in the fourth century." },
+    { term: "Stephen Langton", desc: "English theologian who introduced chapter divisions in the early 13th century." },
+    { term: "Robert Estienne", desc: "French printer who standardized verse numbering in printed Bibles during the 16th century." },
+    { term: "Scriptio Continua", desc: "An ancient style of writing without spaces or punctuation used in Greek and Latin manuscripts." },
+    { term: "Wycliffe Bible", desc: "The first complete English Bible translation, which adopted Langton’s chapter divisions." }
+  ]
+},
   {
-    id: "year-2025",
-    title: "Is it correct to call this year AD 2025?",
-    category: "Time and Calendars",
-    tags: ["calendar", "modern usage", "year"],
-    featured: false,
-    content: `
-      <p>Yes. The Gregorian calendar used globally still follows the <em>Anno Domini</em> count. Writing “2025 CE” means the same thing—it simply replaces the Latin phrase with a neutral modern equivalent. Both are historically and technically correct.</p>
-    `,
-    refs: [
-      { term: "Gregorian Calendar", desc: "Introduced in 1582 and still the civil standard worldwide." }
-    ]
-  },
+  id: "year-2025",
+  title: "Is it correct to call the current year AD 2025?",
+  category: "Time and Calendars",
+  tags: ["calendar", "modern usage", "year", "history", "chronology"],
+  featured: false,
+  content: `
+    <p>Yes, it is entirely correct to refer to the current year as <strong>AD 2025</strong>. The calendar system used around the world today still follows the <em>Anno Domini</em> (Latin for “in the year of our Lord”) framework that was established more than 1,400 years ago. This system was designed to count years from what was believed to be the birth of Jesus Christ. Although modern secular terminology sometimes replaces <strong>AD</strong> with <strong>CE</strong> (“Common Era”), the numbering of years remains exactly the same. Whether one writes AD 2025 or 2025 CE, both refer to the same point in time according to the same calendar.</p>
+
+    <p><strong>1. The origins of the Anno Domini system.</strong> The <em>Anno Domini</em> system was created in the sixth century by a Christian monk named Dionysius Exiguus. His goal was to establish a consistent way to number years for determining the date of Easter. Before this, many parts of Europe measured time by the reigns of emperors or other rulers. Dionysius proposed instead to center time on the most important event in human history—the birth of Jesus Christ. He called the years after Christ’s birth <em>Anno Domini</em>, “in the year of our Lord,” and the years before His birth “Before Christ” (BC). Although his calculations were off by a few years, his system became the foundation for how the world would later measure time.</p>
+
+    <p><strong>2. The Gregorian calendar and the correction of time.</strong> The numbering of years (AD and BC) is distinct from the structure of the modern calendar. The system we use today is called the <strong>Gregorian calendar</strong>, which was introduced in 1582 by Pope Gregory XIII. It was designed to fix small inaccuracies in the earlier Julian calendar, which caused the calendar year to drift from the solar year by about 11 minutes annually. The Gregorian reform adjusted the leap year pattern and realigned the calendar with the spring equinox, ensuring that major events like Easter stayed in the correct season. The Gregorian calendar kept the <em>Anno Domini</em> numbering, which means that when we say “AD 2025,” we are counting years according to the same framework that began in the sixth century.</p>
+
+    <p><strong>3. The introduction of CE and BCE terminology.</strong> In modern times, especially in academic and interfaith contexts, many use the designations <strong>CE</strong> (“Common Era”) and <strong>BCE</strong> (“Before Common Era”) instead of AD and BC. This change emerged in the 19th century as scholars sought a more neutral way of referring to historical dates without explicitly referencing Christian theology. Despite the different wording, CE and BCE follow the same timeline. For example, 500 BCE is the same as 500 BC, and 2025 CE is identical to AD 2025. The dividing point between the two eras remains the same—the estimated time of Jesus’ birth. The shift in language does not change the structure or meaning of the calendar itself.</p>
+
+    <p><strong>4. The global adoption of the calendar system.</strong> The Gregorian calendar is now the official civil calendar used by nearly every country in the world, regardless of religion or culture. Nations adopted it gradually over several centuries because it was accurate and practical for trade, navigation, and scientific observation. Even countries that follow other religious calendars for worship or cultural purposes—such as the Islamic Hijri calendar or the Hebrew calendar—still use the Gregorian system for global communication and international affairs. As a result, referring to the year as AD 2025 is universally recognized, whether or not one personally uses the religious meaning behind it.</p>
+
+    <p><strong>5. The theological meaning behind AD.</strong> For Christians, the “AD” in the year serves as more than a historical label. It is a declaration that all of time finds its meaning in Jesus Christ. When believers write or say “AD 2025,” they acknowledge that we live in the ongoing era that began with the birth of the Savior. It is a reminder that history is not random but centered on God’s redemptive plan through His Son. As Revelation 22:13 records, Jesus said, “I am the Alpha and the Omega, the First and the Last, the Beginning and the End.” The very way humanity measures time reflects that divine truth, whether people recognize it or not.</p>
+
+    <p><strong>6. Why both AD 2025 and 2025 CE are valid expressions.</strong> From a historical and linguistic standpoint, using either AD 2025 or 2025 CE is correct. The difference lies not in accuracy but in perspective. AD emphasizes the Christian understanding of time as being defined by Christ’s coming into the world, while CE provides a secular alternative that still respects the same chronology. Even those who prefer CE cannot escape the reality that the numbering of years is rooted in the life of Jesus. The event that divided history remains the same; only the language used to describe it has changed.</p>
+
+    <p><strong>7. Time and God’s sovereignty.</strong> The existence of a calendar centered on Christ reflects a profound truth about God’s relationship with time. The Bible teaches that God is eternal, existing beyond the limits of past, present, and future. Yet, He entered time through the incarnation of Jesus to redeem humanity. Every calendar year—whether marked AD, CE, or otherwise—unfolds under His sovereignty. The counting of years reminds us that history has a beginning and an appointed end, both determined by the Creator. Recognizing 2025 as “the year of our Lord” is a subtle but powerful acknowledgment that time itself belongs to God.</p>
+
+    <p>Calling the present year AD 2025 remains both historically accurate and theologically significant. It reflects a tradition that connects the passage of time to the greatest event in human history: the coming of Jesus Christ. While modern alternatives such as CE exist, they preserve the same structure established by early Christian scholars and later refined through centuries of historical development. Whether spoken in reverence or used in daily conversation, the phrase “AD 2025” carries a quiet reminder that all time flows from the moment God entered human history to bring salvation and hope to the world.</p>
+  `,
+  refs: [
+    { term: "Dionysius Exiguus", desc: "Christian monk who created the Anno Domini system around AD 525 to replace Roman imperial dating." },
+    { term: "Gregorian Calendar", desc: "Revised in 1582 by Pope Gregory XIII to correct inaccuracies in the Julian calendar and align it with the solar year." },
+    { term: "Common Era (CE)", desc: "A secular term that mirrors AD but omits the explicitly Christian reference, widely used in academia and interfaith contexts." },
+    { term: "Revelation 22:13", desc: "Jesus declares Himself as the Alpha and the Omega, the First and the Last, the Beginning and the End." },
+    { term: "Pope Gregory XIII", desc: "The leader of the Catholic Church who authorized the Gregorian calendar reform in 1582." }
+  ]
+},
   {
-    id: "ad-removed",
-    title: "Why did people replace AD with CE?",
-    category: "Time and Calendars",
-    tags: ["calendar", "language", "modernity"],
-    featured: false,
-    content: `
-      <p>AD (“in the year of our Lord”) was never officially abolished; it was simply replaced in many academic and interfaith contexts by CE (“Common Era”) for inclusivity. The CE/BCE system uses the same numbering but avoids explicitly Christian terms.</p>
-    `,
-    refs: [
-      { term: "BCE/CE", desc: "Neutral time designations used in scholarship and interfaith writing." }
-    ]
-  },
+  id: "ad-removed",
+  title: "Why was AD replaced by CE in many modern writings?",
+  category: "Time and Calendars",
+  tags: ["calendar", "language", "modernity", "history", "culture"],
+  featured: false,
+  content: `
+    <p>The abbreviations <strong>AD</strong> (“Anno Domini,” meaning “in the year of our Lord”) and <strong>BC</strong> (“Before Christ”) have been used for centuries to mark historical time around the birth of Jesus Christ. In recent centuries, however, many scholars, educators, and international institutions have adopted the alternative terms <strong>CE</strong> (“Common Era”) and <strong>BCE</strong> (“Before Common Era”). The change was not the result of an official global decision, nor was it an attempt to rewrite history, but rather an effort to create a more religiously neutral way of referencing time in diverse academic and interfaith settings. Although the wording changed, the numbering of years remains the same, meaning that CE and AD both refer to the same chronological period.</p>
+
+    <p><strong>1. The origins of AD and its historical role.</strong> The <em>Anno Domini</em> system began in the sixth century when the monk Dionysius Exiguus proposed a way to count years based on the birth of Jesus Christ instead of the reigns of Roman emperors. This new system became the standard in Christian Europe and later across much of the world. For over a thousand years, all of Western history was organized around the life of Christ, dividing time into “Before Christ” (BC) and “Anno Domini” (AD). The system was a reflection of the worldview that saw history as centered on God’s work of redemption through Jesus.</p>
+
+    <p><strong>2. The rise of the Common Era system.</strong> The use of CE and BCE began to spread during the seventeenth and eighteenth centuries as scholars and historians sought a more universal, nonsectarian way to communicate dates. However, it was not until the nineteenth and twentieth centuries that these terms became more common, particularly in academic and scientific communities. CE stands for “Common Era,” and BCE stands for “Before Common Era.” The word “common” refers to the calendar shared by all nations, regardless of religion, reflecting the idea of a global, standardized timeline. The numbering of years is unchanged; 2025 CE is exactly the same as AD 2025.</p>
+
+    <p><strong>3. The goal of neutrality and inclusivity.</strong> One of the main reasons for adopting CE and BCE was to provide a neutral system that could be used across different cultures and faiths. In multicultural societies and interfaith dialogue, some scholars and institutions preferred terminology that did not explicitly reference Christianity. The change was meant to promote inclusivity rather than opposition. For example, universities, museums, and international publications often use CE/BCE to communicate with global audiences who may not identify with Christian beliefs, while still using the same timeline established by the <em>Anno Domini</em> system.</p>
+
+    <p><strong>4. The continued connection to Christ’s timeline.</strong> Even though CE and BCE sound neutral, they still depend on the same calendar that begins with the estimated birth of Jesus Christ. The starting point that divides BCE from CE remains the same as that of BC and AD. This means that, whether people acknowledge it or not, the life of Jesus continues to serve as the central reference point for human history. The terminology may have changed to include all cultures, but the foundation of the calendar remains tied to a moment that Christians see as the incarnation of God. In that sense, the influence of Christ is still embedded in the way humanity measures time itself.</p>
+
+    <p><strong>5. Language, worldview, and culture.</strong> The shift from AD/BC to CE/BCE reflects not only academic convention but also broader cultural changes. Language evolves with society, and as the modern world became more globalized, terms that once reflected a specifically Christian worldview began to be replaced with ones that seemed more universal. Some Christians see this as diminishing the acknowledgment of Jesus in history, while others view it as a practical linguistic adjustment that does not alter the truth. Regardless of personal opinion, the timeline’s structure continues to bear witness to the historical impact of Christ, since no alternative starting point has ever replaced His birth in the world’s calendar.</p>
+
+    <p><strong>6. The balance between tradition and modern usage.</strong> Many Christian institutions, churches, and faith-based publishers continue to use AD and BC out of reverence for their historical and theological meaning. They see these terms as a testimony to the centrality of Jesus Christ in history and in faith. On the other hand, scholars and educators often use CE and BCE to maintain consistency in secular or interfaith contexts. Both systems coexist peacefully in modern use, each serving different audiences while pointing to the same historical framework. This coexistence shows how deeply the biblical timeline remains woven into the fabric of world history, even when described in different terms.</p>
+
+    <p><strong>7. The enduring significance of time centered on Christ.</strong> The replacement of AD with CE has not removed the spiritual truth that the coming of Jesus marked a turning point for humanity. Time itself continues to be divided by His entrance into the world. Whether written as AD or CE, every date we record traces back to the moment when the eternal entered time. The persistence of this structure across nations and centuries is a quiet but powerful reminder of how one life changed the course of human history. God’s work in time remains evident even in systems that seek to speak universally.</p>
+
+    <p>Today, both <strong>AD</strong> and <strong>CE</strong> are acceptable and accurate ways to express the year. The difference lies in intent rather than in chronology. The <em>Anno Domini</em> system continues to express a worldview centered on Christ, while the Common Era system offers a linguistic bridge for communication among people of all beliefs. In either case, the numbering of years bears silent testimony to the event that divided history forever: the coming of Jesus Christ, who remains the cornerstone of time, history, and eternity.</p>
+  `,
+  refs: [
+    { term: "Dionysius Exiguus", desc: "Christian monk who created the Anno Domini system in the sixth century." },
+    { term: "Common Era (CE)", desc: "A term introduced in academic and interfaith settings as a neutral alternative to AD." },
+    { term: "Before Common Era (BCE)", desc: "A parallel to BC that removes explicit religious reference but uses the same chronological framework." },
+    { term: "Cultural Shift", desc: "The movement toward neutral language in a global, multicultural context." },
+    { term: "Anno Domini", desc: "Latin for 'in the year of our Lord,' referring to the years after the birth of Jesus Christ." }
+  ]
+},
   {
-    id: "numbers-only",
-    title: "Why do modern calendars often show only the year number?",
-    category: "Time and Calendars",
-    tags: ["calendar", "modern usage"],
-    featured: false,
-    content: `
-      <p>Because the Gregorian calendar is now the global standard, adding “AD” or “CE” is usually unnecessary. The year number alone—such as 2025—is universally understood to belong to the Common Era system.</p>
-    `,
-    refs: [
-      { term: "ISO 8601", desc: "The international standard for date notation that omits AD/CE labels." }
-    ]
-  },
+  id: "numbers-only",
+  title: "Why do modern calendars usually show only the year number?",
+  category: "Time and Calendars",
+  tags: ["calendar", "modern usage", "history", "chronology", "culture"],
+  featured: false,
+  content: `
+    <p>Modern calendars commonly display only the year number, such as “2025,” without the abbreviations <strong>AD</strong> (“Anno Domini”) or <strong>CE</strong> (“Common Era”). This practice reflects both historical continuity and practical simplicity. Because the Gregorian calendar is now used as the global standard, the era reference is generally assumed and therefore unnecessary in most modern contexts. Whether written on official documents, digital systems, or wall calendars, the number itself has become universally understood to represent the current era in the <em>Anno Domini</em> count that began with the birth of Jesus Christ.</p>
+
+    <p><strong>1. The dominance of the Gregorian calendar.</strong> The Gregorian calendar, introduced in 1582 by Pope Gregory XIII, corrected earlier inaccuracies in the Julian calendar and eventually became the civil standard worldwide. Over the centuries, nations across different religions and cultures adopted it for international trade, governance, and science. Because of this widespread use, the need to clarify “AD” or “CE” became minimal. When people see a year like “2025,” they automatically understand it to belong to the modern era, not to an earlier or alternate calendar system. This universal recognition allows dates to be shared globally without confusion.</p>
+
+    <p><strong>2. The influence of modern communication and technology.</strong> The digital age further reinforced the use of numbers alone. Computers, databases, and international communication systems operate on numerical formats that must be clear, efficient, and standardized. Writing “AD 2025” in a computer system would add unnecessary text that offers no additional clarity. International standards, such as <strong>ISO 8601</strong>, specify that dates should be expressed numerically, using formats like “2025-11-06” for precision. This convention helps businesses, scientists, and governments communicate across borders without worrying about differences in language or calendar notation.</p>
+
+    <p><strong>3. The role of globalization and secularization.</strong> As the world became more interconnected, societies sought common ground in shared systems of measurement, timekeeping, and communication. The removal of “AD” or “CE” from everyday use does not indicate hostility toward religion but rather reflects a practical approach to communication. The year number alone is enough to situate an event in time. In multicultural settings, this convention avoids confusion while preserving the same timeline rooted in the Gregorian system. Even though the abbreviation is omitted, the numbering still originates from the same reference point: the estimated birth of Jesus Christ.</p>
+
+    <p><strong>4. The historical meaning behind the numbering.</strong> Every time a modern calendar lists a year such as “2025,” it silently reflects the calendar’s Christian origin. The system of numbering years from the birth of Christ remains the foundation of our global timekeeping. The simplicity of displaying only numbers may appear neutral, but it is built upon a timeline that begins with the coming of Jesus into human history. Whether expressed as AD 2025 or simply 2025, the year still signifies that more than two millennia have passed since that event. Even in its abbreviated form, the calendar carries the legacy of Christian influence on Western civilization and global history.</p>
+
+    <p><strong>5. The function of clarity and readability.</strong> The decision to display only numbers also stems from the desire for simplicity. When people look at a calendar, they do not need to distinguish between BC, AD, or CE unless the date refers to ancient history. Modern life revolves entirely within the same ongoing era, so repeating “AD” or “CE” each time would serve little purpose. For instance, news articles, government documents, and digital timestamps all use numerical years without additional markers because readers immediately know the context. The format reduces clutter and keeps communication efficient while remaining historically grounded.</p>
+
+    <p><strong>6. How other calendars interact with the modern system.</strong> Although the Gregorian calendar dominates globally, many cultures still use their own religious or traditional calendars alongside it. For example, Jews observe the Hebrew calendar, Muslims follow the Hijri calendar, and many East Asian countries celebrate the Lunar New Year. Yet even in those regions, the Gregorian year number (such as 2025) is used for international affairs, scientific records, and technology. The numeric form serves as a bridge across cultures, linking diverse civilizations to a shared chronological framework that enables global cooperation and understanding.</p>
+
+    <p><strong>7. The symbolic value of simplicity.</strong> The absence of “AD” or “CE” on calendars can be seen as a symbol of both unity and humility. It reflects humanity’s ability to agree on a single system of timekeeping while also showing how deeply the influence of Christ’s birth continues to shape history. Even without the explicit mention of “in the year of our Lord,” each new year reminds believers and historians alike that time itself carries meaning. The number 2025 is not only a count of years but also a marker of the story that began when God entered human time through His Son, Jesus Christ. The simplicity of the numbering conceals a profound truth: that every passing year continues to unfold within the divine order of creation.</p>
+
+    <p>The practice of writing only the year number combines efficiency, clarity, and historical continuity. It allows people from every culture to share a common reference point in time without needing to restate its origins. Behind that small number printed on every calendar page lies a remarkable story—the unbroken thread of history shaped by both human progress and divine providence. Every numbered year, whether or not it bears the title “AD,” remains a silent testimony to the passage of time under the watchful care of the Creator.</p>
+  `,
+  refs: [
+    { term: "Gregorian Calendar", desc: "The globally recognized civil calendar introduced in 1582 to replace the Julian calendar." },
+    { term: "ISO 8601", desc: "An international standard for date and time notation that simplifies global communication by omitting AD/CE labels." },
+    { term: "Pope Gregory XIII", desc: "The leader of the Catholic Church who authorized the calendar reform that standardized modern timekeeping." },
+    { term: "Globalization", desc: "The process by which societies and cultures become interconnected, influencing language, trade, and shared standards like the calendar." },
+    { term: "Scriptural Foundation", desc: "The numbering of modern years still begins with the estimated time of Jesus Christ’s birth, even in secular contexts." }
+  ]
+},
 
   /* ===========================
      CATEGORY: Ancient Calendars
      =========================== */
   {
-    id: "roman-calendar",
-    title: "When did the calendar expand from ten months to twelve?",
-    category: "Ancient Calendars",
-    tags: ["Roman calendar", "months", "history"],
-    featured: false,
-    content: `
-      <p>The early Roman calendar had only ten months, beginning with March and ending with December. Around 713 BCE, King Numa Pompilius added January and February to synchronize with lunar cycles. Later, Julius Caesar reformed the system in 46 BCE, establishing the Julian calendar with twelve months of more consistent length.</p>
-    `,
-    refs: [
-      { term: "Numa Pompilius", desc: "Second king of Rome who added January and February." },
-      { term: "Julian Calendar", desc: "Reform by Julius Caesar aligning the year with the solar cycle." }
-    ]
-  },
+  id: "roman-calendar",
+  title: "How did the Roman calendar expand from ten months to twelve?",
+  category: "Ancient Calendars",
+  tags: ["Roman calendar", "months", "history", "timekeeping", "Julian calendar"],
+  featured: false,
+  content: `
+    <p>The earliest Roman calendar was a complex and imperfect system that evolved over centuries. It originally contained only ten months, beginning with March and ending with December. This older version of the calendar left a gap of roughly sixty days in winter that were not assigned to any month. Over time, political leaders, astronomers, and priests made several adjustments to align the Roman calendar more closely with the lunar and solar cycles. The expansion from ten months to twelve, and eventually to the Julian calendar, reflects humanity’s struggle to bring order and consistency to the passage of time.</p>
+
+    <p><strong>1. The early Roman calendar under Romulus.</strong> Tradition attributes the creation of the first Roman calendar to Romulus, the legendary founder of Rome, around 753 BCE. This early system had only ten months, totaling 304 days. The year began with March (<em>Martius</em>), which was associated with Mars, the god of war, and ended with December (<em>December</em> literally meaning “the tenth month”). The remaining days of winter were simply ignored, creating a large period of “unaccounted” time. The ten months were:</p>
+    <ul>
+      <li>1. Martius (31 days)</li>
+      <li>2. Aprilis (30 days)</li>
+      <li>3. Maius (31 days)</li>
+      <li>4. Junius (30 days)</li>
+      <li>5. Quintilis (31 days)</li>
+      <li>6. Sextilis (30 days)</li>
+      <li>7. September (30 days)</li>
+      <li>8. October (31 days)</li>
+      <li>9. November (30 days)</li>
+      <li>10. December (30 days)</li>
+    </ul>
+    <p>This arrangement totaled only 304 days, which did not align with the actual length of a solar year. Winter, when military campaigns and most civic activities stopped, was treated as a timeless gap between years.</p>
+
+    <p><strong>2. The reform of Numa Pompilius.</strong> Around 713 BCE, Numa Pompilius, the second king of Rome, sought to bring structure to this irregular system. He added two new months—January (<em>Ianuarius</em>) and February (<em>Februarius</em>)—to the beginning of the year. January was dedicated to Janus, the Roman god of beginnings and transitions, symbolizing the passage from one year to another. February was named after the <em>Februa</em> festival, a time of purification and renewal. This adjustment expanded the calendar to twelve months and brought the total to 355 days, following the lunar cycle more closely. However, because lunar months do not perfectly fit into a solar year, this new calendar still fell out of sync with the seasons over time.</p>
+
+    <p><strong>3. The challenges of the early Roman system.</strong> The Roman calendar relied heavily on priestly oversight to determine when to add extra days, a process called intercalation. Roman priests known as <em>pontifices</em> were responsible for inserting an additional month called <em>Mercedonius</em> every few years to keep the calendar aligned with the solar year. Unfortunately, this process became vulnerable to political manipulation. Magistrates sometimes delayed or advanced intercalations to extend their terms of office or to benefit certain festivals. As a result, by the first century BCE, the Roman calendar had drifted significantly out of alignment with the seasons, causing confusion in both agriculture and governance.</p>
+
+    <p><strong>4. The Julian reform of 46 BCE.</strong> Julius Caesar, recognizing the need for a more accurate and predictable calendar, instituted a major reform in 46 BCE with the help of the Alexandrian astronomer Sosigenes. Caesar abandoned the lunar-based system in favor of a solar calendar similar to the one used in Egypt. The new <strong>Julian calendar</strong> set the year at 365 days, with a leap year of 366 days every fourth year to account for the extra quarter day in Earth’s orbit. Each month was assigned a consistent length, alternating between 30 and 31 days, except for February, which had 29 days (30 in leap years). This reform permanently established the twelve-month structure we still use today.</p>
+
+    <p><strong>5. The symbolic meaning of the new months.</strong> The addition of January and February was not just practical but symbolic. January, named after Janus, the two-faced god who looks both forward and backward, was positioned at the start of the year to represent reflection and renewal. February, associated with cleansing rituals, served as a time to prepare for the new cycle of life in spring. These months connected civic timekeeping with spiritual meaning, blending astronomy, religion, and culture into one system of order that reflected Roman beliefs about time and destiny.</p>
+
+    <p><strong>6. The transition to the Julian year and its legacy.</strong> The Julian calendar brought much-needed stability to Rome and became the foundation for the modern calendar. Its accuracy and simplicity allowed it to remain in use for more than 1,600 years until Pope Gregory XIII introduced minor corrections in 1582 to create the Gregorian calendar. The names of the months introduced during the Roman period, such as March, May, and July, still appear in our modern calendar. Even the political influence of Rome remains visible—Julius Caesar and Augustus both gave their names to the months of July and August, respectively. What began as a chaotic and shifting system of ten months eventually became the global standard for measuring time.</p>
+
+    <p><strong>7. The broader significance of calendar reform.</strong> The transformation from a ten-month to a twelve-month calendar was more than a matter of convenience. It represented a growing awareness of humanity’s connection to the natural rhythms of the earth and the heavens. Timekeeping evolved from a religious and political tool into a scientific pursuit grounded in observation and precision. The Roman reforms laid the groundwork for the modern understanding of time, emphasizing not only order and predictability but also the desire to align human activity with the design of creation itself.</p>
+
+    <p>The journey from Romulus’ primitive ten-month calendar to the Julian twelve-month system is a story of cultural adaptation and intellectual growth. It shows how human civilizations have long sought to synchronize their daily lives with the cosmic order established by God. Each change reflected not only practical necessity but also the deep human impulse to find meaning and harmony in the passage of time. The calendar we use today carries within it the legacy of those early reforms, a lasting reminder of humanity’s effort to measure the divine rhythm of the world.</p>
+  `,
+  refs: [
+    { term: "Romulus", desc: "The legendary founder of Rome who is said to have created the original ten-month calendar." },
+    { term: "Numa Pompilius", desc: "The second king of Rome who added January and February, expanding the year to twelve months." },
+    { term: "Mercedonius", desc: "An extra month occasionally inserted by Roman priests to realign the lunar calendar with the solar year." },
+    { term: "Sosigenes of Alexandria", desc: "An Egyptian astronomer who advised Julius Caesar during the creation of the Julian calendar." },
+    { term: "Julian Calendar", desc: "A solar calendar introduced in 46 BCE that established the modern twelve-month year and leap-year system." },
+    { term: "Janus", desc: "The Roman god of beginnings and transitions, after whom January was named." },
+    { term: "Pope Gregory XIII", desc: "The leader of the Catholic Church who reformed the Julian calendar in 1582 to create the Gregorian system." }
+  ]
+},
   {
-    id: "month-lengths",
-    title: "Why do some months have 31 days while others have 30?",
-    category: "Ancient Calendars",
-    tags: ["months", "calendar", "politics"],
-    featured: false,
-    content: `
-      <p>The uneven pattern comes from both astronomy and Roman politics. A solar year lasts about 365.25 days—impossible to divide evenly into twelve. Julius Caesar’s reform alternated 30- and 31-day months, but Emperor Augustus later lengthened August to 31 days to match July, named after Julius Caesar.</p>
-    `,
-    refs: [
-      { term: "Solar year", desc: "Earth’s orbit around the sun takes roughly 365.25 days." },
-      { term: "Augustus", desc: "Adjusted month lengths for political and symbolic reasons." }
-    ]
-  },
+  id: "month-lengths",
+  title: "Why do some months have 31 days while others have 30?",
+  category: "Ancient Calendars",
+  tags: ["months", "calendar", "history", "astronomy", "politics"],
+  featured: false,
+  content: `
+    <p>The uneven lengths of the months in our modern calendar are the result of a long history of trial, reform, and political influence. What seems like a simple pattern—some months having 30 days and others 31—actually reflects centuries of human attempts to reconcile the solar year with practical, cultural, and even political needs. The roots of this uneven structure reach back to the Roman Empire, when astronomical observation met the ambitions of emperors who shaped time according to both science and symbolism.</p>
+
+    <p><strong>1. The solar year and the problem of division.</strong> A solar year, which is the time it takes Earth to orbit the sun once, lasts approximately 365.25 days. This fractional number makes it impossible to divide a year evenly into months that all have the same number of days. Ancient civilizations, including the Egyptians and Babylonians, observed this problem and developed different methods to account for the extra quarter of a day. Some relied on lunar cycles, which last about 29.5 days, while others, like the Romans, sought to create a more predictable solar-based calendar. Balancing these natural cycles with social and religious observances proved to be a constant challenge.</p>
+
+    <p><strong>2. The early Roman calendar and its irregularity.</strong> The earliest Roman calendar, traditionally attributed to Romulus, had ten months and a total of 304 days, leaving a gap of uncounted winter days. This calendar was later reformed by King Numa Pompilius around 713 BCE, who expanded it to twelve months and roughly 355 days to follow the lunar cycle. Because 355 days still fell short of a full solar year, the Romans occasionally inserted an extra month called <em>Mercedonius</em> to realign the seasons. However, this system quickly became inconsistent, as priests and politicians could manipulate the intercalation of extra days to extend or shorten political terms. By the time of Julius Caesar, the Roman year had drifted far from the actual seasons, creating widespread confusion in agriculture, festivals, and civil planning.</p>
+
+    <p><strong>3. The Julian reform and the pattern of months.</strong> In 46 BCE, Julius Caesar introduced a major reform with the help of the Egyptian astronomer Sosigenes. They abandoned the lunar model and based the new <strong>Julian calendar</strong> on the solar year of 365.25 days. To maintain alignment with the seasons, Caesar instituted a leap year every four years, adding one extra day to February. The twelve months were reorganized to alternate between 30 and 31 days, with February assigned 29 days (30 in leap years). This arrangement created a more consistent and predictable structure, aligning the calendar more closely with the sun’s movement through the year.</p>
+
+    <p><strong>4. The political reshaping of month lengths.</strong> The original Julian system was mathematically sound, but politics soon interfered. After Julius Caesar’s assassination, the Roman Senate renamed the month of Quintilis as <em>July</em> in his honor, since he had been born in that month. Later, Emperor Augustus desired a similar recognition and renamed the month of Sextilis as <em>August</em>. To avoid any appearance of inferiority, Augustus adjusted the length of August from 30 to 31 days to match July. To keep the total number of days in the year correct, minor adjustments were made to the following months, creating the irregular pattern that survives today. The calendar, once guided by astronomical precision, had become shaped by human pride and legacy.</p>
+
+    <p><strong>5. The deeper rhythm of the modern calendar.</strong> The alternation of 30- and 31-day months may appear random, but it follows a practical balance established by Caesar’s reform and Augustus’ modifications. While not perfectly symmetrical, this pattern ensured that the year stayed consistent with the solar cycle without constant recalibration. The leap year system compensated for the extra quarter day each year, keeping the calendar synchronized with the seasons. Even though February remained the shortest month, often viewed as a leftover of the early Roman adjustments, the structure achieved a remarkable balance between accuracy and usability.</p>
+
+    <p><strong>6. The calendar as a reflection of human authority and adaptation.</strong> The story behind month lengths illustrates how timekeeping has always been shaped by the intersection of science, culture, and politics. The Roman calendar began as an attempt to align life with the cycles of the moon and sun, but it also became a symbol of imperial control. When Julius Caesar reformed the calendar, he was not only correcting a scientific problem but also asserting Roman authority over time itself. By naming months after emperors and adjusting their lengths, rulers imprinted their power onto the very structure of the year. The calendar became both a scientific instrument and a political monument.</p>
+
+    <p><strong>7. The enduring legacy of the Roman system.</strong> Despite later refinements, such as the Gregorian reform of 1582, the basic structure of the Julian calendar remains intact. The uneven month lengths that began in ancient Rome continue to define how the world measures time today. Every modern calendar still bears traces of these ancient decisions, a reminder that the human pursuit of order and recognition often leaves permanent marks on even the most universal systems. The months may differ in length, but together they tell a story that blends celestial observation with the ambitions of kings and emperors.</p>
+
+    <p>The unequal pattern of 30- and 31-day months is therefore not accidental. It is the product of centuries of observation, adjustment, and human decision-making. Each page of a modern calendar carries within it the legacy of Roman reformers who sought to align earthly life with the movement of the heavens. Beneath the simple grid of numbered days lies a history of how humanity learned to mark the passage of time—balancing accuracy, tradition, and power in its quest to measure the rhythm of creation.</p>
+  `,
+  refs: [
+    { term: "Solar Year", desc: "The time it takes Earth to orbit the sun once, approximately 365.25 days." },
+    { term: "Mercedonius", desc: "An intercalary month occasionally added in the early Roman calendar to realign it with the solar year." },
+    { term: "Sosigenes of Alexandria", desc: "Egyptian astronomer who helped Julius Caesar design the Julian calendar based on the solar year." },
+    { term: "Julian Calendar", desc: "The Roman reform of 46 BCE that standardized month lengths and introduced the leap year system." },
+    { term: "Augustus", desc: "Roman emperor who lengthened August to 31 days to match July, honoring Julius Caesar." },
+    { term: "Gregorian Reform", desc: "The later calendar adjustment of 1582 that refined the Julian system to align more precisely with the solar year." }
+  ]
+},
   {
-    id: "january-position",
-    title: "Why were January and February placed before March?",
-    category: "Ancient Calendars",
-    tags: ["months", "Roman", "history"],
-    featured: false,
-    content: `
-      <p>In early Rome, the year began in March—the start of spring and the military season. When January and February were added, they were placed before March to keep festivals and harvest seasons in the right order. The civil year later shifted to begin on January 1, though the month order remained.</p>
-    `,
-    refs: [
-      { term: "Janus", desc: "Roman god of beginnings; January is named after him." },
-      { term: "Civil New Year", desc: "The Julian reform in 46 BCE made January 1 the start of the year." }
-    ]
-  },
+  id: "january-position",
+  title: "Why were January and February placed before March in the calendar?",
+  category: "Ancient Calendars",
+  tags: ["months", "Roman", "history", "calendar", "timekeeping"],
+  featured: false,
+  content: `
+    <p>The placement of January and February before March in the modern calendar is the result of a long evolution in Roman timekeeping. In the earliest versions of the Roman calendar, the year began in March, not January. This made sense in an agricultural and military society where the start of spring marked the renewal of life and the beginning of campaigns and planting. When the months of January and February were later introduced, they were placed at the beginning of the year for both symbolic and practical reasons. Over time, this arrangement became permanent through both political decree and cultural adaptation, shaping the calendar that we use today.</p>
+
+    <p><strong>1. The original Roman year beginning with March.</strong> The earliest Roman calendar, attributed to Romulus, the legendary founder of Rome, began in March and ended in December. The ten-month calendar mirrored the agricultural and military cycles of Roman life. March (<em>Martius</em>) was named after Mars, the god of war, and marked the time when soldiers returned to the field after the winter months. December (<em>December</em>) literally means “the tenth month,” which shows that the original calendar contained no months for the winter period. These unnumbered winter days were ignored, as few civic or agricultural activities took place during that time.</p>
+
+    <p><strong>2. The reforms of King Numa Pompilius.</strong> Around 713 BCE, Numa Pompilius, Rome’s second king, reformed the calendar to bring it into better alignment with the lunar year. He added two new months, January (<em>Ianuarius</em>) and February (<em>Februarius</em>), to account for the winter days that had previously been left uncounted. This change expanded the year to twelve months and more closely matched the lunar cycle. January was dedicated to Janus, the two-faced god of beginnings and transitions, symbolizing looking both to the past and the future. February took its name from <em>Februa</em>, a festival of purification held before the coming of spring. These months reflected Roman values of renewal, cleansing, and preparation for new beginnings.</p>
+
+    <p><strong>3. Why January and February were placed before March.</strong> Numa’s calendar reform initially placed January and February at the end of the year, following December. However, this created confusion for organizing civic duties and religious observances, since many official Roman activities began with the election of new magistrates and consuls. Eventually, January was moved to the front of the year to coincide with the start of the political cycle. January 1 became the day when new consuls took office, marking the formal beginning of the civil year. This shift brought administrative order, ensuring that civic and military planning aligned with the start of the year.</p>
+
+    <p><strong>4. The symbolism of January as the beginning of the year.</strong> The selection of January as the first month was not only practical but deeply symbolic. Janus, after whom the month is named, was the god of doorways, beginnings, and endings. He was depicted with two faces—one looking forward to the future, the other backward to the past. Romans saw the turning of the year as a threshold moment, a transition from what had been to what would come. Starting the year with a month dedicated to Janus gave spiritual meaning to the new year, linking civic renewal with divine protection and reflection. This symbolism still echoes today in the way people view January as a time for new resolutions and fresh starts.</p>
+
+    <p><strong>5. The role of the Julian reform in finalizing the order.</strong> By the first century BCE, the Roman calendar had become increasingly inaccurate due to its reliance on lunar cycles and political manipulation of leap months. Julius Caesar, with the help of the Egyptian astronomer Sosigenes, restructured the calendar in 46 BCE to create a solar-based system known as the Julian calendar. This reform fixed the year at 365 days, with a leap year every fourth year. Caesar confirmed January 1 as the start of the year for all official and civil purposes. While earlier Romans had observed March 1 as the beginning of the year, Caesar’s decree established January as the official marker of time’s renewal. The month order—January, February, March—was now set permanently.</p>
+
+    <p><strong>6. The cultural tension between March and January as the “true” new year.</strong> Even after the Julian reform, some Romans and other cultures continued to view March as the natural beginning of the year, since it aligned with springtime and the agricultural cycle. Festivals such as the <em>Matronalia</em>, honoring Juno, and the <em>Agonalia</em>, celebrating Mars, reflected the older tradition of a March new year. For centuries, traces of this seasonal mindset persisted throughout Europe. In medieval times, some calendars still began with March, and the “New Year” was celebrated at different times depending on region and custom. Only later, under the influence of the Gregorian reform and broader standardization, did January 1 become universally recognized as the beginning of the year.</p>
+
+    <p><strong>7. The spiritual and philosophical significance of the shift.</strong> The decision to move the start of the year from March to January reflects a deeper human desire to bring time into harmony with order, reflection, and governance. It transformed the calendar from a system based on nature’s rhythms to one grounded in civic life and divine symbolism. By beginning the year with a month dedicated to Janus, the Romans acknowledged that every new beginning carries both memory and hope. The calendar thus became not only a practical tool for organizing days but also a mirror of human understanding about transition and renewal.</p>
+
+    <p>Today, the placement of January and February before March may seem like a simple matter of tradition, but it carries the weight of centuries of history, religion, and reform. Each time the world celebrates the new year on January 1, it participates in an ancient pattern that began with the Roman effort to align earthly life with celestial order. What began as a political and agricultural adjustment became a lasting reflection of humanity’s effort to measure time meaningfully—to begin each year not merely by the season’s change, but with intention and foresight toward what lies ahead.</p>
+  `,
+  refs: [
+    { term: "Romulus", desc: "The legendary founder of Rome who established the original ten-month calendar." },
+    { term: "Numa Pompilius", desc: "Rome’s second king, who added January and February to align the calendar with lunar cycles." },
+    { term: "Janus", desc: "The Roman god of beginnings and transitions, symbolized by two faces looking both backward and forward." },
+    { term: "Sosigenes of Alexandria", desc: "Egyptian astronomer who assisted Julius Caesar in creating the Julian calendar." },
+    { term: "Julian Calendar", desc: "Reform implemented in 46 BCE that established January 1 as the official start of the year." },
+    { term: "Matronalia", desc: "A Roman festival held in March that reflected older traditions of March as the beginning of the year." },
+    { term: "Civil New Year", desc: "The shift of the administrative start of the year to January 1, formalized under Julius Caesar’s reform." }
+  ]
+},
   {
-    id: "new-year",
-    title: "Why does the year begin on January 1 instead of the spring equinox?",
-    category: "Ancient Calendars",
-    tags: ["calendar", "new year", "Roman history"],
-    featured: false,
-    content: `
-      <p>When Julius Caesar reformed the calendar, January 1 became the official start of the year because Roman consuls—the city’s highest officials—took office that day. The date served civil and administrative needs, not astronomical ones. Earlier cultures had tied the new year to spring or harvest, but Rome fixed it for governance and uniformity.</p>
-    `,
-    refs: [
-      { term: "Julian Reform", desc: "A 46 BCE calendar adjustment aligning with civil practice." },
-      { term: "Consuls", desc: "Elected Roman leaders whose terms began on January 1." }
-    ]
-  },
+  id: "new-year",
+  title: "Why does the year begin on January 1 instead of during the spring equinox?",
+  category: "Ancient Calendars",
+  tags: ["calendar", "new year", "Roman history", "timekeeping", "tradition"],
+  featured: false,
+  content: `
+    <p>The choice of January 1 as the beginning of the year may seem arbitrary from an astronomical perspective, but it is deeply rooted in Roman history, politics, and symbolism. Earlier civilizations often began the year in spring, when life visibly renewed with the changing seasons. The Romans, however, tied the start of the year to civic order rather than the natural cycles of planting and harvest. When Julius Caesar reformed the Roman calendar in 46 BCE, he made January 1 the official beginning of the year, aligning the measurement of time with the administrative rhythm of Roman governance rather than with the movements of the sun or the moon.</p>
+
+    <p><strong>1. Early traditions and the natural rhythm of the seasons.</strong> In many ancient cultures, the new year began in spring, around the time of the vernal equinox, when daylight and darkness were balanced. For agrarian societies, this made practical sense. The equinox marked the start of the growing season and symbolized renewal, fertility, and hope. Babylonian, Egyptian, and even early Roman festivals celebrated the turning of the year in connection with the earth’s cycles. March, associated with Mars, the Roman god of war and renewal, originally marked both the start of military campaigns and the agricultural year. This seasonal approach tied human activity directly to nature’s rhythm and the divine order perceived within it.</p>
+
+    <p><strong>2. The early Roman calendar and its shifting new year.</strong> Before Julius Caesar’s reform, the Roman calendar was chaotic. It was based on lunar months and required periodic adjustments that were often neglected or manipulated by politicians. The year sometimes began in March and at other times in January, depending on political convenience and religious observances. The inconsistency created confusion in civic administration, taxation, and the scheduling of festivals. By the first century BCE, the Roman calendar had drifted so far from the seasons that it no longer aligned with astronomical reality. This disorganization motivated Caesar to create a lasting and rational calendar system that could serve both the empire’s civil and agricultural needs.</p>
+
+    <p><strong>3. The Julian reform and the fixing of January 1.</strong> In 46 BCE, Julius Caesar introduced a new solar-based calendar with the help of the Alexandrian astronomer Sosigenes. This reform, known as the Julian calendar, replaced the old lunar system and set the year at 365 days, with an extra day added every fourth year. Caesar chose January 1 as the official start of the year because it coincided with the beginning of the term of Rome’s highest political officials, the consuls. Since consuls played a central role in Roman government and leadership, aligning the year’s start with their inauguration established an orderly framework for civic administration. The change emphasized stability and uniformity, ensuring that political, legal, and financial activities began on the same date each year.</p>
+
+    <p><strong>4. The symbolism of January and the god Janus.</strong> Beyond practicality, Caesar’s decision carried spiritual and cultural meaning. January was named after <em>Janus</em>, the Roman god of beginnings, transitions, and doorways. Janus was depicted with two faces—one looking forward into the future and one looking back into the past—symbolizing reflection and anticipation. The Romans saw the start of the year as a threshold moment, a time to honor the god who governed all beginnings. Setting the year’s start in January gave a religious and philosophical depth to the calendar reform, uniting civic life with divine symbolism. This link between reflection, renewal, and governance reinforced the sense that the new year was both a political and a spiritual turning point.</p>
+
+    <p><strong>5. The spring equinox and its continuing influence.</strong> While the Julian calendar shifted the official start of the year to January 1, many people continued to associate the new year with the spring equinox. For centuries after Caesar’s reform, different regions of the Roman Empire and medieval Europe celebrated the new year at various times—sometimes on March 1, March 25 (the Feast of the Annunciation), or even at Easter. The persistence of these older traditions reveals how deeply humanity’s sense of time was connected to nature’s cycles. It was not until the spread of Christianity and the adoption of standardized calendars across Europe that January 1 became universally recognized as the start of the civil year.</p>
+
+    <p><strong>6. The Gregorian reform and global adoption.</strong> By the sixteenth century, errors in the Julian calendar had caused the dates of equinoxes and solstices to drift by about ten days. Pope Gregory XIII corrected this in 1582 through the Gregorian reform, which fine-tuned the leap year system. Although the reform was primarily intended to keep Easter aligned with the spring equinox, it also solidified January 1 as the official New Year’s Day throughout the Western world. Over the next few centuries, the Gregorian calendar spread globally through trade, colonization, and diplomacy, becoming the standard for international timekeeping. The date that began as a Roman administrative choice became a worldwide tradition.</p>
+
+    <p><strong>7. The philosophical meaning of January 1 as the new year.</strong> Starting the year in midwinter, rather than in spring, has deep symbolic meaning. It represents the triumph of human reason and order over the unpredictability of nature. The Romans imposed structure on time itself, transforming the calendar into an instrument of governance. Today, January 1 stands as a moment of reflection between the past and the future, echoing Janus’ dual gaze. People mark the date with resolutions, celebrations, and renewal, continuing the Roman tradition of viewing the turn of the year as both a civic and spiritual threshold. It reminds us that every new year is not just a measure of time, but a call to begin again with purpose and awareness.</p>
+
+    <p>The choice of January 1 as the beginning of the year, therefore, was not a matter of astronomy but of intention. It represented the Roman desire to bring unity, order, and meaning to the calendar. What began as a pragmatic decision by Julius Caesar became a defining cultural legacy that shapes how the entire world measures time. Each New Year’s Day carries within it this inheritance—a blend of politics, faith, and the timeless human need to mark new beginnings with both gratitude for the past and hope for what is yet to come.</p>
+  `,
+  refs: [
+    { term: "Julian Reform", desc: "A calendar adjustment introduced by Julius Caesar in 46 BCE that established a solar-based year and fixed January 1 as the start of the year." },
+    { term: "Janus", desc: "The Roman god of beginnings and transitions, symbolizing reflection on the past and anticipation of the future." },
+    { term: "Consuls", desc: "Rome’s highest elected officials whose annual terms began on January 1, influencing Caesar’s decision to begin the year on that date." },
+    { term: "Spring Equinox", desc: "The moment when day and night are of equal length, traditionally associated with renewal and planting in ancient cultures." },
+    { term: "Gregorian Reform", desc: "The 1582 calendar correction that refined the Julian system and established January 1 as the universal New Year’s Day." },
+    { term: "Sosigenes of Alexandria", desc: "The Egyptian astronomer who advised Julius Caesar during the creation of the Julian calendar." }
+  ]
+},
 
   /* ===========================
      CATEGORY: Creation and Humanity
      =========================== */
   {
-    id: "god-created-man-first",
-    title: "Why did God create man before woman?",
-    category: "Creation and Humanity",
-    tags: ["Genesis", "creation", "Adam", "Eve"],
-    featured: false,
-    content: `
-      <p>In Genesis, God creates Adam first, tasking him with naming the creatures and caring for creation before introducing Eve as a partner. The sequence emphasizes purpose, not rank: humanity was designed for relationship and cooperation. Eve’s creation completes that vision of shared image-bearing, not a hierarchy of worth.</p>
-    `,
-    refs: [
-      { term: "Genesis 1:27", desc: "Both male and female are created in God’s image." },
-      { term: "Genesis 2:18", desc: "It is not good for man to be alone." }
-    ]
-  },
+  id: "god-created-man-first",
+  title: "Why did God create man before woman?",
+  category: "Creation and Humanity",
+  tags: ["Genesis", "creation", "Adam", "Eve", "Bible", "theology"],
+  featured: false,
+  content: `
+    <p>The order of creation in Genesis, where God creates Adam before Eve, has often led to questions about meaning and purpose. Some have misunderstood this sequence as a statement of superiority, but the biblical account tells a very different story. The creation of man and woman was not about rank or dominance but about relationship, completeness, and divine design. God’s order in creation reveals a deliberate process that teaches humanity about interdependence, stewardship, and unity under His authority.</p>
+
+    <p><strong>1. Understanding the order of creation in Genesis.</strong> The book of Genesis presents two complementary perspectives on creation. Genesis 1 offers a broad, chronological view of God’s creative work, showing that both man and woman were created in His image: “So God created mankind in His own image, in the image of God He created them; male and female He created them” (Genesis 1:27). Genesis 2, on the other hand, provides a more detailed account of how God formed Adam first and then created Eve from his side. This second narrative is not a contradiction of the first but a closer look at God’s method and purpose in establishing relationship and partnership between the first humans.</p>
+
+    <p><strong>2. Adam’s creation and role before Eve.</strong> When God created Adam, He placed him in the Garden of Eden “to work it and take care of it” (Genesis 2:15). Adam was also given the responsibility to name the animals, symbolizing his authority as steward over creation. Yet, despite his intimate relationship with God and his role as caretaker, Adam was alone. God declared, “It is not good for man to be alone” (Genesis 2:18). This statement is significant because it marks the first time something in creation was described as “not good.” God’s purpose was not to create an incomplete man, but to show that even in a perfect environment, human fulfillment required companionship. Adam’s solitude revealed humanity’s need for relationship, both with God and with one another.</p>
+
+    <p><strong>3. The creation of Eve and the meaning of partnership.</strong> God’s solution to Adam’s solitude was not another man or an animal but someone like him, yet distinct. God caused Adam to fall into a deep sleep, took one of his ribs, and formed Eve (Genesis 2:21–22). The detail that Eve was created from Adam’s side carries symbolic depth. She was not taken from his head to rule over him, nor from his feet to be beneath him, but from his side to stand beside him as an equal partner. This poetic act signifies mutual respect, shared purpose, and unity in bearing the image of God. When Adam saw Eve, he exclaimed, “This is now bone of my bones and flesh of my flesh” (Genesis 2:23), expressing recognition, gratitude, and joy at the completeness she brought to his life.</p>
+
+    <p><strong>4. Sequence does not imply superiority.</strong> The fact that Adam was created first does not mean that man holds greater worth or authority in God’s eyes. The Bible consistently emphasizes equality in value between man and woman. Both were created in God’s image (Genesis 1:27), and both were entrusted with the command to rule over the earth (Genesis 1:28). The sequence of their creation highlights different roles and functions, not levels of importance. In fact, the timing of Eve’s creation demonstrates that woman was the final and crowning act of God’s creative work—a reflection of completion and wholeness rather than inferiority.</p>
+
+    <p><strong>5. The theological symbolism of relationship.</strong> The relationship between Adam and Eve also serves as a model for community, family, and even the relationship between Christ and the Church. In Ephesians 5:25–32, Paul uses the creation story to illustrate sacrificial love and unity. Just as Adam and Eve were one flesh, so believers are united with Christ in a covenant relationship of love and service. The divine order of creation, therefore, was not about establishing power structures but about revealing the relational nature of God Himself. Humanity, male and female, was designed to mirror that divine harmony in the world.</p>
+
+    <p><strong>6. The divine pattern of interdependence.</strong> God’s creation of man first and woman second shows that neither is complete without the other. Adam’s existence highlighted the need for Eve, and Eve’s creation fulfilled God’s design for companionship and partnership. Both genders reflect different aspects of God’s character: strength and tenderness, reason and emotion, leadership and nurture. Together they represent the fullness of God’s image on earth. Ecclesiastes 4:9–10 reflects this truth beautifully: “Two are better than one, because they have a good return for their labor. If either of them falls down, one can help the other up.” The divine design was always relational, not hierarchical.</p>
+
+    <p><strong>7. Lessons from the order of creation.</strong> The creation story reminds believers that God’s actions are intentional and purposeful. Adam’s creation first set the stage for recognizing the necessity of relationship, while Eve’s creation demonstrated God’s desire for unity and balance. The sequence teaches humility, cooperation, and respect for divine order. It also points forward to the larger truth that all of humanity—male and female—is meant to live in partnership with God, reflecting His wisdom, creativity, and love. Every human being, regardless of gender, shares in the responsibility to care for creation and to live in fellowship with others.</p>
+
+    <p>When God created Adam first and then Eve, He was not creating a hierarchy but completing a design. The story reveals that God’s intention for humanity is rooted in love, equality, and partnership. Man and woman together display the fullness of God’s image, each contributing unique strengths to fulfill His purpose on earth. The sequence of creation invites every person to see the beauty of dependence, cooperation, and unity as reflections of divine order—a truth that continues to define what it means to be human in God’s creation.</p>
+  `,
+  refs: [
+    { term: "Genesis 1:27", desc: "Both male and female are created in God's image, equally reflecting His likeness and purpose." },
+    { term: "Genesis 2:15–23", desc: "God forms Adam first, gives him stewardship of creation, and then creates Eve from his side as a suitable partner." },
+    { term: "Genesis 2:18", desc: "God declares it is not good for man to be alone, revealing the divine intention for companionship and partnership." },
+    { term: "Ephesians 5:25–32", desc: "Paul draws from the creation story to illustrate the relationship between Christ and the Church." },
+    { term: "Ecclesiastes 4:9–10", desc: "Two are better than one, for they can support and strengthen each other in work and in life." }
+  ]
+},
   {
-    id: "adam-patriarchy",
-    title: "Did Adam cause patriarchy—the idea of male dominance in society?",
-    category: "Creation and Humanity",
-    tags: ["Adam", "gender roles", "patriarchy"],
-    featured: false,
-    content: `
-      <p>No. The Bible does not portray Adam as the cause of patriarchy. The concept developed in later human societies, influenced by culture, economy, and power structures. Genesis describes men and women as partners, both charged with caring for creation. Patriarchal interpretations arose later, often misreading the original story of equality and cooperation.</p>
-    `,
-    refs: [
-      { term: "Patriarchy", desc: "A social system privileging men; not prescribed by Genesis." },
-      { term: "Genesis 1:28", desc: "Both were blessed and given dominion together." }
-    ]
-  },
+  id: "adam-patriarchy",
+  title: "Did Adam cause patriarchy, the idea of male dominance in society?",
+  category: "Creation and Humanity",
+  tags: ["Adam", "gender roles", "patriarchy", "Bible", "Genesis", "equality"],
+  featured: false,
+  content: `
+    <p>The question of whether Adam caused patriarchy is one that has sparked much debate in both theology and social history. When read carefully, the Bible does not portray Adam as the source of male dominance. The concept of patriarchy, meaning a social system that privileges men over women, developed much later as human societies organized themselves around power, inheritance, and cultural traditions. The creation story in Genesis, when understood in its original context, presents a vision of equality and partnership rather than hierarchy. The distinction between men and women is meant to reflect unity and cooperation in fulfilling God’s purposes, not competition or control.</p>
+
+    <p><strong>1. Understanding Adam’s role in creation.</strong> In the Genesis account, Adam is created first and given stewardship over the Garden of Eden (Genesis 2:15). This act does not imply superiority but responsibility. God tasked Adam with naming the animals and tending the garden, roles that emphasize care, observation, and order. When God declared that it was “not good for man to be alone” (Genesis 2:18), He introduced the need for companionship, signaling that creation was incomplete without woman. Eve’s creation from Adam’s side, not from his head or feet, symbolizes partnership and equality. The original design of creation reflects complementarity—two beings distinct yet equal, united in purpose and image-bearing.</p>
+
+    <p><strong>2. The origin of patriarchy in human history.</strong> Patriarchy, as it is known today, did not come from Adam or the creation story. It emerged over time as human societies developed systems of labor, property ownership, and governance. In early agricultural societies, physical strength often determined leadership and survival, and over generations, this became institutionalized into male-centered social structures. The fall of humanity, described in Genesis 3, intensified these divisions. After Adam and Eve’s disobedience, sin entered the world, distorting relationships between people and between humanity and God. The curse in Genesis 3:16—“he will rule over you”—is not a divine endorsement of patriarchy but a description of the brokenness that sin brought into the world. God did not command male dominance; He foretold the relational imbalance that sin would cause.</p>
+
+    <p><strong>3. The difference between divine design and human distortion.</strong> The Bible’s portrayal of man and woman before the fall is one of harmony and shared authority. Both are told to “be fruitful and multiply, fill the earth and subdue it” (Genesis 1:28). This command was given to both, not to Adam alone, showing that God intended humanity to govern creation together. Patriarchy, by contrast, is a product of the fall and human rebellion. It reflects the misuse of authority and the failure to live according to God’s model of mutual respect. Throughout Scripture, God consistently works to restore balance and justice, reminding His people that His ideal is partnership rooted in love and humility, not dominance or oppression.</p>
+
+    <p><strong>4. Examples of equality and partnership in Scripture.</strong> The Bible includes numerous examples of women playing vital spiritual and leadership roles that challenge patriarchal norms. Deborah served as both prophetess and judge over Israel (Judges 4–5). Esther acted courageously to save her people from destruction (Book of Esther). Ruth demonstrated loyalty and faith that became part of the lineage of King David and ultimately Jesus Christ. In the New Testament, women were among Jesus’ most faithful followers and the first witnesses of His resurrection. Paul, despite living in a patriarchal culture, affirmed that “there is neither male nor female, for you are all one in Christ Jesus” (Galatians 3:28). These examples demonstrate that the divine pattern for humanity transcends cultural systems of inequality.</p>
+
+    <p><strong>5. How misinterpretation contributed to patriarchy’s endurance.</strong> Over time, parts of the church and wider society misread or selectively emphasized certain passages to justify male authority. Verses meant to describe cultural contexts were sometimes treated as universal rules. For example, instructions given by Paul to specific early Christian communities were intended to address order and harmony, not to establish male supremacy. When Scripture is read as a whole, its consistent message points toward restoration, equality, and love. Patriarchal systems persist not because of divine decree but because of human pride and the tendency to cling to power rather than share it.</p>
+
+    <p><strong>6. The restoration of equality through Christ.</strong> The coming of Jesus Christ restores the original balance that existed in Eden. In His ministry, Jesus consistently elevated women, treating them with dignity and respect in a society that often marginalized them. He spoke to the Samaritan woman at the well (John 4), defended the woman caught in adultery (John 8), and appeared first to women after His resurrection (Matthew 28). These moments reveal that the Kingdom of God redefines human value according to divine love, not cultural hierarchy. Through Christ, the divisions introduced by sin are healed, and believers are invited into a new creation where equality is not optional but essential.</p>
+
+    <p><strong>7. What the story of Adam and Eve teaches about equality.</strong> The creation story reveals God’s intention for mutual respect and unity between man and woman. Adam and Eve were created different in form and function but equal in value and dignity. The distortion of gender relationships after the fall is a reflection of sin’s corruption, not God’s plan. When humanity lives apart from God’s design, power replaces love, and control replaces cooperation. The redemption offered through Christ restores the original vision where both men and women reflect the divine image together. Understanding this helps believers approach gender not as a struggle for authority but as a shared calling to serve, nurture, and reflect God’s goodness in the world.</p>
+
+    <p>Adam did not cause patriarchy; sin did. The divine order established in Genesis celebrates equality, unity, and purpose between man and woman. True biblical leadership and partnership are not about control but about love and stewardship. God’s creation of humanity in His image means that both male and female share in His likeness, both are capable of leadership, compassion, and wisdom, and both are essential to fulfilling His purpose on earth. The story of Adam and Eve calls humanity back to that original vision of harmony—a partnership grounded in the Creator’s perfect love.</p>
+  `,
+  refs: [
+    { term: "Genesis 1:27–28", desc: "Both male and female were created in God's image and given the shared responsibility of ruling over creation." },
+    { term: "Genesis 2:18–23", desc: "Eve was created from Adam’s side as a partner, emphasizing equality and companionship rather than hierarchy." },
+    { term: "Genesis 3:16", desc: "Describes the consequences of sin, including relational imbalance, not divine endorsement of male dominance." },
+    { term: "Galatians 3:28", desc: "In Christ, all believers are equal, regardless of gender, race, or status." },
+    { term: "Judges 4–5", desc: "The prophetess Deborah leads Israel, showing that God calls both men and women to positions of authority and faith." }
+  ]
+},
   {
-    id: "god-expected-loneliness",
-    title: "If God is all-knowing, did He expect Adam to feel lonely?",
-    category: "Creation and Humanity",
-    tags: ["Adam", "God", "omniscience", "Eve"],
-    featured: false,
-    content: `
-      <p>Yes. In the Genesis story, God’s awareness of Adam’s loneliness is not ignorance but demonstration. God allows Adam to recognize his need for relationship so that Eve’s creation becomes meaningful. It’s a teaching moment: humanity is designed for companionship, not isolation. The narrative reveals divine empathy rather than surprise.</p>
-    `,
-    refs: [
-      { term: "Omniscience", desc: "God’s complete knowledge of all things." },
-      { term: "Genesis 2:18–20", desc: "Adam names the animals but finds no suitable companion." }
-    ]
-  },
+  id: "god-expected-loneliness",
+  title: "If God knows everything, why did He let Adam feel lonely?",
+  category: "Creation and Humanity",
+  tags: ["Adam", "God", "omniscience", "Eve", "creation", "relationship"],
+  featured: false,
+  content: `
+    <p>The account of Adam’s loneliness in Genesis is not a story of divine forgetfulness or oversight but one of divine purpose and teaching. God, being all-knowing, was fully aware that Adam would feel alone. Yet He allowed Adam to experience solitude for a reason: to help humanity understand that relationship is essential to life and that love and companionship are part of God’s design. The moment in which Adam realizes his own incompleteness is one of the most profound lessons in Scripture about human need, community, and divine wisdom.</p>
+
+    <p><strong>1. God’s omniscience and human experience.</strong> The Bible clearly teaches that God is omniscient, meaning He knows all things—past, present, and future (Psalm 147:5, Isaiah 46:10). When Genesis 2:18 records God saying, “It is not good for the man to be alone,” this does not indicate that God discovered something new. Rather, He was revealing an aspect of human nature through Adam’s experience. God could have created both man and woman simultaneously, but instead He allowed Adam to live alone for a time, to name the animals, and to see that none of them could fulfill his emotional and spiritual needs. This was not for God’s benefit, but for Adam’s understanding.</p>
+
+    <p><strong>2. The purpose of Adam’s solitude.</strong> God often teaches through experience. By allowing Adam to live without a human companion, God helped him recognize the value of relationship and the need for community. When Adam named the animals (Genesis 2:19–20), he observed pairs among them—male and female—but realized that he himself had no counterpart. This awareness created longing, not out of deficiency, but as a reflection of God’s own relational nature. Humanity was created in the image of a relational God who exists as Father, Son, and Holy Spirit in perfect fellowship. In this light, Adam’s loneliness becomes a mirror of God’s own love and desire for communion, both with humanity and within humanity itself.</p>
+
+    <p><strong>3. God’s method of revelation through experience.</strong> Throughout Scripture, God reveals truth not only through words but also through lived experiences. He allows people to encounter need, hunger, or weakness so that they may recognize their dependence on Him and on others. Adam’s loneliness was therefore not a punishment or a flaw in creation but a divine lesson about relational fulfillment. God wanted Adam to feel the absence of companionship before introducing Eve, so that he would treasure her as a gift rather than view her as an afterthought. The joy Adam expressed upon seeing Eve—“This is now bone of my bones and flesh of my flesh” (Genesis 2:23)—shows that his solitude had prepared his heart to appreciate partnership deeply.</p>
+
+    <p><strong>4. The theological significance of loneliness.</strong> Loneliness, in the biblical sense, points to humanity’s innate desire for connection. Even before sin entered the world, Adam felt the ache of isolation. This teaches that the need for relationship is not a result of the fall but a part of creation itself. God designed human beings to live in community because love cannot exist in isolation. This is why Jesus summarized the entire law as love for God and love for others (Matthew 22:37–39). Loneliness, when understood through faith, is a reminder that we are not meant to exist apart from relationships—with God or with one another. Adam’s story reveals that companionship is woven into the very fabric of what it means to be human.</p>
+
+    <p><strong>5. God’s empathy and involvement in Adam’s need.</strong> When God declared that it was not good for man to be alone, He showed compassion and awareness. The Creator did not leave Adam’s longing unaddressed. He entered into Adam’s situation, crafting a solution that perfectly met his need. The creation of Eve from Adam’s rib symbolizes closeness and shared essence—she was neither above nor below him, but beside him. This act reflects God’s empathy, His desire for human flourishing, and His intention for equality and unity. Through this event, God modeled relational love that is self-giving and complete, echoing His own nature.</p>
+
+    <p><strong>6. A reflection of divine relationship.</strong> Adam’s loneliness and the creation of Eve also foreshadow the relationship between God and humanity. Just as Adam longed for connection, God desires fellowship with His creation. The Bible frequently uses relational imagery to describe God’s love—He is called Father, Shepherd, Bridegroom, and Friend. These metaphors show that love is not only what God does, but who He is. Humanity’s capacity to love and to long for companionship originates from being made in His image. In this sense, Adam’s loneliness was a sacred moment that revealed a spiritual truth: just as man needs relationship with woman, humanity needs relationship with God.</p>
+
+    <p><strong>7. The lesson for humanity today.</strong> The story of Adam’s loneliness continues to speak to modern readers who experience isolation. It teaches that longing for connection is not weakness but part of God’s design. People were made to live in community, to care for one another, and to reflect divine love through relationships. Loneliness is not solved merely by the presence of others, but by being known, understood, and loved as God intended. The answer to Adam’s loneliness came through divine initiative, and the same is true for humanity today—God enters into human need and provides companionship, both through relationship with Him and through others who share His love.</p>
+
+    <p>God did not create loneliness as a flaw, but as a pathway to understanding love and connection. By allowing Adam to feel alone, God revealed the depth of human need and the beauty of companionship. Adam’s experience teaches that love and relationship are at the heart of creation itself. From the beginning, God’s plan has always been about togetherness—between man and woman, and between humanity and the Creator who formed them out of love.</p>
+  `,
+  refs: [
+    { term: "Omniscience", desc: "God’s complete and perfect knowledge of all things, including human thoughts and experiences." },
+    { term: "Genesis 2:18–20", desc: "Adam names the animals but finds no suitable companion, leading to the creation of Eve." },
+    { term: "Genesis 2:23", desc: "Adam rejoices upon seeing Eve, recognizing her as his equal and companion." },
+    { term: "Matthew 22:37–39", desc: "Jesus summarizes the greatest commandments as love for God and love for others." },
+    { term: "Trinity", desc: "The eternal relationship of Father, Son, and Holy Spirit, reflecting perfect unity and love." }
+  ]
+},
   {
-    id: "why-not-created-together",
-    title: "If God knew Adam would be lonely, why not create Eve at the same time?",
-    category: "Creation and Humanity",
-    tags: ["creation", "Eve", "Adam", "companionship"],
-    featured: false,
-    content: `
-      <p>The timing in Genesis serves a symbolic purpose. Adam’s solitude highlights the value of relationship. By introducing Eve after Adam’s realization, the story shows that companionship is intentional and mutual—not accidental. This order illustrates need, gratitude, and the complementary nature of humanity.</p>
-    `,
-    refs: [
-      { term: "Narrative sequence", desc: "The order of creation reveals meaning rather than chronology." },
-      { term: "Eve", desc: "Created as a partner suitable for Adam, not as a lesser being." }
-    ]
-  },
+  id: "why-not-created-together",
+  title: "If God knew Adam would be lonely, why didn’t He create Eve at the same time?",
+  category: "Creation and Humanity",
+  tags: ["creation", "Eve", "Adam", "companionship", "Genesis", "relationships"],
+  featured: false,
+  content: `
+    <p>The timing of Eve’s creation in Genesis is not a matter of oversight or delay but of divine intention and meaning. God could have created both man and woman at the same time, yet He chose to form Adam first and allow him to experience solitude before creating Eve. This sequence reveals something about the purpose of human relationships and the wisdom of God’s design. Adam’s temporary aloneness was not a flaw in creation but a part of God’s plan to teach that companionship is purposeful, reciprocal, and rooted in love rather than convenience.</p>
+
+    <p><strong>1. God’s order in creation is always purposeful.</strong> In the biblical account of Genesis 1 and 2, God creates the world in stages, each step carefully building upon the previous one. Light precedes life, land precedes vegetation, and structure precedes abundance. The creation of man and woman follows the same pattern of divine order. Adam is created first to tend the garden, name the animals, and understand his role as steward of creation. Through this process, Adam gains awareness of both the beauty of creation and his own incompleteness within it. When God declares, “It is not good for man to be alone” (Genesis 2:18), He is revealing that even in a perfect world, human beings are designed to live in relationship. This moment teaches that companionship is not an afterthought but an essential part of God’s design.</p>
+
+    <p><strong>2. Adam’s solitude served a spiritual and emotional purpose.</strong> By allowing Adam to experience life before Eve’s creation, God was shaping Adam’s understanding of dependence and gratitude. As Adam named the animals, he saw that every creature had a companion, yet none was like him (Genesis 2:19–20). This awareness deepened his realization of need—not because God had deprived him, but because God wanted him to recognize the value of another human being. Eve’s arrival would therefore not feel ordinary or expected but miraculous, a gift that completed what was missing. This teaches an enduring truth: relationships are meant to be received with gratitude, not taken for granted.</p>
+
+    <p><strong>3. The creation of Eve reveals divine intention, not inequality.</strong> When God formed Eve from Adam’s rib, He emphasized unity and shared essence. Eve was not made from dust as Adam was, but from Adam’s side, showing connection and equality. She was not created to serve as a subordinate but to stand beside him as a companion and partner in purpose. Adam’s response when he first saw Eve—“This is now bone of my bones and flesh of my flesh” (Genesis 2:23)—expresses recognition, joy, and love. The delay in her creation magnified the moment of discovery, reinforcing that she was both essential and special in God’s plan for humanity.</p>
+
+    <p><strong>4. The sequence teaches humanity about relationship and dependency.</strong> God’s choice to create Eve later highlights the relational nature of humanity. People were never meant to live self-sufficiently, detached from others. By allowing Adam to live alone first, God demonstrated that even in paradise, fulfillment requires relationship. This principle extends beyond marriage—it reflects God’s design for community, fellowship, and the interdependence of all people. Every human being, like Adam, is created with a longing for connection that points ultimately back to God Himself, the source of all relationship.</p>
+
+    <p><strong>5. A reflection of God’s relationship with humanity.</strong> The story of Adam and Eve also mirrors the relationship between God and His people. Just as Adam’s longing for Eve revealed his need for companionship, humanity’s longing for purpose and love reveals the need for divine relationship. The creation of Eve demonstrates that love must be freely given and received, not forced. In the same way, God desires that humans freely choose fellowship with Him. The order of creation, then, reflects both earthly and spiritual truth—our need for one another and our ultimate dependence on the Creator.</p>
+
+    <p><strong>6. The meaning behind divine timing.</strong> God’s timing throughout Scripture is always significant. What seems delayed from a human perspective is often designed to teach patience, awareness, and appreciation. Adam’s waiting period teaches that recognizing one’s need precedes fulfillment. When God finally created Eve, the moment carried greater depth because Adam understood what it meant to be alone. This pattern appears throughout the Bible: waiting often precedes blessing. Abraham waited for Isaac, Israel waited for deliverance, and humanity waited for the Messiah. In each case, the waiting shaped hearts to receive the gift rightly. In Adam’s story, God used time itself as a teacher.</p>
+
+    <p><strong>7. The complementarity of man and woman.</strong> The narrative structure of Genesis 2 emphasizes not hierarchy but harmony. Adam’s formation from the earth connects him to creation, while Eve’s formation from Adam connects her to relationship. Together they reflect the fullness of God’s image—strength and compassion, initiative and nurture, individuality and unity. The timing of their creation serves as a metaphor for the truth that men and women are not identical but complementary, each incomplete without the other. The story teaches that divine love finds expression in cooperation, not competition.</p>
+
+    <p><strong>8. Lessons for today’s understanding of companionship.</strong> The sequence of creation invites modern readers to rethink the meaning of relationships. In a world that often treats connection as transactional or optional, Genesis reminds us that companionship is sacred and intentional. God did not create humanity to live in isolation. Just as Adam’s realization of loneliness prepared him to receive Eve with gratitude, people today are called to approach relationships with humility, appreciation, and understanding. Whether in marriage, friendship, or community, the pattern of creation shows that love and companionship are divine gifts, not human inventions.</p>
+
+    <p>God did not delay the creation of Eve because He was uncertain, but because He wanted Adam—and by extension, all humanity—to understand the purpose and beauty of relationship. By first allowing Adam to experience solitude, God established that true companionship is not born out of need alone but out of divine intention. The order of creation reveals a profound truth about love: that it is chosen, celebrated, and rooted in unity. In this way, the Genesis story continues to speak across time, reminding humanity that every relationship, when grounded in God’s design, reflects His wisdom and love.</p>
+  `,
+  refs: [
+    { term: "Genesis 2:18–23", desc: "God declares it is not good for man to be alone, then creates Eve as a suitable partner from Adam’s rib." },
+    { term: "Divine Timing", desc: "The purposeful sequencing of God’s actions that reveals His wisdom and intention rather than delay." },
+    { term: "Companionship", desc: "A relationship built on mutual love, equality, and shared purpose as seen in Adam and Eve’s creation." },
+    { term: "Relational Design", desc: "The idea that humans are created for connection, both with God and with one another." },
+    { term: "Complementarity", desc: "The biblical principle that men and women are distinct yet equal, designed to complete one another in purpose." }
+  ]
+},
 
   /* ===========================
      CATEGORY: Biblical Ethics
      =========================== */
   {
-    id: "self-protection",
-    title: "What does the Bible say about using protection or contraception in marriage?",
-    category: "Biblical Ethics",
-    tags: ["ethics", "marriage", "health", "sexuality"],
-    featured: false,
-    content: `
-      <p>The Bible does not mention modern medical tools such as condoms. However, it teaches principles of love, wisdom, and stewardship. Within marriage, using protection to prevent disease or responsibly plan family size can reflect care and respect for one another. What matters is intention—health, responsibility, and mutual agreement—rather than the specific method.</p>
-      <p>Biblical ethics focus on motives and relationships, not technology. Using wisdom to preserve life and honor one’s partner aligns with the broader spirit of Scripture.</p>
-    `,
-    refs: [
-      { term: "1 Corinthians 6:19–20", desc: "Your body is a temple of the Holy Spirit—use it responsibly." },
-      { term: "Stewardship", desc: "Acting wisely with what God entrusts, including health and relationships." }
-    ]
-  },
+  id: "self-protection",
+  title: "What does the Bible teach about using protection or contraception in marriage?",
+  category: "Biblical Ethics",
+  tags: ["ethics", "marriage", "health", "sexuality", "stewardship", "family planning"],
+  featured: false,
+  content: `
+    <p>The Bible does not directly mention modern contraceptive methods such as condoms, birth control pills, or other medical tools, because these did not exist in biblical times. However, Scripture provides timeless principles that help believers make wise and godly decisions about family life, health, and intimacy. God’s Word consistently emphasizes love, responsibility, stewardship, and respect for the body as guiding values for married couples. Decisions about protection and contraception should therefore be made prayerfully, in unity, and with a heart that seeks to honor God in both motive and practice.</p>
+
+    <p><strong>1. The body as a sacred trust.</strong> Scripture teaches that our bodies are not our own but belong to God. In 1 Corinthians 6:19–20, Paul writes, “Do you not know that your bodies are temples of the Holy Spirit, who is in you, whom you have received from God? You are not your own; you were bought at a price.” This truth forms the foundation for all ethical decisions about sexuality and health. Within marriage, protecting one’s body and one’s partner from harm—including sexually transmitted diseases or conditions that could endanger health—is an expression of godly care. Protecting health honors both the physical gift of the body and the spiritual unity that marriage represents.</p>
+
+    <p><strong>2. The purpose of marital intimacy.</strong> The Bible presents marital intimacy as a gift designed for both procreation and deep emotional and spiritual unity. Genesis 2:24 describes how a man and woman “become one flesh,” a union meant to reflect the love and covenant faithfulness of God Himself. While openness to life is an important part of marriage, the act of intimacy is not limited to reproduction. It is also meant to nurture love, companionship, and mutual joy. Couples may, therefore, prayerfully consider how to balance family growth with their emotional, physical, and financial readiness. The Bible does not condemn the careful and loving use of wisdom in family planning, as long as it is approached with faith and a desire to follow God’s will.</p>
+
+    <p><strong>3. Wisdom and stewardship in decision-making.</strong> Scripture repeatedly encourages believers to act with wisdom in all areas of life. Proverbs 2:6 teaches that “the Lord gives wisdom; from his mouth come knowledge and understanding.” In this context, stewardship means managing responsibly what God has entrusted—including one’s health, time, and resources. Using protection or contraception within marriage can be an act of wise stewardship if it helps maintain the well-being of the family and ensures that children, when born, are cared for with love and stability. The focus should never be on selfish avoidance of life but on responsible, prayerful discernment guided by faith and conscience.</p>
+
+    <p><strong>4. The importance of motive and unity between spouses.</strong> The heart behind the decision matters more than the method. In marriage, decisions about contraception or family planning should always be made in unity, not out of fear, convenience, or selfishness. Mutual consent reflects respect and trust, which are essential in a godly relationship. Amos 3:3 asks, “Can two walk together unless they are agreed?” This principle applies to every major choice in marriage. Couples are called to discuss their intentions openly, to pray together, and to seek God’s direction. When decisions are made in love and transparency, they strengthen the bond between husband and wife and bring peace to the home.</p>
+
+    <p><strong>5. The difference between faith and presumption.</strong> Some believers struggle with whether using contraception shows a lack of faith in God’s provision. Yet faith and wisdom are not opposites. Trusting God includes using the understanding He provides to make responsible choices. Scripture warns against testing God’s will through neglect or recklessness (Deuteronomy 6:16). In the same way, choosing to protect one’s health or plan responsibly for children can be an act of faith that acknowledges God’s sovereignty while respecting the natural boundaries He has set. The goal is to act not in fear of the future but in trust that God leads through wisdom, prayer, and unity.</p>
+
+    <p><strong>6. Protecting life as an extension of love.</strong> Biblical ethics are rooted in love—love for God, for one’s spouse, and for life itself. Jesus summarized the law with two commandments: to love God with all one’s heart and to love one’s neighbor as oneself (Matthew 22:37–39). In marriage, this love extends to the spouse’s well-being. Using protection to prevent disease or to manage health concerns can be an act of love when motivated by care rather than avoidance. In cases where pregnancy may endanger the mother’s health or life, prayerful discernment becomes even more important, seeking both medical wisdom and divine guidance.</p>
+
+    <p><strong>7. Avoiding extremes in interpretation.</strong> Throughout history, interpretations of contraception have varied among Christian traditions. Some view any prevention of conception as contrary to God’s will, while others see it as acceptable when used wisely and responsibly. The Bible itself does not provide a direct command against contraception. The key distinction lies in whether the practice aligns with godly motives and respect for life. Scripture consistently warns against selfishness, lust, and exploitation, but it also upholds prudence, compassion, and the sanctity of marriage. Believers are called to balance faith with discernment, ensuring that every choice reflects humility and reverence toward God.</p>
+
+    <p><strong>8. A call to prayerful discernment.</strong> Ultimately, decisions about protection and contraception are deeply personal matters that require prayer, reflection, and unity between spouses. The Holy Spirit provides wisdom for each couple’s unique circumstances. The right path may vary depending on health, resources, and spiritual conviction. What is essential is that choices are made with a desire to honor God, preserve life, and strengthen the marriage covenant. James 1:5 encourages believers, “If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault.” In matters where Scripture is silent, the Spirit of God remains an unfailing guide.</p>
+
+    <p>The Bible’s teaching on protection and contraception is not defined by rules but by principles—love, responsibility, and faithfulness. God calls couples to act not out of fear or guilt but from a heart that seeks His wisdom and peace. When used thoughtfully and prayerfully, protection within marriage can reflect God’s care and stewardship, demonstrating that love within the covenant of marriage is both sacred and responsible. Every act of intimacy, guided by respect and love, can become a reflection of God’s creative and protective nature, where wisdom and grace work together in harmony.</p>
+  `,
+  refs: [
+    { term: "1 Corinthians 6:19–20", desc: "Your body is a temple of the Holy Spirit; honor God by caring for it responsibly." },
+    { term: "Genesis 2:24", desc: "Marriage unites man and woman as one flesh in love, purpose, and companionship." },
+    { term: "Proverbs 2:6", desc: "Wisdom and understanding come from the Lord and guide believers toward godly choices." },
+    { term: "Amos 3:3", desc: "True partnership requires agreement and unity of purpose." },
+    { term: "Matthew 22:37–39", desc: "Jesus teaches that all ethical choices should flow from love for God and for others." },
+    { term: "James 1:5", desc: "God promises to give wisdom generously to those who seek Him with sincerity." }
+  ]
+},
   {
   id: "approaching-nonbelievers",
   title: "How should Christians engage with non-believers?",
