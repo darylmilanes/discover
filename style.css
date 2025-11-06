@@ -68,7 +68,10 @@ footer {
   top: 82px; /* match new header height */
   left: -260px;
   width: 250px;
-  height: calc(100% - 82px - 48px);
+  height: calc(100vh - 82px - 48px);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch; /* smoother scroll on iOS */
+  padding-bottom: calc(48px + env(safe-area-inset-bottom));
   background: white;
   border-right: 1px solid #ddd;
   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
