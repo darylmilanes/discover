@@ -9,14 +9,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // ===== Sidebar Toggle =====
   function toggleSidebar(show) {
-    if (show) {
-      sidebar.classList.add("open");
-      overlay.classList.add("active");
-    } else {
-      sidebar.classList.remove("open");
-      overlay.classList.remove("active");
-    }
+  if (show) {
+    sidebar.classList.add("open");
+    overlay.classList.add("active");
+    document.body.style.overflow = "hidden"; // ← Stop background scroll
+  } else {
+    sidebar.classList.remove("open");
+    overlay.classList.remove("active");
+    document.body.style.overflow = ""; // ← Restore scrolling
   }
+}
 
   menuToggle.addEventListener("click", () => {
     const isOpen = sidebar.classList.contains("open");
