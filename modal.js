@@ -30,17 +30,12 @@
     closeModal();
   });
 
-  // Close when clicking on backdrop
-  backdrop.addEventListener('click', function(e){
-    closeModal();
-  });
+  // NOTE: intentionally do NOT close when backdrop is clicked. Backdrop exists to dim
+  // the page but clicking outside will not dismiss the guidance. This makes the
+  // 'Amen!' button the only way to exit.
 
-  // Close on Escape key
-  document.addEventListener('keydown', function(e){
-    if (e.key === 'Escape' && !modal.hasAttribute('hidden')){
-      closeModal();
-    }
-  });
+  // Do NOT close on Escape key — require explicit Amen button press
+  // document.addEventListener('keydown', ...) intentionally omitted
 
   // Basic focus trap: keep focus inside the modal while open
   document.addEventListener('focus', function(e){
