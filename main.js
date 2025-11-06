@@ -12,9 +12,15 @@ document.addEventListener("DOMContentLoaded", () => {
   if (show) {
     sidebar.classList.add("open");
     overlay.classList.add("active");
+
+    // Disable background scroll
+    document.body.style.overflow = 'hidden';
   } else {
     sidebar.classList.remove("open");
     overlay.classList.remove("active");
+
+    // Restore scroll to background
+    document.body.style.overflow = '';
   }
 }
 
