@@ -238,3 +238,11 @@ ul {
     display: none;
   }
 }
+.category-items li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.category-items li.active-item a {
+  color: #222; /* matches your highlight text color */
+}
