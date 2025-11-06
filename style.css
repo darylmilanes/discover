@@ -246,3 +246,9 @@ ul {
 .category-items li.active-item a {
   color: #222; /* matches your highlight text color */
 }
+
+#sidebar {
+  height: 100vh;
+  overflow-y: auto;
+  overscroll-behavior: contain; /* prevents scroll from escaping container */
+}
