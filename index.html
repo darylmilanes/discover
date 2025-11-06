@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Discover | A Library for Curiosity</title>
+  <title>Discover | Digital Bible Library</title>
   <link rel="stylesheet" href="style.css">
   <script defer src="data.js"></script>
   <script defer src="main.js"></script>
@@ -15,6 +15,10 @@
   </header>
 
   <aside id="sidebar">
+    <div class="search-wrap">
+      <input type="text" id="tagSearch" placeholder="Search by keyword/tag..." aria-label="Search by keyword or tag">
+      <button id="clearSearch" aria-label="Clear search" title="Clear">×</button>
+    </div>
     <h2>Categories</h2>
     <nav id="categoryList"></nav>
   </aside>
