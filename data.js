@@ -20,9 +20,18 @@ const DATA = [
     <p>The purpose of <strong>Discover</strong> is not to replace the Bible but to awaken a desire to read it personally. It seeks to spark curiosity that leads to a lifelong habit of studying Scripture and growing in love for God. Every page is an invitation to go deeper and to encounter the living God who continues to speak through His Word with grace, truth, and power.</p>
   `,
   refs: [
-    { term: "2 Timothy 3:16", desc: "All Scripture is inspired by God and useful for teaching, correction, and training in righteousness." },
-    { term: "Holy Spirit", desc: "The divine guide who leads believers into truth and understanding when reading Scripture." },
-    { term: "Bible Study", desc: "The practice of reading and reflecting on Scripture to grow in knowledge and love of God." }
+    {
+      term: "2 Timothy 3:16",
+      desc: "All Scripture is inspired by God and useful for teaching, correction, and training in righteousness."
+    },
+    {
+      term: "Holy Spirit",
+      desc: "The divine guide who leads believers into truth and understanding when reading Scripture."
+    },
+    {
+      term: "Bible Study",
+      desc: "The practice of reading and reflecting on Scripture to grow in knowledge and love of God."
+    }
   ]
 },
      {
@@ -785,7 +794,40 @@ const DATA = [
     { term: "Proverbs 3:5–6", desc: "Trust in God leads to clear direction and straight paths." }
   ]
 },
+{
+  id: "apostles-chosen",
+  title: "Who were the apostles, and why were they the ones chosen?",
+  category: "Biblical History",
+  tags: ["apostles", "disciples", "Jesus", "ministry", "calling"],
+  featured: false,
+  content: `
+    <p>The apostles were the twelve men personally chosen by Jesus Christ to follow Him, learn from Him, and become the foundation of His Church. The word <em>apostle</em> comes from the Greek <em>apostolos</em>, meaning “one who is sent.” These men were not chosen for their status, education, or perfection, but for their willingness to follow and be transformed. Jesus selected ordinary people—fishermen, a tax collector, and even a political zealot—to show that God’s power works through availability, not ability.</p>
 
+    <p><strong>1. Who the apostles were:</strong> The twelve original apostles named in the Gospels are Peter (also called Simon), Andrew, James (son of Zebedee), John, Philip, Bartholomew (also called Nathanael), Matthew (the tax collector), Thomas, James (son of Alphaeus), Thaddeus (also called Judas, son of James), Simon the Zealot, and Judas Iscariot, who later betrayed Jesus and was replaced by Matthias (Acts 1:26). They came from different backgrounds, but all were personally called by Jesus to leave their ordinary lives and join His mission.</p>
+
+    <p><strong>2. Why Jesus chose them:</strong> Jesus chose His apostles not because they were perfect, but because they were willing to be changed. In Luke 6:12–13, Jesus spent the entire night praying before selecting them, showing that their appointment was guided by divine wisdom, not human reasoning. Each apostle represented a piece of humanity—impulsive Peter, skeptical Thomas, ambitious James and John, meticulous Matthew, and others. Their diversity demonstrated that God can use all kinds of people for His purpose when they surrender to Him.</p>
+
+    <p><strong>3. Their role in God’s plan:</strong> The apostles were called to be eyewitnesses of Jesus’ life, death, and resurrection. They were the first to receive His teaching directly, to witness His miracles, and to be sent into the world as His representatives. Jesus said to them, “As the Father has sent me, I am sending you” (John 20:21). Their mission was to preach the gospel, heal the sick, cast out demons, and testify to the truth that Jesus is the Son of God. Through them, the message of salvation spread from Jerusalem to the ends of the earth.</p>
+
+    <p><strong>4. Why they were ordinary people:</strong> The apostles’ ordinariness was intentional. None of them were religious scholars or political leaders. Their simplicity made the power of God unmistakable. Acts 4:13 notes that when people saw the boldness of Peter and John, they were astonished because they were “unschooled, ordinary men,” yet they recognized that they had been with Jesus. God’s choice of ordinary people reveals that greatness in His kingdom comes not from human credentials but from divine calling and obedience.</p>
+
+    <p><strong>5. Their transformation through discipleship:</strong> The apostles were far from flawless. They doubted, argued, fled in fear, and misunderstood Jesus many times. But after His resurrection and the coming of the Holy Spirit at Pentecost (Acts 2), they were completely transformed. The same men who once hid in fear became bold witnesses, willing to suffer and die for the message they carried. Their courage and faith became the foundation of the early Church.</p>
+
+    <p><strong>6. The symbolic significance of the twelve:</strong> The number twelve was not random—it symbolized the twelve tribes of Israel, representing God’s covenant people. By choosing twelve apostles, Jesus signaled the renewal of God’s people through a new covenant, not based on ancestry but on faith. Just as the twelve tribes formed the foundation of ancient Israel, the twelve apostles became the foundation of the spiritual Israel—the Church (Revelation 21:14).</p>
+
+    <p><strong>7. The enduring mission of apostleship:</strong> Although the original apostles held a unique, unrepeatable role as eyewitnesses of Christ’s ministry, the spirit of their mission continues. Every believer is called to be a witness—to share Christ’s truth and love in their own context. The Great Commission (Matthew 28:19–20) extends this apostolic mission to all Christians: “Go and make disciples of all nations.” The apostles were the first to do what every follower of Jesus is now invited to continue.</p>
+
+    <p>In short, Jesus chose the apostles to show that God’s kingdom is built not on prestige but on faithfulness. They remind us that God calls ordinary people to extraordinary purposes. Their lives teach that being chosen by God is not about perfection but transformation—allowing His grace to turn weakness into witness and humility into strength. The apostles were not the best candidates by human standards, but they were the right ones by God’s design.</p>
+  `,
+  refs: [
+    { term: "Luke 6:12–13", desc: "Jesus prayed all night before choosing the twelve apostles, showing divine intention." },
+    { term: "John 20:21", desc: "Jesus sends His apostles just as the Father sent Him." },
+    { term: "Acts 4:13", desc: "The boldness of Peter and John amazed people because they were ordinary men empowered by God." },
+    { term: "Acts 2", desc: "The coming of the Holy Spirit empowered the apostles for their mission." },
+    { term: "Revelation 21:14", desc: "The names of the twelve apostles are inscribed on the foundations of the New Jerusalem." },
+    { term: "Matthew 28:19–20", desc: "The Great Commission extends the apostles’ mission to all believers." }
+  ]
+},
 {
   id: "apostles-purpose",
   title: "Who were the apostles, and why did Jesus choose them?",
@@ -1766,6 +1808,218 @@ const DATA = [
     { term: "Luke 2:51", desc: "Jesus obeyed His earthly parents during His youth." },
     { term: "1 Timothy 2:1", desc: "Believers are encouraged to pray for all people, including family." },
     { term: "John 14:27", desc: "Jesus promises peace to those who follow Him faithfully." }
+  ]
+},
+{
+  id: "tree-of-knowledge-purpose",
+  title: "Why did God place the Tree of the Knowledge of Good and Evil in the Garden of Eden?",
+  category: "Creation and Humanity",
+  tags: ["Genesis", "free will", "obedience", "temptation", "God's purpose"],
+  featured: false,
+  content: `
+    <p>The question of why God placed the Tree of the Knowledge of Good and Evil in the Garden of Eden has challenged and inspired believers for centuries. According to Scripture, this tree was not a trap but a test, not a temptation to evil but an opportunity for love and obedience. In Genesis 2:16–17, God commanded Adam, “You are free to eat from any tree in the garden; but you must not eat from the tree of the knowledge of good and evil, for when you eat from it you will surely die.” This command revealed both God’s generosity and His authority. Humanity was given freedom, yet that freedom required trust and obedience to remain in harmony with God’s will.</p>
+
+    <p><strong>1. The tree as a symbol of choice and free will.</strong> God created human beings with the ability to choose. Love cannot exist without freedom, and obedience has meaning only when it is voluntary. By placing the tree in the center of the garden, God gave Adam and Eve a visible reminder of their freedom to choose between trust and disobedience. The tree’s presence made it possible for genuine love and loyalty to exist. Without it, obedience would have been automatic, not relational. God desired a relationship based on trust, not control.</p>
+
+    <p><strong>2. The tree revealed God’s authority and human dependence.</strong> The command not to eat from the tree was a boundary that reminded humanity that God alone defines good and evil. The tree was not evil in itself; it represented the moral order of creation. Eating from it meant rejecting God’s authority and claiming independence apart from Him. When Adam and Eve ate the fruit, they tried to gain wisdom without God, replacing trust with self-reliance. The result was separation, not enlightenment. The tree thus revealed that moral discernment belongs to the Creator, not the creature.</p>
+
+    <p><strong>3. The purpose of the test was relationship, not restriction.</strong> Some wonder why God would place a test in a perfect world. The answer lies in His desire for real relationship. A relationship without choice is meaningless. The command gave Adam and Eve the opportunity to demonstrate love through obedience. God’s boundary was an act of love, protecting them from the consequences of independence from Him. True freedom exists within the limits of God’s wisdom. The command not to eat was not meant to restrict joy, but to preserve it through trust and obedience.</p>
+
+    <p><strong>4. The location of the tree at the center of the garden.</strong> Genesis notes that the tree was placed “in the middle of the garden” (Genesis 2:9). Its central position was intentional, serving as a daily reminder of God’s presence and the importance of moral choice. At the heart of paradise stood a symbol of truth: that all creation revolves around God’s will. The central placement invited awareness that life, wisdom, and goodness flow from God alone. Humanity was invited to live in the center of His will, where trust and dependence bring life and peace.</p>
+
+    <p><strong>5. The fall and the deeper purpose of redemption.</strong> When Adam and Eve disobeyed, sin entered the world, and separation from God began. Yet even this tragedy revealed another side of God’s purpose: His plan for redemption. The tree in Eden foreshadowed another tree—the cross of Christ—where disobedience would be undone by perfect obedience. Through Jesus’ sacrifice, humanity was offered restoration and eternal life. What began with a forbidden tree was redeemed through a saving one. God’s plan has always been to lead creation from choice, through redemption, to everlasting fellowship with Him.</p>
+
+    <p><strong>6. The lesson for believers today.</strong> The story of the tree of knowledge continues to teach that wisdom apart from God leads to ruin, but wisdom rooted in Him brings life. Every believer faces choices between self-will and surrender, between pride and trust. The tree reminds us that spiritual maturity comes through obedience and dependence on God. James 1:5 encourages believers, “If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault.” God still offers knowledge, but He invites us to receive it through relationship with Him, not through rebellion against Him.</p>
+
+    <p><strong>7. A call to trust in God’s goodness.</strong> Ultimately, the Tree of the Knowledge of Good and Evil points to the question of trust. Adam and Eve doubted God’s goodness and believed the serpent’s lie that He was withholding something better. Every sin since then echoes that same distrust. God placed the tree not to tempt, but to teach: that trusting Him leads to life, and doubting Him leads to separation. When we trust His wisdom, even when we do not fully understand, we honor Him as Creator and Lord.</p>
+
+    <p>In summary, God placed the Tree of the Knowledge of Good and Evil in the Garden of Eden to give humanity the gift of choice and the opportunity for genuine love and obedience. It was a symbol of freedom, trust, and moral responsibility. The command not to eat from it established God’s authority and invited dependence on His wisdom. Though humanity failed that test, God’s mercy triumphed through Christ, who restored what was lost in Eden. The story calls us today to choose trust over self-reliance and to walk in obedience that flows from love and faith.</p>
+  `,
+  refs: [
+    { term: "Genesis 2:16–17", desc: "God commands Adam not to eat from the tree of the knowledge of good and evil." },
+    { term: "Genesis 2:9", desc: "The tree was placed in the middle of the garden as a central reminder of God’s authority." },
+    { term: "James 1:5", desc: "Those who seek wisdom should ask God, who gives generously to all." },
+    { term: "Romans 5:19", desc: "Through one man’s disobedience many were made sinners, but through one man’s obedience many will be made righteous." },
+    { term: "Philippians 2:8", desc: "Jesus humbled Himself and became obedient to death on a cross, restoring what was lost." }
+  ]
+},
+{
+  id: "why-humanity-suffers-adam-eve-sin",
+  title: "If Adam and Eve disobeyed, why does all humanity suffer because of their sin?",
+  category: "Creation and Humanity",
+  tags: ["Adam and Eve", "sin", "suffering", "original sin", "redemption"],
+  featured: false,
+  content: `
+    <p>Many people wonder why humanity must face pain, hardship, and death because of something Adam and Eve did long ago. The Bible teaches that when Adam and Eve disobeyed God in the Garden of Eden, their sin affected all creation. Their choice introduced separation from God, and that separation became part of the human condition. This truth may seem unfair at first, but understanding it through the light of Scripture and the guidance of the Holy Spirit reveals a deeper story of justice, mercy, and redemption. What began as a tragedy in Genesis became the starting point for God’s plan to restore humanity through Jesus Christ.</p>
+
+    <p><strong>1. The fall of humanity through Adam and Eve.</strong> In Genesis 3, Adam and Eve disobeyed God by eating from the Tree of the Knowledge of Good and Evil. Their sin was not simply eating forbidden fruit; it was an act of rebellion and mistrust against God’s authority. Romans 5:12 explains, “Sin entered the world through one man, and death through sin, and in this way death came to all people, because all sinned.” This means that Adam’s sin changed the nature of humanity itself. The perfection of creation was broken, and human beings inherited a fallen condition—inclined toward sin and separated from God.</p>
+
+    <p><strong>2. Humanity’s unity with Adam.</strong> The Bible teaches that Adam was the representative of all humanity. His choices affected every generation that followed, just as the decisions of a leader can affect an entire people. We did not commit Adam’s specific act, but we share in his nature. Every person, by their own actions, has confirmed that same pattern of disobedience. Romans 3:23 says, “All have sinned and fall short of the glory of God.” The story of Adam and Eve is not only about what they did, but about what we all continue to do—choosing our own way instead of God’s. Their fall revealed the universal need for salvation.</p>
+
+    <p><strong>3. The consequences of sin affect all creation.</strong> The curse that followed Adam and Eve’s disobedience reached beyond them personally. Genesis 3:17–19 shows that the ground itself was cursed, labor became painful, and mortality entered the world. Sin fractured the harmony between humanity, creation, and the Creator. This is why suffering, death, and injustice exist today. The world is not as God originally designed it to be. Yet, even in that judgment, God’s mercy was present. He clothed Adam and Eve, promised redemption through the “offspring” who would crush the serpent (Genesis 3:15), and began unfolding His plan to restore what was lost.</p>
+
+    <p><strong>4. Suffering as the result of brokenness, not punishment for Adam alone.</strong> The struggles we face today are not direct punishments for Adam’s specific sin, but the natural consequences of living in a fallen world. Sin disrupted the order of creation, and pain became part of human experience. Romans 8:22 describes that “the whole creation has been groaning as in the pains of childbirth right up to the present time.” Disease, death, and conflict are the symptoms of that brokenness. Yet God did not abandon us to despair. He entered our suffering through Jesus Christ to bring healing and hope.</p>
+
+    <p><strong>5. God’s justice and mercy revealed in Christ.</strong> If Adam’s disobedience brought death to many, Jesus’ obedience brought life to all who believe. Romans 5:19 declares, “For just as through the disobedience of one man many were made sinners, so also through the obedience of one man many will be made righteous.” In this way, God turned what was lost through Adam into an opportunity for grace through Christ. Though we were born into a fallen condition, we are offered new life through faith in Jesus. The cross shows that God’s justice is satisfied, and His mercy is fully extended.</p>
+
+    <p><strong>6. The purpose of struggle in a fallen world.</strong> While suffering is a result of the fall, God can use it for redemption. Struggles remind us of our need for Him and shape our hearts toward dependence and compassion. James 1:2–4 encourages believers to “consider it pure joy” when facing trials, because these challenges produce perseverance and maturity. Through hardship, faith becomes real and deep. What began as a curse can become a pathway for spiritual growth and trust in God’s goodness. Pain in this life is temporary, but the lessons it brings can lead to eternal joy.</p>
+
+    <p><strong>7. God’s plan of restoration.</strong> The Bible ends with a vision of restoration that mirrors the perfection of Eden. In Revelation 21:4, God promises to wipe away every tear, remove death, and make all things new. The story that began with the fall will end with full redemption. Through Christ, humanity will one day live in perfect fellowship with God again. The pain we inherit from Adam will be completely undone by the life we receive in Christ. What humanity lost in disobedience, God restores through grace.</p>
+
+    <p>In summary, humanity suffers the effects of Adam and Eve’s sin because sin corrupted the nature of creation itself, not because God is unfair. We share in their fall because we share in their humanity, but God’s love has provided a way out through Jesus Christ. The fall explains why life is hard, but the gospel explains why hope still shines. The same freedom that allowed sin to enter the world also allows love to be real and redemption to be possible. Through Christ, God turns the tragedy of Eden into the triumph of salvation. Every struggle we face today reminds us that this world is not our final home, and that through faith, we are being restored to the life God originally intended for us.</p>
+  `,
+  refs: [
+    { term: "Genesis 3", desc: "Records the fall of humanity through Adam and Eve’s disobedience." },
+    { term: "Romans 5:12", desc: "Sin entered the world through one man, and death through sin." },
+    { term: "Romans 3:23", desc: "All have sinned and fall short of the glory of God." },
+    { term: "Genesis 3:15", desc: "God promises a Redeemer who will crush the serpent’s head." },
+    { term: "Romans 8:22", desc: "All creation groans, waiting for renewal from the effects of sin." },
+    { term: "Romans 5:19", desc: "Through one man’s obedience, many will be made righteous." },
+    { term: "James 1:2–4", desc: "Trials test faith and produce perseverance leading to maturity." },
+    { term: "Revelation 21:4", desc: "God will wipe away every tear and remove death forever." }
+  ]
+},
+{
+  id: "why-jesus-came-as-male-and-called-god-father",
+  title: "If God has no gender, why did Jesus come to earth as a man and call God His Father?",
+  category: "Theology and Doctrine",
+  tags: ["Jesus Christ", "God the Father", "incarnation", "gender", "theology"],
+  featured: false,
+  content: `
+    <p>One of the most common questions people ask about the nature of God is why Jesus came to earth as a man when God Himself has no gender. Scripture teaches that God is Spirit (John 4:24), which means He does not possess a physical body or biological traits like male or female. Yet when God became human through Jesus Christ, He entered the world in male form and used the word “Father” to describe His relationship with God. This choice was not random or biased toward one gender; it was purposeful, symbolic, and deeply rooted in both divine revelation and human understanding. To grasp this truth, we must look at what the Bible teaches about God’s nature, Jesus’ mission, and the cultural context in which He came.</p>
+
+    <p><strong>1. God is Spirit and transcends human gender.</strong> The Bible clearly reveals that God is neither male nor female in the biological sense. Genesis 1:27 says that both man and woman were created in God’s image, showing that His likeness includes qualities found in both genders. God reveals Himself through masculine and feminine imagery—He comforts like a mother (Isaiah 66:13) and provides like a father (Matthew 6:26). Gendered language in Scripture is used to help humans relate to God in ways they can understand, not to limit who He is. God’s essence is beyond human categories; He is perfect, infinite Spirit.</p>
+
+    <p><strong>2. Jesus came as a man for historical and redemptive reasons.</strong> When God became human, He entered a specific time and culture. In first-century Jewish society, men held public roles of leadership, teaching, and priesthood. For the message of salvation to reach the people effectively, Jesus came in a form that could function within that structure. His male identity allowed Him to fulfill the prophecies of the Messiah as the “Son of David” (Luke 1:32) and to serve as the representative “second Adam” (1 Corinthians 15:45) who would restore what the first Adam lost. It was not about superiority of gender but about fulfilling a redemptive pattern already established in Scripture.</p>
+
+    <p><strong>3. The incarnation reveals God’s humility, not favoritism.</strong> Jesus’ coming as a man was not meant to elevate men over women, but to show that God enters human weakness and limitation. Philippians 2:6–7 teaches that Jesus “being in very nature God, did not consider equality with God something to be used to His own advantage; rather, He made Himself nothing, taking the very nature of a servant.” His maleness served a historical purpose, but His mission was for all humanity. Through His life and death, Jesus broke barriers of class, race, and gender. In Christ, “there is neither male nor female, for you are all one in Christ Jesus” (Galatians 3:28).</p>
+
+    <p><strong>4. Jesus called God “Father” to reveal relationship, not gender.</strong> When Jesus addressed God as “Father,” He was not describing God’s biology but expressing the intimacy and authority of their relationship. The word “Father” conveys care, protection, and personal connection. In ancient Jewish culture, the father was the head of the family, responsible for provision and guidance. By calling God His Father, Jesus revealed the closeness between Creator and Son and invited believers into that same relationship. Through Christ, we too can call God “Abba, Father” (Romans 8:15), meaning “dear Father,” which reflects love and trust rather than formality.</p>
+
+    <p><strong>5. The title “Father” helps believers understand God’s role in salvation.</strong> God as Father represents authority, creation, and loving care. The Son represents obedience and relationship. These titles help humans grasp the mystery of the Trinity—three persons, one God—through familiar terms. When Jesus prayed, “My Father and your Father, my God and your God” (John 20:17), He was teaching that the relationship He shared with God could now include all believers through faith. God chose to reveal Himself as Father not to exclude the feminine, but to communicate love, order, and personal intimacy in ways the ancient world could understand.</p>
+
+    <p><strong>6. The male form of Jesus connects to biblical symbolism and prophecy.</strong> Throughout the Old Testament, God’s covenant relationship with His people is often pictured as a marriage, where God is the bridegroom and Israel the bride (Isaiah 54:5, Hosea 2:19–20). This imagery points to Christ, who is called the Bridegroom of the Church (Ephesians 5:25–27). His maleness symbolically fulfills that divine metaphor, representing God’s faithful pursuit of His people. Yet this symbolism does not imply that men are closer to God than women; it emphasizes God’s initiative in love and humanity’s response of faith.</p>
+
+    <p><strong>7. God values men and women equally in His plan.</strong> The Bible affirms that men and women share the same dignity and purpose before God. While Jesus came as a man, His ministry elevated the worth of women in a culture that often devalued them. He taught women, spoke publicly with them, and revealed Himself first after the resurrection to Mary Magdalene. His actions showed that both men and women are vital in God’s kingdom. The incarnation in male form served a redemptive mission, but salvation is available to all without distinction.</p>
+
+    <p><strong>8. The deeper meaning of calling God “Father.”</strong> The language of Father and Son points to the eternal relationship within the Trinity. It reveals unity, love, and purpose within the Godhead. The Father sends, the Son obeys, and the Spirit empowers. These roles are not based on gender but on divine relationship. When believers call God “Father,” they acknowledge His loving authority and their identity as His children. This relational truth is meant to draw people closer to God’s heart, not to limit how they see Him.</p>
+
+    <p>In summary, God has no gender because He is Spirit, yet He chose to enter the world as Jesus, a man, to fulfill His redemptive plan in a specific time and context. Jesus called God “Father” to reveal the depth of their divine relationship and to invite believers into that same intimacy. The choice of masculine language was not about inequality but about revelation and connection. God’s nature includes all the goodness reflected in both men and women, and His desire is that all people—regardless of gender—would know Him as their loving Father through Christ, His Son.</p>
+  `,
+  refs: [
+    { term: "John 4:24", desc: "God is Spirit, and those who worship Him must worship in spirit and truth." },
+    { term: "Genesis 1:27", desc: "God created humanity in His image, male and female He created them." },
+    { term: "Isaiah 66:13", desc: "God comforts His people as a mother comforts her child." },
+    { term: "Luke 1:32", desc: "Jesus is called the Son of David, fulfilling messianic prophecy." },
+    { term: "1 Corinthians 15:45", desc: "Jesus is the last Adam, giving life where the first Adam brought death." },
+    { term: "Philippians 2:6–7", desc: "Jesus humbled Himself and took on human form to serve and save humanity." },
+    { term: "Galatians 3:28", desc: "In Christ there is neither male nor female, for all are one in Him." },
+    { term: "Romans 8:15", desc: "Believers receive the Spirit of adoption and cry out, 'Abba, Father.'" },
+    { term: "Ephesians 5:25–27", desc: "Christ loves the Church as a husband loves his bride, giving Himself up for her." }
+  ]
+},
+{
+  id: "origin-of-name-eden",
+  title: "What is the meaning and origin of the name 'Eden' in the Bible?",
+  category: "Creation and Humanity",
+  tags: ["Eden", "Genesis", "garden", "paradise", "God's presence"],
+  featured: false,
+  content: `
+    <p>The name <strong>Eden</strong> appears in the opening chapters of Genesis, where God placed the first man and woman in a beautiful garden filled with life and abundance. Genesis 2:8 says, “Now the Lord God had planted a garden in the east, in Eden; and there He put the man He had formed.” The word “Eden” has fascinated readers for centuries, and its meaning provides insight into the nature of God’s creation and His relationship with humanity. Understanding where the name comes from helps reveal not just a location, but a spiritual truth about God’s desire for fellowship, peace, and joy with His people.</p>
+
+    <p><strong>1. The meaning of the name Eden.</strong> The name “Eden” likely comes from a Hebrew word that means “delight” or “pleasure.” This meaning fits perfectly with the description of the garden as a place of beauty, life, and satisfaction. The garden of Eden was more than a physical paradise—it was a place of perfect harmony between God, humanity, and creation. In this sense, “Eden” represents joy in the presence of God, where there was no pain, fear, or separation. Every part of the garden reflected God’s generosity and love for the people He created.</p>
+
+    <p><strong>2. Possible linguistic origins.</strong> While the Hebrew word for “delight” (<em>ʿēden</em>) is the most direct explanation, some scholars also connect the term to ancient Akkadian or Sumerian roots that carry meanings like “plain,” “steppe,” or “fertile land.” These connections may describe the garden’s geography, suggesting that Eden was a rich, fruitful region, ideal for life and cultivation. However, Scripture focuses less on the exact linguistic source and more on the spiritual symbolism of the word. Whether the name described beauty or fertility, its deeper meaning points to a state of divine blessing and peace.</p>
+
+    <p><strong>3. The garden’s purpose and location.</strong> The Bible presents the Garden of Eden as a real place that also carries spiritual significance. Genesis 2:10–14 describes rivers flowing out of Eden to water the land, naming regions such as Pishon, Gihon, Tigris, and Euphrates. These names suggest that Eden was located somewhere in the ancient Near East, possibly near modern-day Mesopotamia. Yet its exact location remains unknown, and this may be intentional. The story of Eden is less about finding a geographical spot and more about understanding the relationship humanity once had with God. Eden was the meeting place between heaven and earth, where God walked with Adam and Eve in close fellowship (Genesis 3:8).</p>
+
+    <p><strong>4. The symbolism of Eden as God's dwelling with humanity.</strong> The garden was not just a home for the first humans but a sacred space where God’s presence dwelled among them. It prefigured the tabernacle and temple that would later serve as places of God’s presence on earth. Just as priests would later serve in the temple, Adam was called to “work and take care of” the garden (Genesis 2:15). The name “Eden” therefore carries a spiritual message: life is most delightful when lived in the presence of God. The loss of Eden through sin represents humanity’s loss of that intimacy, while salvation through Christ restores the promise of a greater paradise.</p>
+
+    <p><strong>5. Eden as a picture of God’s perfect design.</strong> The word “Eden” reminds believers that God’s original design for creation was one of harmony, beauty, and purpose. It was a place where work was joyful, relationships were pure, and God’s presence brought peace. The fall disrupted that perfection, but God’s plan of redemption points back to the same vision—a restored Eden in the new heaven and new earth (Revelation 22:1–3). The river of life and the tree of life reappear there, showing that what was lost in Genesis will be restored in eternity.</p>
+
+    <p><strong>6. The deeper message of Eden for believers today.</strong> The name “Eden” invites us to reflect on the kind of relationship God intended to have with His creation. It reminds us that joy, peace, and delight come from living close to Him. While the original garden is no longer accessible, God now offers a spiritual “Eden” in the heart of every believer through the presence of the Holy Spirit. Jesus came to restore what was lost, so that humanity could once again experience the delight of communion with God. The promise of eternal life is a promise to return to that divine fellowship, where all things are made new.</p>
+
+    <p>In summary, the name “Eden” comes from a word meaning “delight” or “pleasure,” describing both the beauty of the garden and the joy of being in God’s presence. The Garden of Eden was not only the first home of humanity but also a picture of the perfect relationship between God and His creation. Though its exact location remains a mystery, its meaning points to a greater spiritual truth: true joy is found only where God dwells. Through Jesus Christ, the way back to that spiritual Eden has been opened, leading all who believe into everlasting peace and delight with their Creator.</p>
+  `,
+  refs: [
+    { term: "Genesis 2:8", desc: "God planted a garden in the east, in Eden, and placed the man there." },
+    { term: "Genesis 3:8", desc: "God walked in the garden in the cool of the day, showing His fellowship with humanity." },
+    { term: "Genesis 2:10–14", desc: "Rivers flowed from Eden, giving life to the surrounding lands." },
+    { term: "Genesis 2:15", desc: "Adam was placed in the garden to work and take care of it." },
+    { term: "Isaiah 51:3", desc: "God promises to make His people’s land like the garden of Eden again." },
+    { term: "Revelation 22:1–3", desc: "The river of life and the tree of life appear again in the restored creation." }
+  ]
+},
+{
+  id: "end-of-earth-and-second-coming",
+  title: "What does the Bible say about the end of the world and the second coming of Jesus Christ?",
+  category: "Prophecy and Revelation",
+  tags: ["end times", "second coming", "prophecy", "Jesus Christ", "signs"],
+  featured: false,
+  content: `
+    <p>Throughout history, people have wondered how the world will end and when Jesus Christ will return. The Bible speaks clearly about the end of the present age, the second coming of Christ, and the signs that will precede His return. However, Scripture also reminds us that the exact time of these events is known only to God. Jesus Himself said, “No one knows the day or the hour, not even the angels in heaven, nor the Son, but only the Father” (Matthew 24:36). The purpose of biblical prophecy is not to feed curiosity or fear, but to inspire faith, readiness, and hope in God’s promise of eternal life.</p>
+
+    <p><strong>1. The promise of Christ’s return.</strong> The second coming of Jesus is one of the central teachings of the New Testament. After Jesus ascended into heaven, two angels told His disciples, “This same Jesus, who has been taken from you into heaven, will come back in the same way you have seen Him go into heaven” (Acts 1:11). His return will not be symbolic or hidden; it will be visible, powerful, and undeniable. He will come to judge the living and the dead, to restore righteousness, and to establish God’s eternal kingdom.</p>
+
+    <p><strong>2. The purpose of the second coming.</strong> Jesus’ first coming was to bring salvation; His second coming will bring completion. At His return, evil will be defeated, and all creation will be renewed. Believers will be resurrected to eternal life, and those who rejected God will face judgment. Revelation 21:1–4 describes a new heaven and new earth where there will be no more death, mourning, or pain. The second coming is therefore not a message of doom for believers, but a promise of restoration and eternal peace with God.</p>
+
+    <p><strong>3. Signs that will precede the end.</strong> Jesus spoke about the signs of the end times in Matthew 24, Mark 13, and Luke 21. These include wars, famines, earthquakes, persecution of believers, false prophets, and an increase in wickedness. He also said that the gospel would be preached to all nations before the end comes (Matthew 24:14). However, these signs are not meant to create panic but to awaken spiritual vigilance. Many of these things have occurred throughout history, reminding us that the world is moving toward its final redemption.</p>
+
+    <p><strong>4. The deception of false messiahs and false prophets.</strong> Jesus warned that many would claim to be the Christ or speak in His name to deceive people (Matthew 24:23–25). This is why discernment is crucial in the last days. The Holy Spirit gives believers the wisdom to recognize truth from error. Any teaching that denies Jesus’ divinity, contradicts Scripture, or promotes fear instead of faith must be tested against God’s Word. Staying rooted in the Bible and prayer keeps the believer from falling into deception.</p>
+
+    <p><strong>5. The suddenness of Christ’s return.</strong> Although there will be signs, the exact timing of Jesus’ return will be unexpected. He compared it to a thief coming in the night (1 Thessalonians 5:2) and encouraged His followers to stay ready at all times. For believers, readiness means living faithfully, walking in love, and keeping one’s heart pure before God. The goal is not to predict the date but to prepare the heart. Jesus said, “Be ready, because the Son of Man will come at an hour when you do not expect Him” (Luke 12:40).</p>
+
+    <p><strong>6. The events surrounding the end of the age.</strong> The Bible describes a series of major events before the full establishment of God’s kingdom. These include the rise of great tribulation (Matthew 24:21), the appearance of the Antichrist (2 Thessalonians 2:3–4), and a time of global turmoil and deception. At the climax of these events, “the sign of the Son of Man will appear in heaven” (Matthew 24:30). Jesus will return with power and glory, and every eye will see Him. The dead in Christ will rise first, and believers who are alive will be caught up with Him (1 Thessalonians 4:16–17).</p>
+
+    <p><strong>7. The final judgment and restoration.</strong> When Christ returns, He will judge the nations with justice. Revelation 20:11–15 describes the great white throne judgment, where every person will give an account of their life. Those whose names are written in the Book of Life will enter eternal joy, while those who rejected God will face eternal separation. Yet beyond judgment lies the fulfillment of God’s ultimate promise—a world free from sin, death, and sorrow. The end of the earth as we know it will mark the beginning of eternal life for all who belong to Christ.</p>
+
+    <p><strong>8. How believers should live while waiting.</strong> The Bible calls believers not to fear the end but to live in hope and holiness. 2 Peter 3:11–12 asks, “What kind of people ought you to be? You ought to live holy and godly lives as you look forward to the day of God.” The right response to prophecy is not speculation, but transformation. We are to live ready, sharing the gospel, loving others, and walking in faith. The coming of Christ should motivate believers to remain faithful, knowing that their labor in the Lord is never in vain (1 Corinthians 15:58).</p>
+
+    <p>In summary, the Bible teaches that the world will not end by accident or by human power, but by the sovereign will of God. Jesus Christ will return visibly and triumphantly to judge evil and establish His everlasting kingdom. While the signs of His return remind us that time is short, the exact day remains known only to God. Believers are called not to fear but to stay faithful, alert, and filled with hope. The second coming is not the end of the story—it is the beginning of eternal life in the presence of God, where peace, justice, and joy will reign forever.</p>
+  `,
+  refs: [
+    { term: "Matthew 24:36", desc: "No one knows the day or the hour of Christ’s return except the Father." },
+    { term: "Acts 1:11", desc: "Angels promise that Jesus will return in the same way He ascended." },
+    { term: "Revelation 21:1–4", desc: "God will create a new heaven and new earth where there is no more sorrow or death." },
+    { term: "Matthew 24:14", desc: "The gospel will be preached to all nations before the end comes." },
+    { term: "1 Thessalonians 4:16–17", desc: "At Christ’s return, the dead in Christ will rise and believers will be caught up with Him." },
+    { term: "1 Thessalonians 5:2", desc: "The day of the Lord will come like a thief in the night." },
+    { term: "2 Thessalonians 2:3–4", desc: "The man of lawlessness will be revealed before Christ’s coming." },
+    { term: "2 Peter 3:11–12", desc: "Believers are called to live holy and godly lives as they await the Lord’s return." },
+    { term: "Revelation 20:11–15", desc: "The great white throne judgment where all are judged according to their deeds." }
+  ]
+},
+{
+  id: "our-father-who-art-in-heaven",
+  title: "Why does the Lord’s Prayer say 'Our Father who art in Heaven' instead of 'who is in Heaven'?",
+  category: "Biblical Language and Meaning",
+  tags: ["Lord's Prayer", "language", "translation", "prayer", "Jesus"],
+  featured: false,
+  content: `
+    <p>The phrase “Our Father who art in Heaven” is one of the most recognized lines in the Bible, forming the opening of the Lord’s Prayer taught by Jesus in Matthew 6:9. Many wonder why the prayer uses the old-fashioned word “art” instead of the modern “is.” The answer lies in the history of the English language, translation traditions, and the reverence behind the words chosen. Understanding this helps us appreciate not just the wording, but the depth of meaning in how Jesus taught His followers to approach God in prayer.</p>
+
+    <p><strong>1. The meaning of the phrase in its biblical context.</strong> When Jesus taught the Lord’s Prayer, He spoke in Aramaic, the common language of His time, not in English. The Greek translation of His words uses the phrase “ὁ ἐν τοῖς οὐρανοῖς” (ho en tois ouranois), meaning “who is in the heavens.” When English translators rendered the Bible centuries later, they used the word “art,” which was the common form of “are” or “is” in Early Modern English. So, “who art in Heaven” simply means “who is in Heaven” in today’s language.</p>
+
+    <p><strong>2. The word 'art' and Early Modern English.</strong> The word “art” comes from an older form of the verb “to be.” In 16th- and 17th-century English, people said “thou art” where we now say “you are.” This form appears in the King James Version (1611), which influenced much of Christian prayer and worship. At the time, this language was not poetic or ancient—it was everyday English. As the English language evolved, “art” became obsolete in normal speech, but it remained in Scripture and prayer traditions out of reverence and familiarity.</p>
+
+    <p><strong>3. The reverent tone of older translations.</strong> Many believers still use “Our Father who art in Heaven” because it conveys a tone of respect and worship. The phrasing connects Christians today with generations of believers who have prayed the same words for centuries. The older English style carries a sense of sacredness that reminds us we are speaking to a holy and eternal God. While “who is in Heaven” expresses the same truth, “who art in Heaven” preserves the historic beauty and reverence of the original prayer in the King James tradition.</p>
+
+    <p><strong>4. The meaning of 'Our Father who is in Heaven.'</strong> Whether one says “who art” or “who is,” the message remains the same: God is our Father who reigns above all creation. The phrase emphasizes both intimacy and majesty. Calling God “Father” shows closeness and love, while “in Heaven” acknowledges His authority, sovereignty, and holiness. Jesus taught this to help believers approach God with both confidence and humility—knowing they are loved children speaking to the all-powerful Creator.</p>
+
+    <p><strong>5. The deeper lesson of the Lord’s Prayer.</strong> The Lord’s Prayer is not just a set of words, but a model for how to pray. It begins by recognizing who God is and where He reigns. The use of “Our Father” shows community and relationship, while “in Heaven” reminds us of His divine nature. The specific language—whether old or modern—matters less than the heart behind the prayer. Jesus was teaching His followers to honor God, trust His will, and seek His kingdom first (Matthew 6:9–10).</p>
+
+    <p><strong>6. Language changes, but truth remains the same.</strong> Language evolves over time, but the meaning of Scripture endures. Today, many modern Bible translations use “Our Father in Heaven,” which is clear and accurate. Yet many still find comfort and familiarity in the older phrasing. The Holy Spirit helps believers understand the truth regardless of translation. What matters most is the reverence, faith, and sincerity with which we pray. God listens not to the form of our words but to the posture of our hearts.</p>
+
+    <p><strong>7. The unity of believers in prayer.</strong> The Lord’s Prayer has been spoken by believers around the world for nearly two thousand years. Whether it is prayed in English, Greek, Hebrew, Tagalog, or any other language, its message unites all followers of Christ. The words “Our Father who art in Heaven” link us to a long history of faith and worship, reminding us that prayer transcends time, culture, and language. It is a shared act of devotion to the same God who hears every prayer with perfect understanding.</p>
+
+    <p>In summary, the phrase “Our Father who art in Heaven” uses the word “art” simply because it reflects the English of an earlier time. It means the same as “who is in Heaven.” The form may sound ancient today, but it carries a deep sense of reverence and connection to centuries of Christian faith. What Jesus wanted His followers to learn was not the language of prayer, but the heart of prayer: to come before God as beloved children speaking to their holy Father who reigns in Heaven. Whether we say “who art” or “who is,” the truth remains the same—God is our Father, ever-present, ever-loving, and worthy of our worship.</p>
+  `,
+  refs: [
+    { term: "Matthew 6:9", desc: "Jesus teaches His disciples to pray, 'Our Father in Heaven, hallowed be Your name.'" },
+    { term: "Luke 11:2", desc: "A parallel account of the Lord’s Prayer where Jesus begins with 'Father, hallowed be Your name.'" },
+    { term: "John 4:24", desc: "God is Spirit, and those who worship Him must worship in spirit and truth." },
+    { term: "Acts 1:11", desc: "Angels affirm that Jesus will return as He ascended to Heaven." },
+    { term: "Matthew 6:10", desc: "The Lord’s Prayer continues, 'Your kingdom come, Your will be done, on earth as it is in Heaven.'" }
   ]
 }
 ];
