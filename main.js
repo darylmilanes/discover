@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const overlay = document.getElementById("overlay");
   const categoryList = document.getElementById("categoryList");
   const contentArea = document.getElementById("contentArea");
+  const tagSearch = document.getElementById("tagSearch");
+  const clearSearch = document.getElementById("clearSearch");
 
   // ===== Sidebar Toggle =====
   function toggleSidebar(show) {
@@ -75,6 +77,43 @@ document.addEventListener("DOMContentLoaded", () => {
     group.appendChild(ul);
     categoryList.appendChild(group);
   });
+
+  // Live filter for tag/title search input
+  if (tagSearch) {
+    const doFilter = () => {
+      const query = tagSearch.value.toLowerCase();
+
+      document.querySelectorAll(".category-items li").forEach(li => {
+        const title = li.textContent.toLowerCase();
+        const item = DATA.find(x => x.title === li.textContent);
+        const tags = item?.tags?.join(" ").toLowerCase() || "";
+
+        // Match either title or tags
+        const match = title.includes(query) || tags.includes(query);
+        li.style.display = match ? "block" : "none";
+      });
+
+      // Show/hide entire category groups based on whether any item is visible
+      document.querySelectorAll(".category-group").forEach(group => {
+        const items = group.querySelectorAll("li");
+        const anyVisible = Array.from(items).some(li => li.style.display !== "none");
+        group.querySelector(".category-items").style.display = anyVisible ? "block" : "none";
+      });
+
+      // Toggle clear button visibility
+      if (clearSearch) clearSearch.style.display = tagSearch.value ? "block" : "none";
+    };
+
+    tagSearch.addEventListener("input", doFilter);
+
+    if (clearSearch) {
+      clearSearch.addEventListener("click", () => {
+        tagSearch.value = "";
+        doFilter();
+        tagSearch.focus();
+      });
+    }
+  }
 
   // ===== Show Content =====
   function showContent(item) {
