@@ -135,6 +135,50 @@ footer {
   font-weight: 600;
 }
 
+/* ---------- TAG SEARCH ---------- */
+#tagSearch {
+  width: 100%;
+  box-sizing: border-box; /* include padding/border within width */
+  max-width: 100%;
+  margin: 0;
+  display: block;
+  padding: 0.5rem 2rem 0.5rem 0.6rem; /* room for clear button */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+#tagSearch:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 4px rgba(0, 64, 128, 0.4);
+}
+
+.search-wrap {
+  width: calc(100% - 16px);
+  margin: 0.8rem 8px;
+  position: relative;
+}
+
+#clearSearch {
+  position: absolute;
+  right: 8px; /* keep inside wrapper */
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #666;
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
+  display: none; /* controlled via JS */
+}
+
+#clearSearch:hover {
+  background: rgba(0,0,0,0.05);
+}
+
 /* ---------- MAIN CONTENT ---------- */
 main {
   padding: 96px 1rem 70px; /* increase top padding so main sits lower */
